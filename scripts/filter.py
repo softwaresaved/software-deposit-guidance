@@ -1,27 +1,35 @@
 #!/usr/bin/env python
 
 """
-Pandoc-filter to replace tokens with values. This filter
-expects to find a PANDOC_CONFIG environment variable
-with the name of a YAML file which contains the tokens
-to be replaced. A special token "%DATE%" is replaced
-with today's date in form, for example, "23 July 2018".
+Pandoc-filter to replace tokens with values. This filter expects to
+find a PANDOC_CONFIG environment variable with the location a YAML
+file which contains tokens and the values to replace these.
+
+If a token of form %TOKEN% is found in a document being processed by
+Pandoc, then TOKEN is sought in the tokens. If found then the token is
+replace by its value.
+
+A special token "%DATE%" is replaced with today's date in form, for
+example, "23 July 2018".
 """
 
 import datetime
 import os
 import yaml
-
 from pandocfilters import toJSONFilter, Emph, Para, Str
 
 with open(os.environ["PANDOC_CONFIG"], "r") as f:
-    config = yaml.load(f)
+    user_config = yaml.load(f)
+    config = {}
+    for (key, value) in user_config.iteritems():
+        config["%%%s%%" % key] = value
     config["%DATE%"] = datetime.datetime.now().strftime("%d %B %Y")
 
 def replace_tokens(key, value, format, meta):
     if key == 'Str':
         if value in config:
-            return Str(config[value])
+            # Convert to str in case value is a number
+            return Str(str(config[value]))
         else:
             return Str(value)
 
