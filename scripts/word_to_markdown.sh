@@ -15,5 +15,5 @@ for file in $@; do
     extension="${filename##*.}"
     filename="${filename%.*}"
     mdfilename="markdown/"$filename".md"
-    w2m $i > $mdfilename
+    w2m $file > $mdfilename
 done
