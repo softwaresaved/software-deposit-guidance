@@ -7,7 +7,6 @@
 # If <FILE>.md exists, it is overwritten.
 
 FILES=$@
-echo $FILES
 
 mkdir -p markdown
 for file in $@; do
