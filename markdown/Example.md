@@ -2,11 +2,11 @@
 
 Michael Jackson (ed.), The Software Sustainability Institute
 
-1.0
+%VERSION%
 
-doi:10.5281/zenodo.TODO https://TODO-ONLINE-VERSION
+%HOW_DOI% %HOW_URL%
 
-TODO July 2018
+%DATE%
 
 ![Jisc logo](./images/jisc.png){#id .class height=60px} ![The Software Sustainability Institute logo](./images/ssi.png){#id .class height=60px}
 
@@ -18,7 +18,7 @@ Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (2018, TODO). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:10.5281/zenodo.TODO or visit TODO-URL-OF-ONLINE-GUIDES.
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. %GUIDANCE_DOI% or visit %GUIDANCE_URL%.
 
 ## Key points
 
@@ -76,10 +76,10 @@ Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (2018, TODO). Software Deposit: What to deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.TODO or visit TODO-URL-OF-ONLINE-GUIDES.
-* Michael Jackson (ed.) (2018, TODO). Software Deposit: What not to deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.TODO or visit TODO-URL-OF-ONLINE-GUIDES.
-* Michael Jackson (ed.) (2018, TODO). Software Deposit: How to describe a software deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.TODO or visit TODO-URL-OF-ONLINE-GUIDES.
-* Michael Jackson (ed.) (2018, TODO). Software Deposit: How to review a software deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.TODO or visit TODO-URL-OF-ONLINE-GUIDES.
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. %WHAT_DOI% or visit %WHAT_URL%.
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. %WHAT_NOT_DOI% or visit %WHAT_NOT_URL%.
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. %DESCRIBE_DOI% or visit %DESCRIBE_URL%.
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. %REVIEW_DOI% or visit %REVIEW_URL%.
 
 Archive naming:
 
