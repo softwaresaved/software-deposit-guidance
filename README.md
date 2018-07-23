@@ -1,6 +1,42 @@
 # Software Deposit Guidance
 
 
+## Convert Markdown to HTML and PDF
+
+About these instructions:
+
+* These instructions were tested on Ubuntu 16.04.3 LTS xenial.
+* Other versions of the tools may also be usable.
+* Installing tools requires you to have sudo access to install and configure software (or a local system administrator can do this for you):
+
+```bash
+sudo su -
+```
+
+### Install dependencies
+
+Install [Pandoc](http://pandoc.org/) document converter:
+
+```bash
+sudo apt-get install pandoc
+pandoc --version
+```
+```
+pandoc 1.16.0.2
+```
+
+Install [wkhtmltopdf](http://wkhtmltopdf.org/) HTML-to-PDF converter (using latest stable version, 0.12.5, for Ubuntu 16.04 Xenial, on web site):
+
+```bash
+wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb
+sudo apt install ./wkhtmltox_0.12.5-1.xenial_amd64.deb 
+wkhtmltopdf  --version
+```
+```
+wkhtmltopdf 0.12.5 (with patched qt)
+```
+
+---
 
 ## Convert Word to Markdown (for information only)
 
@@ -42,4 +78,4 @@ HowToDeposit.md                WhatToDeposit.md
 HowToDescribeDeposit.md        WhenToDeposit.md
 ```
 
-The Markdown was then manually edited to clean it up and improve its formatting.
+The Markdown was then manually edited to clean it up and improve its formatting, and is currently in the `markdown` directory.
