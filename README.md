@@ -65,6 +65,16 @@ Install [pyyaml](https://pyyaml.org/):
 pip install pyyaml
 ```
 
+### Create HTML and PDF guidance
+
+Run:
+
+```bash
+make pdf
+```
+
+This will process all the files in `markdown/` and create HTML documents in `build/html/` and PDFs in `build/pdf/`.
+
 ---
 
 ## Convert Word to Markdown (for information only)
