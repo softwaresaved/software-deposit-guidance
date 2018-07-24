@@ -6,8 +6,7 @@ MD = $(wildcard markdown/*.md)
 IMAGES = $(wildcard images/*.png)
 HTML = $(patsubst markdown/%.md, $(HTML_DIR)/%.html, $(MD))
 PDF = $(patsubst markdown/%.md, $(PDF_DIR)/%.pdf, $(MD))
-CONFIG = config.yml
-FILTER = ./scripts/filter.py
+TEMPLATE = templates/doc.html
 PANDOC = pandoc
 WKHTMLTOPDF = wkhtmltopdf
 
@@ -30,10 +29,10 @@ html : $(HTML)
 pdf : $(PDF)
 
 # Convert MarkDown to HTML.
-$(HTML_DIR)/%.html : markdown/%.md $(IMAGES) $(CONFIG)
+$(HTML_DIR)/%.html : markdown/%.md $(IMAGES) $(CONFIG) $(TEMPLATE)
 	mkdir -p $(HTML_DIR)
 	cp -r images/ $(HTML_DIR)
-	PANDOC_CONFIG=$(CONFIG) $(PANDOC) --filter $(FILTER) -t html -o $@ $<
+	$(PANDOC) -t html --template=$(TEMPLATE) -o $@ $<
 
 # Convert HTML to PDF.
 $(PDF_DIR)/%.pdf : $(HTML_DIR)/%.html
