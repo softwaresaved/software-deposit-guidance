@@ -1,12 +1,18 @@
-MD_DIR = markdown
-IMAGES_DIR = images
-HTML_DIR = html
-PDF_DIR = pdf
-MD = $(wildcard markdown/*.md)
+BUILD_DIR = build
+BUILD_MD_DIR = $(BUILD_DIR)/markdown
+BUILD_HTML_DIR = $(BUILD_DIR)/html
+BUILD_PDF_DIR = $(BUILD_DIR)/pdf
+
+MDS = $(wildcard markdown/*.md)
 IMAGES = $(wildcard images/*.png)
-HTML = $(patsubst markdown/%.md, $(HTML_DIR)/%.html, $(MD))
-PDF = $(patsubst markdown/%.md, $(PDF_DIR)/%.pdf, $(MD))
+BUILD_MD = $(patsubst markdown/%.md, $(BUILD_MD_DIR)/%.md, $(MDS))
+BUILD_HTML = $(patsubst markdown/%.md, $(BUILD_HTML_DIR)/%.html, $(MDS))
+BUILD_PDF = $(patsubst markdown/%.md, $(BUILD_PDF_DIR)/%.pdf, $(MDS))
+
+CONFIG = config.yml
+FILTER = scripts/preconfig.py
 TEMPLATE = templates/doc.html
+
 PANDOC = pandoc
 WKHTMLTOPDF = wkhtmltopdf
 
@@ -17,26 +23,36 @@ all : commands
 ## clean    : Clean up temporary and auto-generated files.
 .PHONY : clean
 clean :
-	@rm -f $(HTML)
-	@rm -f $(PDF)
+	@rm -rf $(BUILD_DIR)
+
+## markdown : Replace tokens in Markdown with configuration values.
+.PHONY : markdown
+markdown : $(BUILD_MD)
 
 ## html     : Convert MarkDown to HTML.
 .PHONY : html
-html : $(HTML)
+html : $(BUILD_HTML)
 
 ## pdf      : Convert HTML to PDF.
 .PHONY : pdf
-pdf : $(PDF)
+pdf : $(BUILD_PDF)
+
+# Replace tokens in Markdown with configuration values.
+$(BUILD_MD_DIR)/%.md : markdown/%.md $(CONFIG) $(FILTER)
+	mkdir -p $(BUILD_MD_DIR)
+	python $(FILTER) $(CONFIG) $< $@
 
 # Convert MarkDown to HTML.
-$(HTML_DIR)/%.html : markdown/%.md $(IMAGES) $(CONFIG) $(TEMPLATE)
-	mkdir -p $(HTML_DIR)
-	cp -r images/ $(HTML_DIR)
-	$(PANDOC) -t html --template=$(TEMPLATE) -o $@ $<
+$(BUILD_HTML_DIR)/%.html : $(BUILD_MD_DIR)/%.md $(IMAGES) $(TEMPLATE)
+	mkdir -p $(BUILD_HTML_DIR)
+	cp -r images/ $(BUILD_HTML_DIR)
+	$(PANDOC) -t html -o $@ $<
+	# PANDOC_CONFIG=$(CONFIG) $(PANDOC) -t html --filter $(FILTER) -o $@ $<
+	# $(PANDOC) -t html --template=$(TEMPLATE) -o $@ $<
 
 # Convert HTML to PDF.
-$(PDF_DIR)/%.pdf : $(HTML_DIR)/%.html
-	mkdir -p $(PDF_DIR)
+$(BUILD_PDF_DIR)/%.pdf : $(BUILD_HTML_DIR)/%.html
+	mkdir -p $(BUILD_PDF_DIR)
 	$(WKHTMLTOPDF) $< $@
 
 ## commands : Display available commands.
@@ -47,13 +63,16 @@ commands : Makefile
 ## settings : Show variables and settings.
 .PHONY : settings
 settings :
-	@echo 'MD_DIR:' $(MD_DIR)
-	@echo 'MD:' $(MD)
-	@echo 'IMAGES_DIR:' $(IMAGES_DIR)
+	@echo 'BUILD_MD_DIR:' $(BUILD_MD_DIR)
+	@echo 'BUILD_HTML_DIR:' $(BUILD_HTML_DIR)
+	@echo 'BUILD_PDF_DIR:' $(BUILD_PDF_DIR)
+	@echo 'MDS:' $(MDS)
 	@echo 'IMAGES:' $(IMAGES)
-	@echo 'HTML_DIR:' $(HTML_DIR)
-	@echo 'HTML:' $(HTML)
-	@echo 'PDF_DIR:' $(PDF_DIR)
-	@echo 'PDF:' $(PDF)
+	@echo 'BUILD_MD:' $(BUILD_Md)
+	@echo 'BUILD_HTML:' $(BUILD_HTML)
+	@echo 'BUILD_PDF:' $(BUILD_PDF)
+	@echo 'CONFIG:' $(CONFIG)
+	@echo 'FILTER:' $(FILTER)
+	@echo 'TEMPLATE:' $(TEMPLATE)
 	@echo 'PANDOC:' $(PANDOC)
 	@echo 'WKHTMLTOPDF:' $(WKHTMLTOPDF)
