@@ -1,32 +1,11 @@
-# Software Deposit: How to ...
-
-Michael Jackson (ed.), The Software Sustainability Institute
-
-%VERSION%
-
-%HOW_DOI% %HOW_URL%
-
-%DATE%
-
-![Jisc logo](./images/jisc.png){#id .class height=60px} ![The Software Sustainability Institute logo](./images/ssi.png){#id .class height=60px}
-
-![CC-BY 4.0 logo](./images/cc-by.png){#id .class height=40px} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
-
-## Introduction
-
-Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc legere, delectus repudiare delicatissimi ius et. Ut sea modo antiopam, qui an porro detracto, et pro dicant essent voluptua. Errem nobis duo ea. Mel inani soluta eruditi cu, vel ad dicta offendit, pri ne labore omnium delectus. Diam sonet aperiri ei cum.
-
-## About this guide
-
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. %GUIDANCE_DOI% or visit %GUIDANCE_URL%.
-
-## Key points
-
-**TODO** insert diagram
-
-![How to deposit software](./images/HowToDepositSoftware.png)
-
-How to deposit software
+---
+title: "Software Deposit: How to deposit software"
+author: "Michael Jackson (ed.), The Software Sustainability Institute"
+url: HowToDepositUrl
+doi: HowToDepositDoi
+introduction: "Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc legere, delectus repudiare delicatissimi ius et. Ut sea modo antiopam, qui an porro detracto, et pro dicant essent voluptua. Errem nobis duo ea. Mel inani soluta eruditi cu, vel ad dicta offendit, pri ne labore omnium delectus. Diam sonet aperiri ei cum."
+diagram: "./images/HowToDepositSoftware.png"
+---
 
 ## Guidance I
 
