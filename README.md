@@ -36,6 +36,35 @@ wkhtmltopdf  --version
 wkhtmltopdf 0.12.5 (with patched qt)
 ```
 
+Install [Anaconda Python 2.7](https://www.anaconda.com):
+
+* If you already have Python you can skip this step.
+
+```bash
+wget https://repo.anaconda.com/archive/Anaconda2-5.2.0-Linux-x86_64.sh
+bash Anaconda2-5.2.0-Linux-x86_64.sh
+```
+
+* Create: `anaconda2.sh`, with content:
+
+```
+export PATH=~/anaconda2/bin:$PATH
+```
+
+* Set environment:
+
+```bash
+source anaconda2.sh
+```
+
+Install [pyyaml](https://pyyaml.org/):
+
+* If you have Anaconda Python you can skip this step.
+
+```bash
+pip install pyyaml
+```
+
 ---
 
 ## Convert Word to Markdown (for information only)
