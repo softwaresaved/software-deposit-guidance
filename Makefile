@@ -11,7 +11,7 @@ BUILD_PDF = $(patsubst markdown/%.md, $(BUILD_PDF_DIR)/%.pdf, $(MDS))
 
 CONFIG = config.yml
 CONFIG_SCRIPT = scripts/configure.py
-TEMPLATE = templates/doc.html
+# TEMPLATE = templates/doc.html
 
 PANDOC = pandoc
 WKHTMLTOPDF = wkhtmltopdf
@@ -47,7 +47,6 @@ $(BUILD_HTML_DIR)/%.html : $(BUILD_MD_DIR)/%.md $(IMAGES) $(TEMPLATE)
 	mkdir -p $(BUILD_HTML_DIR)
 	cp -r images/ $(BUILD_HTML_DIR)
 	$(PANDOC) -t html -o $@ $<
-	# PANDOC_CONFIG=$(CONFIG) $(PANDOC) -t html --filter $(FILTER) -o $@ $<
 	# $(PANDOC) -t html --template=$(TEMPLATE) -o $@ $<
 
 # Convert HTML to PDF.
