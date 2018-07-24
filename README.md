@@ -79,3 +79,9 @@ HowToDescribeDeposit.md        WhenToDeposit.md
 ```
 
 The Markdown was then manually edited to clean it up and improve its formatting, and is currently in the `markdown` directory.
+
+---
+
+## Notes
+
+`templates/doc.html` was edited from a template created by `pandoc -D html`.
