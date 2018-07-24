@@ -10,7 +10,7 @@ BUILD_HTML = $(patsubst markdown/%.md, $(BUILD_HTML_DIR)/%.html, $(MDS))
 BUILD_PDF = $(patsubst markdown/%.md, $(BUILD_PDF_DIR)/%.pdf, $(MDS))
 
 CONFIG = config.yml
-FILTER = scripts/preconfig.py
+CONFIG_SCRIPT = scripts/configure.py
 TEMPLATE = templates/doc.html
 
 PANDOC = pandoc
@@ -40,7 +40,7 @@ pdf : $(BUILD_PDF)
 # Replace tokens in Markdown with configuration values.
 $(BUILD_MD_DIR)/%.md : markdown/%.md $(CONFIG) $(FILTER)
 	mkdir -p $(BUILD_MD_DIR)
-	python $(FILTER) $(CONFIG) $< $@
+	python $(CONFIG_SCRIPT) $(CONFIG) $< $@
 
 # Convert MarkDown to HTML.
 $(BUILD_HTML_DIR)/%.html : $(BUILD_MD_DIR)/%.md $(IMAGES) $(TEMPLATE)
