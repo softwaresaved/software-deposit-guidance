@@ -5,7 +5,6 @@ version: "%VERSION%"
 doi: "[doi:%HOW_DOI%](http://doi.org/%HOW_DOI%)"
 url: "[%HOW_URL%](%HOW_URL%)"
 date: "%DATE%"
-include-about-guidance: true
 ---
 
 ## Introduction
