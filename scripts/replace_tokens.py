@@ -61,7 +61,7 @@ def load_tokens(token_file):
     with open(token_file, "r") as f:
         user_tokens = yaml.load(f)
     tokens = {}
-    for (key, value) in user_tokens.iteritems():
+    for (key, value) in list(user_tokens.items()):
         tokens["%%%s%%" % key] = value
     tokens["%DATE%"] = datetime.datetime.now().strftime("%d %B %Y")
     return tokens
