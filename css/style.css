@@ -1,0 +1,45 @@
+#jisc-logo
+{
+    height: 60px 
+}
+#ssi-logo
+{
+    height: 60px 
+}
+#ccby-logo
+{
+    height: 40px 
+}
+#workflow-image
+{
+    width: 100% 
+}
+h1.title
+{
+    text-align: center
+}
+h2.author
+{
+    text-align: center
+}
+h3.date
+{
+    text-align: center
+}
+p.version
+{
+    text-align: center
+}
+p.doi
+{
+    text-align: center
+}
+p.url
+{
+    text-align: center
+}
+table.center
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
