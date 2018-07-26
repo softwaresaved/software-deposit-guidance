@@ -1,6 +1,5 @@
 # Software Deposit Guidance
 
-
 ## Convert Markdown to HTML and PDF
 
 About these instructions:
@@ -123,4 +122,6 @@ The Markdown was then manually edited to clean it up and improve its formatting,
 
 ## Notes
 
-`templates/doc.html` was edited from a template created by `pandoc -D html`.
+* Markdown documents are written in [Pandoc's Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown).
+* `templates/doc.html` was edited from a template created by `pandoc -D html`.
+* For a check/tick mark in HTML, use the HTML entity, `&#x2714;`, in Markdown.
