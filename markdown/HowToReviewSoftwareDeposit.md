@@ -3,7 +3,7 @@ title: "Software Deposit: How to review a software deposit"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "[doi:%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%)"
-url: "[%URL%/%REVIEW_PATH%](%URL%/REVIEW_PATH%)"
+url: "[%URL%/%REVIEW_PATH%](%URL%/%REVIEW_PATH%)"
 date: "%DATE%"
 ---
 
