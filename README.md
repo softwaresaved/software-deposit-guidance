@@ -1,8 +1,6 @@
-# Software Deposit Guidance
+# Software Deposit Guidance for Researchers
 
 [The Software Sustainability Institute](http://www.software.ac.uk).
-
-Copyright (c) 2018, The University of Edinburgh ([LICENCE](./LICENCE)).
 
 ---
 
@@ -186,3 +184,20 @@ The Markdown was then manually edited to clean it up and improve its formatting,
 * Markdown documents are written in [Pandoc's Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown).
 * `templates/doc.html` was edited from a template created by `pandoc -D html`.
 * For a check/tick mark in HTML, use the HTML entity, `&#x2714;`, in Markdown.
+
+---
+
+## Contributing
+
+See [Contributing](./CONTRIBUTING).
+
+---
+
+## Copyright and Licence
+
+Copyright (c) 2018, The University of Edinburgh
+
+* Guidance (in markdown/ directory): Creative Commons Attribution 4.0 International
+* Source code: Apache License, Version 2.0, January 2004
+
+For full details, see [LICENCE](./LICENCE).
