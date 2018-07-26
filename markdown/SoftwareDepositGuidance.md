@@ -123,7 +123,7 @@ The following terms are used throughout the guides.
 
 **Repository hosting service** : a service that hosts source code repositories within an institution, within a community, or for myriad individuals and communities. For example, GitHub [10], BitBucket [11], GitLab [12], CCPForge [13] or Microsoft Visual Studio Team Services [14].
 
-**Rerun** : the same or independent labs running the same or different experiments with the same or different setups.
+**Rerun** : the same or independent labs running the same or different experiments with the same or different set ups.
 
 **Research software** : any collection of scripts or code written for, or used within, a research context. For example, a 50 line bash shell script for manipulating and filtering files, a collection of 50 line R scripts for running a bioinformatics analysis, 10,000 lines of Java for medical image analysis or 100,000 lines of Fortran using MPI for computational fluid dynamics are all examples of research software and may be suitable candidates for deposit into a digital repository.
 
