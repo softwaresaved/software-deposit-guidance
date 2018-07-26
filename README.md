@@ -1,12 +1,18 @@
 # Software Deposit Guidance
 
+[The Software Sustainability Institute](http://www.software.ac.uk).
+
+Copyright (c) 2018, The University of Edinburgh ([LICENCE](./LICENCE)).
+
+---
+
 ## Convert Markdown to HTML and PDF
 
 About these instructions:
 
 * These instructions were tested on Ubuntu 16.04.3 LTS xenial.
 * Other versions of the tools may also be usable.
-* Installing tools requires you to have sudo access to install and configure software (or a local system administrator can do this for you):
+* Installing tools requires you to have sudo access to install and configure software (or a local system administrator to do this for you):
 
 ```bash
 sudo su -
@@ -64,6 +70,18 @@ Install [pyyaml](https://pyyaml.org/):
 pip install pyyaml
 ```
 
+Install linkchecker:
+
+```bash
+apt-get install linkchecker
+linkchecker -V
+```
+```
+INFO 2018-07-26 08:11:53,242 MainThread Checking intern URLs only; use --check-extern to check extern URLs.
+LinkChecker 9.3 released 16.7.2014
+Copyright (C) 2000-2014 Bastian Kleineidam
+```
+
 ### Create HTML and PDF guidance
 
 Run:
@@ -72,7 +90,50 @@ Run:
 make pdf
 ```
 
-This will process all the files in `markdown/` and create HTML documents in `build/html/` and PDFs in `build/pdf/`.
+This will process all the files in `markdown/` and create PDFs in `build/pdf/`. 
+
+As an intermediate stage, it will create HTML documents in `build/html/`. These will have absolute URLs for inter-guide links.
+
+To create HTML documents with relative inter-guide links (e.g. for hosting on a web site) see the next section.
+
+### Create HTML guidance with relative inter-guide links
+
+Edit `config.yml`:
+
+* Ensure this line is commented-out. If not then do so.
+
+```
+# LINK_URL: %URL%/%VERSION% 
+```
+
+* Ensure this line is uncommented. If not then do so.
+* Ensure this line is 
+
+```
+LINK_URL: . 
+```
+
+Run:
+
+```bash
+make html
+```
+
+This will process all the files in `markdown/` and create HTML documents in `build/html/.
+
+### Check links
+
+Run:
+
+```bash
+make check-links
+```
+
+A report is created in `build/link-check.txt`. To just see the broken links, run:
+
+```bash
+grep Real build/link-check.txt | sort
+```
 
 ---
 

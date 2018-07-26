@@ -7,6 +7,7 @@ FILTER = scripts/replace_tokens.py
 TEMPLATE = templates/doc.html
 PANDOC = pandoc
 WKHTMLTOPDF = wkhtmltopdf
+LINK_CHECKER = linkchecker --check-extern
 
 BUILD_DIR = build
 BUILD_CONFIG=$(BUILD_DIR)/$(CONFIG)
@@ -16,6 +17,7 @@ BUILD_PDF_DIR = $(BUILD_DIR)/pdf
 BUILD_MD = $(patsubst markdown/%.md, $(BUILD_MD_DIR)/%.md, $(MDS))
 BUILD_HTML = $(patsubst markdown/%.md, $(BUILD_HTML_DIR)/%.html, $(MDS))
 BUILD_PDF = $(patsubst markdown/%.md, $(BUILD_PDF_DIR)/%.pdf, $(MDS))
+LINK_REPORT = $(BUILD_DIR)/link-check.txt
 
 # Default action is to show what commands are available.
 .PHONY : all
@@ -61,6 +63,11 @@ $(BUILD_PDF_DIR)/%.pdf : $(BUILD_HTML_DIR)/%.html
 	mkdir -p $(BUILD_PDF_DIR)
 	$(WKHTMLTOPDF) $< $@
 
+## check-links  : Check HTML links.
+.PHONY : check-links
+check-links : $(HTML)
+	$(LINK_CHECKER) $(BUILD_HTML_DIR)/*.html > $(LINK_REPORT)
+
 ## commands  : Display available commands.
 .PHONY : commands
 commands : Makefile
@@ -78,6 +85,7 @@ settings :
 	@echo 'TEMPLATE:' $(TEMPLATE)
 	@echo 'PANDOC:' $(PANDOC)
 	@echo 'WKHTMLTOPDF:' $(WKHTMLTOPDF)
+	@echo 'LINK_CHECKER:' $(LINK_CHECKER)
 	@echo 'BUILD_DIR:' $(BUILD_DIR)
 	@echo 'BUILD_CONFIG:' $(BUILD_CONFOG)
 	@echo 'BUILD_MD_DIR:' $(BUILD_MD_DIR)
@@ -86,3 +94,4 @@ settings :
 	@echo 'BUILD_MD:' $(BUILD_Md)
 	@echo 'BUILD_HTML:' $(BUILD_HTML)
 	@echo 'BUILD_PDF:' $(BUILD_PDF)
+	@echo 'LINK_REPORT:' $(LINK_REPORT)
