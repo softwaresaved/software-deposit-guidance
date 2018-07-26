@@ -54,7 +54,7 @@ Both the minimal metadata and metadata about research outputs could help others 
 
 Recording the following metadata could help others discover your software according to richer criteria:
 
-* Keywords: both generic and subject/domain-specific.
+* Keywords: both generic and subject/domain/community-specific.
   - Recording as keywords the names of algorithms implemented within the software, to allow for the discovery of more generic functionality which could be used elsewhere. For example, another researcher may be interested in the implementation of a specific algorithm within the software, rather than the software itself.
 * Any other metadata that describes your software, e.g., programming language(s), operating system(s), dependencies.
 
