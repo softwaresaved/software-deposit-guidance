@@ -4,7 +4,7 @@
 
 ---
 
-## Convert Markdown to HTML and PDF
+## Create HTML and PDF guidance
 
 About these instructions:
 
@@ -131,6 +131,21 @@ A report is created in `build/link-check.txt`. To just see the broken links, run
 
 ```bash
 grep Real build/link-check.txt | sort
+```
+
+### Publishing 
+
+The online version of the guidance is published in the `gh-pages` branch of this repository. This can be updated as follows.
+
+Create HTML guidance with relative inter-guide links, as described above.
+
+Copy HTML into `gh-pages` branch and commit:
+
+```bash
+git checkout gh-pages
+cp -r build/html/* .
+git add *.html css imges
+git commit -m "Updated guidance ..."
 ```
 
 ---
