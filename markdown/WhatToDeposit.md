@@ -114,7 +114,7 @@ Provide a CITATION.cff file with your citation expressed in the Citation File Fo
 
 ### Metadata
 
-Metadata is information about your software. This can include programming language, operating systems, software type, authors, funders, licence and related research objects to name but a few. Metadata can both help digital repository managers categorise and index your software deposit and to help other researchers find your software according to criteria of relevance to them. However, some digital repositories are limited in the metadata they record, via their submission forms or APIs. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the figshare-GitHub integration [^20] or Zenodo-GitHub plugin [^21].
+Metadata is information about your software. This can include programming language, operating systems, software type, authors, funders, licence and related research objects to name but a few. Metadata can both help digital repository managers categorise and index your software deposit and to help other researchers find your software according to criteria of relevance to them. However, some digital repositories are limited in the metadata they record, via their submission forms or APIs. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the figshare-GitHub integration [^20] or Zenodo-GitHub integration [^21].
 
 Provide a codeMeta.json file with your metadata expressed in the CodeMeta schema [^22]. CodeMeta is a structured format for software-related metadata and is both human- and machine-readable.
 
