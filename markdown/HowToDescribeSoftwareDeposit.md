@@ -3,7 +3,7 @@ title: "Software Deposit: How to describe a software deposit"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "doi:[%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%)"
-url: "[%URL%/%DESCRIBE_PATH%](%URL%/%DESCRIBE_PATH%)"
+url: "[%URL%/%VERSION%/%DESCRIBE_PATH%](%URL%/%VERSION%/%DESCRIBE_PATH%)"
 date: "%DATE%"
 ---
 
@@ -13,7 +13,7 @@ Papers can have titles, authors, abstracts, subject categories and keywords, all
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%URL%/%GUIDANCE_PATH%](%URL%/%GUIDANCE_PATH%).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%URL%/%VERSION%/%GUIDANCE_PATH%](%URL%/%VERSION%/%GUIDANCE_PATH%).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -94,8 +94,8 @@ For legacy software, you might want to include statement along the lines of "We 
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/%LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%VERSION%/%WHAT_PATH%](%URL%/%VERSION%/%WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%VERSION%/%LICENCE_PATH%](%URL%/%VERSION%/%LICENCE_PATH%).
 
 CodeMeta and codeMeta.json files:
 
