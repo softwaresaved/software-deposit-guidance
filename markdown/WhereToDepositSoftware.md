@@ -71,7 +71,7 @@ These can include [^25] [^26] [^27] terms and conditions of use; availability of
 
 ### Is the longevity of the digital repository acceptable to you?
 
-You want to know that the digital repository will host your deposit for as long as you need it too, not just 6 months or so. The policies or terms and conditions of the digital repository should state this. For example, Zenodo states that their lifetime is currently 20 years and Figshare guarantees 10 years of persistent availability.
+You want to know that the digital repository will host your deposit for as long as you need it too, not just 6 months or so. The policies or terms and conditions of the digital repository should state this. For example, Zenodo states that their lifetime is currently 20 years and figshare guarantees 10 years of persistent availability.
 
 ### Is the digital repository free or do you have to pay a fee?
 
@@ -94,7 +94,7 @@ re3data.org, [https://www.re3data.org/](https://www.re3data.org/)is a global reg
 [^3]: GitLab, [https://gitlab.com](https://gitlab.com/)
 [^4]: CCPForge, [https://ccpforge.cse.rl.ac.uk/gf/](https://ccpforge.cse.rl.ac.uk/gf/)
 [^5]: Microsoft Visual Studio Team Services, [https://www.visualstudio.com/team-services/](https://www.visualstudio.com/team-services/)
-[^6]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or Figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
+[^6]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
 [^7]: "How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
 [^8]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
 [^9]: University of Edinburgh DataShare, [https://datashare.is.ed.ac.uk](https://datashare.is.ed.ac.uk)

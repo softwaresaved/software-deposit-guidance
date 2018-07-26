@@ -73,7 +73,7 @@ Funders and publishers may support the concept of open access [^7], by which res
 
 You may be concerned that you deposit your software then other researchers use your software to generate results and publish these before you yourself have a chance to.
 
-There is a distinction between the time at which software is deposited into a digital repository and the time when it is published so that others can view it. Many digital repositories, including Zenodo [^11] and Figshare [^12], support **embargoes** which allow you to specify a date when you want the deposit to be made publicly available. So, for example, you could choose to set an embargo on your software deposit so that it is only made public after any related papers have been published.
+There is a distinction between the time at which software is deposited into a digital repository and the time when it is published so that others can view it. Many digital repositories, including Zenodo [^11] and figshare [^12], support **embargoes** which allow you to specify a date when you want the deposit to be made publicly available. So, for example, you could choose to set an embargo on your software deposit so that it is only made public after any related papers have been published.
 
 A deposit can be embargoed for a long time. For example, Edinburgh DataShare supports embargos of up to 5 years [^13].
 
@@ -108,11 +108,11 @@ Articles and blog posts on why researchers should share and deposit research sof
 [^3]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/)
 [^4]: Archival Resource Key (ARK)J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc)
 [^5]: Ball, A. & Duke, M. (2015). 'How to Cite Datasets and Link to Publications'. DCC How-to Guides. Edinburgh: Digital Curation Centre. Available online: [http://www.dcc.ac.uk/resources/how-guides](http://www.dcc.ac.uk/resources/how-guides)
-[^6]: See, for example, Figshare, [https://figshare.com/](https://figshare.com/), or the University of Edinburgh DataShare, [https://datashare.is.ed.ac.uk](https://datashare.is.ed.ac.uk), which logs views by deposit page and deposited file.
+[^6]: See, for example, figshare, [https://figshare.com/](https://figshare.com/), or the University of Edinburgh DataShare, [https://datashare.is.ed.ac.uk](https://datashare.is.ed.ac.uk), which logs views by deposit page and deposited file.
 [^7]: Open access, Wikipedia, [https://en.wikipedia.org/wiki/Open\_access](https://en.wikipedia.org/wiki/Open_access)
 [^8]: "Software & source code", Wellcome Open Research, [https://wellcomeopenresearch.org/for-authors/data-guidelines](https://wellcomeopenresearch.org/for-authors/data-guidelines)
 [^9]: BioMed Central, [https://www.biomedcentral.com](https://www.biomedcentral.com)
 [^10]: "Software and code", BioMed Central, [https://www.biomedcentral.com/getpublished/editorial-policies](https://www.biomedcentral.com/getpublished/editorial-policies)
 [^11]: Zenodo, [https://zenodo.org](https://zenodo.org)
-[^12]: Figshare, [https://figshare.com](https://figshare.com)
+[^12]: figshare, [https://figshare.com](https://figshare.com)
 [^13]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist)

@@ -114,7 +114,7 @@ Provide a CITATION.cff file with your citation expressed in the Citation File Fo
 
 ### Metadata
 
-Metadata is information about your software. This can include programming language, operating systems, software type, authors, funders, licence and related research objects to name but a few. Metadata can both help digital repository managers categorise and index your software deposit and to help other researchers find your software according to criteria of relevance to them. However, some digital repositories are limited in the metadata they record, via their submission forms or APIs. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the Figshare-GitHub integration [^20] or Zenodo-GitHub plugin [^21].
+Metadata is information about your software. This can include programming language, operating systems, software type, authors, funders, licence and related research objects to name but a few. Metadata can both help digital repository managers categorise and index your software deposit and to help other researchers find your software according to criteria of relevance to them. However, some digital repositories are limited in the metadata they record, via their submission forms or APIs. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the figshare-GitHub integration [^20] or Zenodo-GitHub plugin [^21].
 
 Provide a codeMeta.json file with your metadata expressed in the CodeMeta schema [^22]. CodeMeta is a structured format for software-related metadata and is both human- and machine-readable.
 
@@ -219,7 +219,7 @@ Depositing research data:
 [^13]: Ansible, [https://www.ansible.com/](https://www.ansible.com/)
 [^14]: Vagrant, [https://www.vagrantup.com/](https://www.vagrantup.com/)
 [^15]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples)
-[^16]: For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; Figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.
+[^16]: For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.
 [^17]: For example, in a number of versions of Python, 0.1 + 0.2 gives the result 0.30000000000000004!
 [^18]: Citation File Format (CFF), [https://citation-file-format.github.io/](https://citation-file-format.github.io/). A machine-readable approach to specifying the citation that others should use when citing your software.
 [^19]: Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:[https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles).

@@ -62,7 +62,7 @@ Another advantage of embargoes is that you can prepare your deposit and describe
 [^3]: GitLab, [https://gitlab.com](https://gitlab.com)
 [^4]: CCPForge, [https://ccpforge.cse.rl.ac.uk/gf/](https://ccpforge.cse.rl.ac.uk/gf/)
 [^5]: Microsoft Visual Studio Team Services, [https://www.visualstudio.com/team-services/](https://www.visualstudio.com/team-services/))
-[^6]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or Figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
+[^6]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
 [^7]: Zenodo, [https://zenodo.org](https://zenodo.org)
 [^8]: figshare, [https://figshare.com](https://figshare.com)
 [^9]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist)
