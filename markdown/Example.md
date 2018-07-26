@@ -2,7 +2,7 @@
 title: "Software Deposit: Example"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "[doi:%HOW_DOI%](http://doi.org/%HOW_DOI%)"
+doi: "doi:[%HOW_DOI%](http://doi.org/%HOW_DOI%)"
 url: "[%URL%/%HOW_PATH%](%URL%/%HOW_PATH%)"
 date: "%DATE%"
 ---
@@ -69,15 +69,15 @@ Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: Why deposit software (Version %VERSION%). Zenodo. [doi:%WHY_DOI%](http://doi.org/%WHY_DOI%). Online: [%URL%/%WHY_PATH%](%URL%/%WHY_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: When to deposit software (Version %VERSION%). Zenodo. [doi:%WHEN_DOI%](http://doi.org/%WHEN_DOI%). Online: [%URL%/%WHEN_PATH%](%URL%/%WHEN_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: Where to deposit software (Version %VERSION%). Zenodo. [doi:%WHERE_DOI%](http://doi.org/%WHERE_DOI%). Online: [%URL%/%WHERE_PATH%](%URL%/%WHERE_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to deposit software (Version %VERSION%). Zenodo. [doi:%HOW_DOI%](http://doi.org/%HOW_DOI%). Online: [%URL%/%HOW_PATH%](%URL%/%HOW_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%). Online: [%URL%/%WHAT_NOT_PATH%](%URL%/%WHAT_NOT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. [doi:%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%). Online: [%URL%/%DESCRIBE_PATH%](%URL%/%DESCRIBE_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. [doi:%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/%LICENCE_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. [doi:%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%). Online: [%URL%/%REVIEW_PATH%](%URL%/%REVIEW_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: Why deposit software (Version %VERSION%). Zenodo. doi:[%WHY_DOI%](http://doi.org/%WHY_DOI%). Online: [%URL%/%WHY_PATH%](%URL%/%WHY_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: When to deposit software (Version %VERSION%). Zenodo. doi:[%WHEN_DOI%](http://doi.org/%WHEN_DOI%). Online: [%URL%/%WHEN_PATH%](%URL%/%WHEN_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: Where to deposit software (Version %VERSION%). Zenodo. doi:[%WHERE_DOI%](http://doi.org/%WHERE_DOI%). Online: [%URL%/%WHERE_PATH%](%URL%/%WHERE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to deposit software (Version %VERSION%). Zenodo. doi:[%HOW_DOI%](http://doi.org/%HOW_DOI%). Online: [%URL%/%HOW_PATH%](%URL%/%HOW_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%). Online: [%URL%/%WHAT_NOT_PATH%](%URL%/%WHAT_NOT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. doi:[%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%). Online: [%URL%/%DESCRIBE_PATH%](%URL%/%DESCRIBE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/%LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. doi:[%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%). Online: [%URL%/%REVIEW_PATH%](%URL%/%REVIEW_PATH%).
 
 Archive naming:
 

@@ -227,7 +227,7 @@ CodeMeta and codeMeta.json files:
 Software citation and CITATION.cff files:
 
 - Citation File Format (CFF), [https://citation-file-format.github.io/](https://citation-file-format.github.io/). A machine-readable approach to specifying the citation that others should use when citing your software.
-- Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:10.7717/peerj-cs.86. [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles). Why software citation is important and how to cite research software.
+- Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:[https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles). Why software citation is important and how to cite research software.
 
 Depositing research data:
 
@@ -254,7 +254,7 @@ Notes
 16. For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; Figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.
 17. For example, in a number of versions of Python, 0.1 + 0.2 gives the result 0.30000000000000004!
 18.  Citation File Format (CFF), [https://citation-file-format.github.io/](https://citation-file-format.github.io/). A machine-readable approach to specifying the citation that others should use when citing your software.
-19. Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:10.7717/peerj-cs.86. [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles). Why software citation is important and how to cite research software.
+19. Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:[https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles).
 20. "How to connect figshare with your GitHub account", figshare knowledge,   [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
 21. "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
 22. The CodeMeta Project, [https://codemeta.github.io/](https://codemeta.github.io/). A machine-readable approach to documenting software metadata. Specific CodeMeta terms are listed at [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/).

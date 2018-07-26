@@ -2,7 +2,7 @@
 title: "Software Deposit: Why deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "[doi:%WHY_DOI%](http://doi.org/%WHY_DOI%)"
+doi: "doi:[%WHY_DOI%](http://doi.org/%WHY_DOI%)"
 url: "[%URL%/%WHY_PATH%](%URL%/%WHY_PATH%)"
 date: "%DATE%"
 ---
@@ -93,15 +93,15 @@ If your software is good enough for you to publish a paper with results based up
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. [doi:%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/%LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/%LICENCE_PATH%).
 
 Articles and blog posts on why researchers should share and deposit research software:
 
-* Barnes, N. (2010) "Publish your computer code: it is good enough". Nature **467** , 753, 13 October 2010. [doi:10.1038/467753a](https://doi.org/10.1038/467753a). A case for why researchers should share their code.
+* Barnes, N. (2010) "Publish your computer code: it is good enough". Nature **467** , 753, 13 October 2010. doi:[10.1038/467753a](https://doi.org/10.1038/467753a). A case for why researchers should share their code.
 * D. (2010) "If you're going to do good science, release the computer code too". The Guardian, 5 February 2010. [https://www.theguardian.com/technology/2010/feb/05/science-climate-emails-code-release](https://www.theguardian.com/technology/2010/feb/05/science-climate-emails-code-release).
-* Klein, M., de Sompel, H.V., Sanderson, R., Shankar, H., Balakireva, L., Zhou, L., Tobin. R. (2014) "Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot", PLOS One, 26 December 2014. [doi:10.1371/journal.pone.0115253](https://doi.org/10.1371/journal.pone.0115253). An article on the necessity of using persistent identifiers in research.
-* Science Code Manifesto, [http://sciencecodemanifesto.org/](http://sciencecodemanifesto.org/). Five principles arising from software's integral position in 21st century research. The fifth is "Curation – Source code must remain available, linked to related materials, for the useful lifetime of the publication."
+* Klein, M., de Sompel, H.V., Sanderson, R., Shankar, H., Balakireva, L., Zhou, L., Tobin. R. (2014) "Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot", PLOS One, 26 December 2014. doi:[10.1371/journal.pone.0115253](https://doi.org/10.1371/journal.pone.0115253). An article on the necessity of using persistent identifiers in research.
+* Science Code Manifesto, [http://sciencecodemanifesto.org/](http://sciencecodemanifesto.org/). Five principles arising from software's integral position in 21st century research. The fifth is "Curation - Source code must remain available, linked to related materials, for the useful lifetime of the publication."
 
 ## Notes
 

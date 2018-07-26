@@ -2,7 +2,7 @@
 title: "Software Deposit: What not to deposit"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "[doi:%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%)"
+doi: "doi:[%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%)"
 url: "[%URL%/%WHAT_NOT_PATH%](%URL%/%WHAT_NOT_PATH%)"
 date: "%DATE%"
 ---
@@ -83,8 +83,8 @@ Check that the only binary files and executables you include in your deposit are
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. [doi:%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%LICENCE_PATH%](%URL%/LICENCE_PATH%).
 
 Temporary directories and files:
 

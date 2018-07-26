@@ -2,7 +2,7 @@
 title: "Software Deposit: Where to deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "[doi:%WHERE_DOI%](http://doi.org/%WHERE_DOI%)"
+doi: "doi:[%WHERE_DOI%](http://doi.org/%WHERE_DOI%)"
 url: "[%URL%/%WHERE_PATH%](%URL%/%WHERE_PATH%)"
 date: "%DATE%"
 ---

@@ -2,7 +2,7 @@
 title: "Software Deposit: How to review a software deposit"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "[doi:%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%)"
+doi: "doi:[%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%)"
 url: "[%URL%/%REVIEW_PATH%](%URL%/%REVIEW_PATH%)"
 date: "%DATE%"
 ---
@@ -97,9 +97,9 @@ A review of quality, utility and usability involves trying to build, deploy and 
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%). Online: [%URL%/%WHAT_NOT_PATH%](%URL%/%WHAT_NOT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. [doi:%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%). Online: [%URL%/%DESCRIBE_PATH%](%URL%/%DESCRIBE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%WHAT_PATH%](%URL%/%WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%). Online: [%URL%/%WHAT_NOT_PATH%](%URL%/%WHAT_NOT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. doi:[%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%). Online: [%URL%/%DESCRIBE_PATH%](%URL%/%DESCRIBE_PATH%).
 
 Source code and data files:
 

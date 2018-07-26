@@ -180,7 +180,7 @@ Aerts, Dr. (PhD) P.J.C. (DANS) (2017): Sustainable Software Sustainability - Wor
 
 Beals, M.H., Jones, C., Palmer, G., Jackson, M., Wilde, H., Hammersley, J., Grose, D., Long, R., Panescu, A-T. and Whitaker, K. (2018) "Sharing reproducible research - minimum requirements and desirable features", The Software Sustainability Institute blog, 22 May 2018, [https://www.software.ac.uk/blog/2018-05-22-sharing-reproducible-research-minimum-requirements-and-desirable-features](https://www.software.ac.uk/blog/2018-05-22-sharing-reproducible-research-minimum-requirements-and-desirable-features)
 
-Brown, C., Chue Hong, N., Jackson, M. (eds) (2018) Software Deposit and Preservation Policy and Planning Workshop Report, 1.1, The Software Sustainability Institute and Jisc, 4 July 2018. [doi:10.5281/zenodo.1304912](https://dx.doi.org/10.5281/zenodo.1304912).
+Brown, C., Chue Hong, N., Jackson, M. (eds) (2018) Software Deposit and Preservation Policy and Planning Workshop Report, 1.1, The Software Sustainability Institute and Jisc, 4 July 2018. doi:[10.5281/zenodo.1304912](https://dx.doi.org/10.5281/zenodo.1304912).
 
 Brown, C.T. (2017) "How I learned to stop worrying and love the coming archivability crisis in scientific software", 11 January 2017. [http://ivory.idyll.org/blog/2017-pof-software-archivability.html](http://ivory.idyll.org/blog/2017-pof-software-archivability.html).
 
@@ -192,17 +192,17 @@ Haines, R., Jay. C. (2016) "Reproducible Research: Citing your execution environ
 
 Jackson, M., Crouch, S., and Baxter, R. (2011) "Software Evaluation Guide", The Software Sustainability Institute. [https://www.software.ac.uk/resources/guides-everything/software-evaluation-guide](https://www.software.ac.uk/resources/guides-everything/software-evaluation-guide)
 
-Penfold, N. (2018) "Sustainability in research communication", SSI CW18, March 2018. [doi:10.6084/m9.figshare.6033749.v2](https://doi.org/10.6084/m9.figshare.6033749.v2). [slide 19]
+Penfold, N. (2018) "Sustainability in research communication", SSI CW18, March 2018. doi:[10.6084/m9.figshare.6033749.v2](https://doi.org/10.6084/m9.figshare.6033749.v2). [slide 19]
 
-Smith, A.M., Katz, D.S., Niemeyer, K.E. (2016) "Software citation principles". FORCE11 Software Citation Working Group, 2016, PeerJ Computer Science 2:e86. [doi:10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). See also [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles).
+Smith, A.M., Katz, D.S., Niemeyer, K.E. (2016) "Software citation principles". FORCE11 Software Citation Working Group, 2016, PeerJ Computer Science 2:e86. doi:[10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). See also [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles).
 
 The Software Sustainability Institute. (2016). Checklist for a Software Management Plan. v0.1. Available online: [https://www.software.ac.uk/software-management-plans](https://www.software.ac.uk/software-management-plans). Raw content: [https://github.com/softwaresaved/software-management-plans/blob/aa5ea9f88d477f4f0694d3679c3aab50b6dacc18/SMP\_Checklist.yaml](https://github.com/softwaresaved/software-management-plans/blob/aa5ea9f88d477f4f0694d3679c3aab50b6dacc18/SMP_Checklist.yaml).
 
-Storer, T. (2017) "Bridging the Chasm: A Survey of Software Engineering Practice in Scientific Programming". ACM Computing Surveys (CSUR) Surveys, Volume 50 Issue 4, October 2017, Article No. 47. [doi:10.1145/3084225](https://doi.org/10.1145/3084225).
+Storer, T. (2017) "Bridging the Chasm: A Survey of Software Engineering Practice in Scientific Programming". ACM Computing Surveys (CSUR) Surveys, Volume 50 Issue 4, October 2017, Article No. 47. doi:[10.1145/3084225](https://doi.org/10.1145/3084225).
 
 University of Edinburgh. "Benefits of deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/benefits](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/benefits).
 
-Wilson, G., Aruliah, D.A., Brown, C.T., Chue Hong, N.P. and Davis, M. (2014) "Best Practices for Scientific Computing", PLoS Biol 12(1): e1001745, January 2014. [doi:10.1371/journal.pbio.1001745](https://doi.org/doi:10.1371/journal.pbio.1001745).
+Wilson, G., Aruliah, D.A., Brown, C.T., Chue Hong, N.P. and Davis, M. (2014) "Best Practices for Scientific Computing", PLoS Biol 12(1): e1001745, January 2014. doi:[10.1371/journal.pbio.1001745](https://doi.org/doi:10.1371/journal.pbio.1001745).
 
 Notes
 
