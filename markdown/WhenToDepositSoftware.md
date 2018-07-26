@@ -3,7 +3,7 @@ title: "Software Deposit: When to deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "[doi:%WHEN_DOI%](http://doi.org/%WHEN_DOI%)"
-url: "[%WHEN_URL%](%WHEN_URL%)"
+url: "[%URL%/%WHEN_PATH%](%WHEN_PATH%)"
 date: "%DATE%"
 ---
 
@@ -13,15 +13,13 @@ You may be convinced of the importance and benefits of depositing research softw
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%) or visit [%GUIDANCE_URL%](%GUIDANCE_URL%).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%URL%/%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%) or visit [%URL%/%GUIDANCE_PATH%](%GUIDANCE_PATH%).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 ## Key points
 
-**TODO** insert diagram.
-
-![When to deposit software](./images/HowToDepositSoftware.png){#workflow-image}
+![When to deposit software](./images/WhenToDepositSoftware.png){#guidance-image}
 
 ## Are you about to publish results derived from your software?
 
@@ -70,5 +68,3 @@ Another advantage of embargoes is that you can prepare your deposit and describe
 [^7]: Zenodo, [https://zenodo.org](https://zenodo.org)
 [^8]: figshare, [https://figshare.com](https://figshare.com)
 [^9]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist)
-
-

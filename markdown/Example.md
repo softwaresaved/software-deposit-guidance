@@ -1,9 +1,9 @@
 ---
-title: "Software Deposit: How to ..."
+title: "Software Deposit: Example"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "[doi:%HOW_DOI%](http://doi.org/%HOW_DOI%)"
-url: "[%HOW_URL%](%HOW_URL%)"
+url: "[%URL%/%HOW_PATH%](%URL%/%HOW_PATH%)"
 date: "%DATE%"
 ---
 
@@ -13,15 +13,13 @@ Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%) or visit [%GUIDANCE_URL%](%GUIDANCE_URL%).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%) or visit [%URL%/%GUIDANCE_PATH%](%URL%/%GUIDANCE_PATH%).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 ## Key points
 
-**TODO** insert diagram.
-
-![How to deposit software](./images/HowToDepositSoftware.png){#workflow-image}
+![Example image](./images/Example.png){#guidance-image}
 
 ## Guidance I
 
@@ -71,15 +69,15 @@ Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: Why deposit software (Version %VERSION%). Zenodo. [doi:%WHY_DOI%](http://doi.org/%WHY_DOI%) or visit[%WHY_URL%](%WHY_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: When to deposit software (Version %VERSION%). Zenodo. [doi:%WHEN_DOI%](http://doi.org/%WHEN_DOI%) or visit [%WHEN_URL%](%WHEN_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: Where to deposit software (Version %VERSION%). Zenodo. [doi:%WHERE_DOI%](http://doi.org/%WHERE_DOI%) or visit [%WHERE_URL%](%WHERE_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to deposit software (Version %VERSION%). Zenodo. [doi:%HOW_DOI%](http://doi.org/%HOW_DOI%) or visit [%HOW_URL%](%HOW_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_DOI%](http://doi.org/%WHAT_DOI%) or visit [%WHAT_URL%](%WHAT_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%) or visit [%WHAT_NOT_URL%](%WHAT_NOT_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. [doi:%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%) or visit [%DESCRIBE_URL%](%DESCRIBE_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. [doi:%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%) or visit [%LICENCE_URL%](%LICENCE_URL%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. [doi:%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%) or visit [%REVIEW_URL%](%REVIEW_URL%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: Why deposit software (Version %VERSION%). Zenodo. [doi:%WHY_DOI%](http://doi.org/%WHY_DOI%) or visit [%URL%/%WHY_PATH%](%URL%/WHY_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: When to deposit software (Version %VERSION%). Zenodo. [doi:%WHEN_DOI%](http://doi.org/%WHEN_DOI%) or visit [%URL%/%WHEN_PATH%](%URL%/WHEN_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: Where to deposit software (Version %VERSION%). Zenodo. [doi:%WHERE_DOI%](http://doi.org/%WHERE_DOI%) or visit [%URL%/%WHERE_PATH%](%URL%/WHERE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to deposit software (Version %VERSION%). Zenodo. [doi:%HOW_DOI%](http://doi.org/%HOW_DOI%) or visit [%URL%/%HOW_PATH%](%URL%/HOW_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_DOI%](http://doi.org/%WHAT_DOI%) or visit [%URL%/%WHAT_PATH%](%URL%/WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. [doi:%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%) or visit [%URL%/%WHAT_NOT_PATH%](%URL%/WHAT_NOT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. [doi:%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%) or visit [%URL%/%DESCRIBE_PATH%](%URL%/DESCRIBE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. [doi:%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%) or visit [%URL%/%LICENCE_PATH%](%URL%/LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. [doi:%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%) or visit [%URL%/%REVIEW_PATH%](%URL%/REVIEW_PATH%).
 
 Archive naming:
 
