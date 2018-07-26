@@ -100,7 +100,7 @@ Related Software deposit guides:
 CodeMeta and codeMeta.json files:
 
 * The CodeMeta Project, [https://codemeta.github.io/](https://codemeta.github.io/). A machine-readable approach to documenting software metadata. Specific CodeMeta terms are listed at [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/).
-* org, [http://schema.org/](http://schema.org/). Metadata terms, many of which are used within CodeMeta.
+* schema.org, [http://schema.org/](http://schema.org/). Metadata terms, many of which are used within CodeMeta.
 
 [^1]: ORCiD, [https://orcid.org/](https://orcid.org/)
 [^2]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/)
