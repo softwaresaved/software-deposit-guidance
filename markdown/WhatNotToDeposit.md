@@ -3,7 +3,7 @@ title: "Software Deposit: What not to deposit"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "doi:[%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%)"
-url: "[%URL%/%VERSION%/%WHAT_NOT_PATH%](%URL%/%VERSION%/%WHAT_NOT_PATH%)"
+url: "[%DISPLAY_URL%/%WHAT_NOT_PATH%](%LINK_URL%/%WHAT_NOT_PATH%)"
 date: "%DATE%"
 ---
 
@@ -13,7 +13,7 @@ A software deposit lodged within a digital repository can contain myriad content
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%URL%/%VERSION%/%GUIDANCE_PATH%](%URL%/%VERSION%/%GUIDANCE_PATH%).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/%GUIDANCE_PATH%](%LINK_URL%/%GUIDANCE_PATH%).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -83,8 +83,8 @@ Check that the only binary files and executables you include in your deposit are
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%VERSION%/%WHAT_PATH%](%URL%/%VERSION%/%WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%VERSION%/%LICENCE_PATH%](%URL%/%VERSION%/%LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%DISPLAY_URL%/%WHAT_PATH%](%LINK_URL%/%WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%DISPLAY_URL%/%LICENCE_PATH%](%LINK_URL%/%LICENCE_PATH%).
 
 Temporary directories and files:
 

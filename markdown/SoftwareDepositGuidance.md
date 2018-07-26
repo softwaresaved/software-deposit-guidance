@@ -3,7 +3,7 @@ title: "Software Deposit: Guidance for Researchers"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%)"
-url: "[%URL%/%VERSION%/%GUIDANCE_PATH%](%URL%/%VERSION%/%GUIDANCE_PATH%)"
+url: "[%DISPLAY_URL%/%GUIDANCE_PATH%](%LINK_URL%/%GUIDANCE_PATH%)"
 date: "%DATE%"
 ---
 
@@ -13,7 +13,7 @@ Research software is an integral part of the modern research ecosystem. Taken to
 
 Depositing research software into a digital repository can offer significant benefits. By depositing not just papers, but software, and data sets, as well, researchers can store a more complete record of this ecosystem for future use to both the researchers who undertook the research and also the wider research community. Making research software available allows other researchers to inspect, replicate, reproduce, and reuse the research, as manifested in the software, in the short term, and to inspect, for the historical record, in the long term. It allows research software to remain available beyond the lifetime of any current project, or a researcher's current employment at a specific institution. Digital repositories can also provide unique persistent digital identifiers for software which can be cited and help researchers to get attribution and credit for their research software when it is used by others.
 
-The Software Sustainability Institute [1], funded by Jisc [2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders, and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%URL%](%URL%).
+The Software Sustainability Institute [1], funded by Jisc [2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders, and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%BASE_URL%](%BASE_URL%).
 
 ## What is research software?
 
@@ -135,7 +135,7 @@ The following terms are used throughout the guides.
 
 ## Accessing the guides
 
-Each guide, plus this overview document, has been published via Zenodo. The DOIs of each guide are shown in the table above. The guides are also available online at [%URL%](%URL%) which will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits, and good research software generally, and why these are considered to be good.
+Each guide, plus this overview document, has been published via Zenodo. The DOIs of each guide are shown in the table above. The guides are also available online at [%BASE_URL%](%BASE_URL%) which will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits, and good research software generally, and why these are considered to be good.
 
 ## Acknowledgements
 

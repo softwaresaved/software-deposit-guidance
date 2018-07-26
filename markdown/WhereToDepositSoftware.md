@@ -3,7 +3,7 @@ title: "Software Deposit: Where to deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "doi:[%WHERE_DOI%](http://doi.org/%WHERE_DOI%)"
-url: "[%URL%/%VERSION%/%WHERE_PATH%](%URL%/%VERSION%/%WHERE_PATH%)"
+url: "[%DISPLAY_URL%/%WHERE_PATH%](%LINK_URL%/%WHERE_PATH%)"
 date: "%DATE%"
 ---
 
@@ -13,7 +13,7 @@ There are myriad digital repositories where you can deposit your research softwa
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%URL%/%VERSION%/%GUIDANCE_PATH%](%URL%/%VERSION%/%GUIDANCE_PATH%).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/%GUIDANCE_PATH%](%LINK_URL%/%GUIDANCE_PATH%).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
