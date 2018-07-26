@@ -50,6 +50,18 @@ table.center
     margin-left:auto; 
     margin-right:auto;
 }
+#logos
+{ 
+    width: 100%
+}
+#logos-left
+{ 
+    text-align: left
+}
+#logos-right
+{ 
+    text-align: right
+}
 table, th, td
 {
    border: 1px solid black;

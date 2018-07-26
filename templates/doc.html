@@ -35,6 +35,16 @@ $endfor$
 </head>
 <body>
 
+<table id="logos" class="center noborder">
+<tr>
+<td id="logos-left">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</td>
+<td id="logos-right">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/> 
+</td>
+</table>
+
 $if(title)$
 <div id="$idprefix$header">
 <h1 class="title">$title$</h1>
@@ -53,20 +63,10 @@ $endif$
 $if(doi)$
 <p class="doi">$doi$<p>
 $endif$
-</div>
 $if(url)$
 <p class="url">$url$<p>
 $endif$
 </div>
-<table id="logos" class="center noborder">
-<tr>
-<td>
-<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
-</td>
-<td>
-<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/> 
-</td>
-</table>
 $endif$
 
 $body$
