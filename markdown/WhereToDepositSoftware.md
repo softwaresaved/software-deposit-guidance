@@ -89,8 +89,6 @@ If you work for a college or university, you may have a research exploitation of
 
 re3data.org, [https://www.re3data.org/](https://www.re3data.org/)is a global registry of research data repositories. It supports searching for digital repositories by country, subject and content types (which includes various types of data, software applications and source code).
 
-## Notes
-
 [^1]: GitHub, [https://github.com/](https://github.com/)
 [^2]: BitBucket, [https://bitbucket.com/](https://bitbucket.com/)
 [^3]: GitLab, [https://gitlab.com](https://gitlab.com/)

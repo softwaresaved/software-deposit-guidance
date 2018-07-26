@@ -57,8 +57,6 @@ A deposit can be embargoed for a long time. For example, Edinburgh DataShare sup
 
 Another advantage of embargoes is that you can prepare your deposit and describe it, via metadata, while the knowledge of the version of your software being deposited is fresh in your mind.
 
-## Notes
-
 [^1]: GitHub, [https://github.com/](https://github.com/)
 [^2]: BitBucket, [https://bitbucket.com/](https://bitbucket.com/)
 [^3]: GitLab, [https://gitlab.com](https://gitlab.com)

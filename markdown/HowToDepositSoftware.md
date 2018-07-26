@@ -125,8 +125,6 @@ Archive naming:
 
 * Raymond, E.S. (2000) Software Release Practice HOWTO, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/), has a good section on naming software archive files, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html).
 
-## Notes
-
 [^1]: This is a good thing to do regularly, regardless of whether you are depositing software or not. It can help to increase your software's bus factor ([https://en.wikipedia.org/wiki/Bus\_factor](https://en.wikipedia.org/wiki/Bus_factor)).
 [^2]: "How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
 [^3]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)

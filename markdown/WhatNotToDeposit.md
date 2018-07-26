@@ -95,8 +95,6 @@ Depositing research data:
 * DCC (2014). "Five steps to decide what data to keep: a checklist for appraising research data v.1". Edinburgh: Digital Curation Centre. Available online: [http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep](http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep)
 * Whyte, A. (2015). "Where to keep research data: DCC checklist for evaluating data repositories" v.1.1 Edinburgh: Digital Curation Centre. Available online: [http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data](http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data)
 
-## Notes
-
 [^1]: For example, "git archive", [https://git-scm.com/docs/git-archive](https://git-scm.com/docs/git-archive); "hg archive", [https://www.mercurial-scm.org/repo/hg/help/archive](https://www.mercurial-scm.org/repo/hg/help/archive); "svn export", [http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html); "cvs export", [https://www.gnu.org/software/trans-coord/manual/cvs/html\_node/export.html](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html)
 [^2]: How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
 [^3]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)

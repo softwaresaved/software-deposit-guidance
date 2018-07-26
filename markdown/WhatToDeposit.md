@@ -204,8 +204,6 @@ Depositing research data:
 | Test code |  |
 | Additional sample or test data |  |
 
-## Notes
-
 [^1]: "README", Wikipedia, [https://en.wikipedia.org/wiki/README](https://en.wikipedia.org/wiki/README)
 [^2]: Or LICENCE, LICENCE.txt, LICENSE.txt, LICENCE.md or LICENSE.md.
 [^3]: ORCiD, [https://orcid.org/](https://orcid.org/)

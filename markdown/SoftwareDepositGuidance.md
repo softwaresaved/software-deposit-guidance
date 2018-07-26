@@ -174,7 +174,7 @@ The following people offered valuable advice and guidance throughout this projec
 
 References
 
-In addition to material referenced in the "Find out more" and "Notes" sections in the individual guides, the material in the guides has been drawn from the following papers, reports, blog posts and presentations.
+In addition to material referenced in the "Find out more" and footnotes in the individual guides, the material in the guides has been drawn from the following papers, reports, blog posts and presentations.
 
 Aerts, Dr. (PhD) P.J.C. (DANS) (2017): Sustainable Software Sustainability - Workshop report. DANS. [https://doi.org/10.17026/dans-xfe-rn2w](https://doi.org/10.17026/dans-xfe-rn2w).
 
@@ -203,8 +203,6 @@ Storer, T. (2017) "Bridging the Chasm: A Survey of Software Engineering Practice
 University of Edinburgh. "Benefits of deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/benefits](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/benefits).
 
 Wilson, G., Aruliah, D.A., Brown, C.T., Chue Hong, N.P. and Davis, M. (2014) "Best Practices for Scientific Computing", PLoS Biol 12(1): e1001745, January 2014. doi:[10.1371/journal.pbio.1001745](https://doi.org/doi:10.1371/journal.pbio.1001745).
-
-Notes
 
 1. The Software Sustainability Institute, [http://www.software.ac.uk](http://www.software.ac.uk)
 2. Jisc, [http://www.jisc.ac.uk](http://www.jist.ac.uk)

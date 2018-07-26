@@ -103,8 +103,6 @@ Articles and blog posts on why researchers should share and deposit research sof
 * Klein, M., de Sompel, H.V., Sanderson, R., Shankar, H., Balakireva, L., Zhou, L., Tobin. R. (2014) "Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot", PLOS One, 26 December 2014. doi:[10.1371/journal.pone.0115253](https://doi.org/10.1371/journal.pone.0115253). An article on the necessity of using persistent identifiers in research.
 * Science Code Manifesto, [http://sciencecodemanifesto.org/](http://sciencecodemanifesto.org/). Five principles arising from software's integral position in 21st century research. The fifth is "Curation - Source code must remain available, linked to related materials, for the useful lifetime of the publication."
 
-## Notes
-
 [^1]: DCC (2014). "Five steps to decide what data to keep: a checklist for appraising research data v.1". Edinburgh: Digital Curation Centre. Available online: [http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep](http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep)
 [^2]: Climatic Research Unit email controversy, Wikipedia, [https://en.wikipedia.org/wiki/Climatic\_Research\_Unit\_email\_controversy](https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy)
 [^3]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/)

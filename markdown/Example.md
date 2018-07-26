@@ -25,11 +25,7 @@ This guide was written by The Software Sustainability Institute, funded by Jisc.
 
 Lorem ipsum dolor sit amet, feugiat recusabo vituperatoribus et usu, mea te hinc legere, delectus repudiare delicatissimi ius et. Ut sea modo antiopam, qui an porro detracto, et pro dicant essent voluptua. Errem nobis duo ea. Mel inani soluta eruditi cu, vel ad dicta offendit, pri ne labore omnium delectus. Diam sonet aperiri ei cum. This is a footnote [^1] example.
 
-[^1]: Footnote 1 text.
-
 Usu persius discere eligendi te. Modo etiam scribentur eu sit, accusam facilisi id mei, ad ludus dicam est. Pri ne cibo dicunt. Inani dignissim eum at. Per solet option eu. Cu eius suscipiantur vituperatoribus qui, ex cum timeam alienum, cu simul perfecto per. This is a footnote [^2] example. `deposit-1.2.3.tar.gz` is an example of an archive file name.
-
-[^2]: Footnote 2 text.
 
 ### Guidance I.I
 
@@ -83,9 +79,5 @@ Archive naming:
 
 * Raymond, E.S. (2000) Software Release Practice HOWTO, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/), has a good section on naming software archive files, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html).
 
-## Notes
-
-1. This is a good thing to do regularly, regardless of whether you are depositing software or not. It can help to increase your software's bus factor ("Bus Factor", Wikipedia, [https://en.wikipedia.org/wiki/Bus\_factor](https://en.wikipedia.org/wiki/Bus_factor)).
-2. "How to connect figshare with your GitHub account", figshare knowledge,   [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-3. "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-4. Semantic Versioning, [https://semver.org/](https://semver.org/)
+[^1]: Footnote 1 text.
+[^2]: Footnote 2 text.
