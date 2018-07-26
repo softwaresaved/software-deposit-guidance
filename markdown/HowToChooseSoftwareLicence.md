@@ -146,7 +146,7 @@ Software citation and CITATION.cff files:
 [^15]: "HSL Licencing", The HSL Mathematical Software Library, [http://www.hsl.rl.ac.uk/licencing.html](http://www.hsl.rl.ac.uk/licencing.html)
 [^16]: Yeates, S. (2006) "Dual licensing", OSS Watch, May 2006, [http://oss-watch.ac.uk/resources/duallicence](http://oss-watch.ac.uk/resources/duallicence)
 [^17]: FFTW, [http://www.fftw.org/](http://www.fftw.org/)
-[^18]: "License and Copyright", FFTW, [http://www.fftw.org/doc/License-and-Copyright.htm](http://www.fftw.org/doc/License-and-Copyright.htm)
+[^18]: "License and Copyright", FFTW, [http://www.fftw.org/doc/License-and-Copyright.html](http://www.fftw.org/doc/License-and-Copyright.html)
 [^19]: "Software & source code", Wellcome Open Research, [https://wellcomeopenresearch.org/for-authors/data-guidelines](https://wellcomeopenresearch.org/for-authors/data-guidelines)
 [^20]: "Licence compatibility", Wikipedia, [https://en.wikipedia.org/wiki/License\_compatibility](https://en.wikipedia.org/wiki/License_compatibility)
 [^21]: "Is the normal exclusion of liability and warranties in open-source licenses effective in Germany?", Institute for Legal Questions on Free and Open Source Software, [http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany](http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany)
