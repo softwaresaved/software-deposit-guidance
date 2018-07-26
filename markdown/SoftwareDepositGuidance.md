@@ -13,7 +13,7 @@ Research software is an integral part of the modern research ecosystem. Taken to
 
 Depositing research software into a digital repository can offer significant benefits. By depositing not just papers, but software, and data sets, as well, researchers can store a more complete record of this ecosystem for future use to both the researchers who undertook the research and also the wider research community. Making research software available allows other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and to inspect, for the historical record, in the long term. It allows research software to remain available beyond the lifetime of any current project, or a researcher's current employment at a specific institution. Digital repositories can also provide unique persistent digital identifiers for software which can be cited and help researchers to get attribution and credit for their research software when it is used by others.
 
-The Software Sustainability Institute [1], funded by Jisc [2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%BASE_URL%](%BASE_URL%).
+The Software Sustainability Institute [^1], funded by Jisc [^2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%BASE_URL%](%BASE_URL%).
 
 ## What is research software?
 
@@ -109,9 +109,9 @@ Digital repositories can differ in the deposits that they accept, the metadata r
 
 The following terms are used throughout the guides.
 
-**Digital preservation system:** a repository, archive or service that also hosts digital artefacts, including research outputs, but also implements strategies to afford long term access to the digital artefacts, in the face of technological changes. For example, Archivematica [3]. Preservica [4] or Arkivum Perpetua [5].
+**Digital preservation system:** a repository, archive or service that also hosts digital artefacts, including research outputs, but also implements strategies to afford long term access to the digital artefacts, in the face of technological changes. For example, Archivematica [^3]. Preservica [^4] or Arkivum Perpetua [^5].
 
-**Digital repository** : a repository, archive or service that hosts digital artefacts, including research outputs such as papers, presentations, data sets and software. For example, Zenodo [6], figshare [7], DSpace [8] or Samvera [9].
+**Digital repository** : a repository, archive or service that hosts digital artefacts, including research outputs such as papers, presentations, data sets and software. For example, Zenodo [^6], figshare [^7], DSpace [^8] or Samvera [^9].
 
 **Inspect:** read source code, supporting narratives and papers to understand what was run, the environment in which it was run, important decisions that were made, how results were produced and to identify any flaws.
 
@@ -121,7 +121,7 @@ The following terms are used throughout the guides.
 
 **Reproduce** : an independent lab varies the experiment or set up to try and get similar results.
 
-**Repository hosting service** : a service that hosts source code repositories within an institution, within a community, or for myriad individuals and communities. For example, GitHub [10], BitBucket [11], GitLab [12], CCPForge [13] or Microsoft Visual Studio Team Services [14].
+**Repository hosting service** : a service that hosts source code repositories within an institution, within a community, or for myriad individuals and communities. For example, GitHub [^10], BitBucket [^11], GitLab [^12], CCPForge [^13] or Microsoft Visual Studio Team Services [^14].
 
 **Rerun** : the same or independent labs running the same or different experiments with the same or different set ups.
 
