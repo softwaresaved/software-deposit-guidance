@@ -37,17 +37,17 @@ The guiding principles that motivated the form and content of the guides were as
 
 The guides, their Zenodo DOIs and their target audiences are as follows:
 
-| Guide | Zenodo DOI | Researchers | Principal Investigators | Research Data Managers |
-| --- | --- | :---: | :---: | :---: |
-| Why deposit software | [%WHY_DOI%](http://doi.org/%WHY_DOI%) | &#x2714; | &#x2714; |   |
-| When to deposit software | [%WHEN_DOI%](http://doi.org/%WHEN_DOI%) | &#x2714; | &#x2714; |   |
-| Where to deposit software | [%WHERE_DOI%](http://doi.org/%WHERE_DOI%) | &#x2714; | &#x2714; |   |
-| How to deposit software | [%HOW_DOI%](http://doi.org/%HOW_DOI%) | &#x2714; |   |   |
-| What to deposit | [%WHAT_DOI%](http://doi.org/%WHAT_DOI%) | &#x2714; |   | &#x2714; |
-| What not to deposit | [%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%) | &#x2714; |   | &#x2714; |
-| How to describe a software deposit | [%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%) | &#x2714; |   | &#x2714; |
-| How to choose a software licence | [%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%) | &#x2714; | &#x2714; |   |
-| How to review a software deposit | [%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%) | &#x2714; |   | &#x2714; |
+| Guide | Researchers | Principal Investigators | Research Data Managers | Zenodo DOI | Online |
+| --- | :---: | :---: | :---: | --- | --- |
+| Why deposit software | &#x2714; | &#x2714; | | [%WHY_DOI%](http://doi.org/%WHY_DOI%) | [%DISPLAY_URL%/%WHY_PATH%](%LINK_URL%/%WHY_PATH%) |
+| When to deposit software | &#x2714; | &#x2714; | | [%WHEN_DOI%](http://doi.org/%WHEN_DOI%) | [%DISPLAY_URL%/%WHEN_PATH%](%LINK_URL%/%WHEN_PATH%) |
+| Where to deposit software | &#x2714; | &#x2714; |   | [%WHERE_DOI%](http://doi.org/%WHERE_DOI%) | [%DISPLAY_URL%/%WHERE_PATH%](%LINK_URL%/%WHERE_PATH%) |
+| How to deposit software | &#x2714; |   |   | [%HOW_DOI%](http://doi.org/%HOW_DOI%) | [%DISPLAY_URL%/%HOW_PATH%](%LINK_URL%/%HOW_PATH%) |
+| What to deposit | &#x2714; |   | &#x2714; | [%WHAT_DOI%](http://doi.org/%WHAT_DOI%) | [%DISPLAY_URL%/%WHAT_PATH%](%LINK_URL%/%WHAT_PATH%) |
+| What not to deposit | &#x2714; |   | &#x2714; | [%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%) | [%DISPLAY_URL%/%WHAT_NOT_PATH%](%LINK_URL%/%WHAT_NOT_PATH%) |
+| How to describe a software deposit | &#x2714; |   | &#x2714; | [%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%) | [%DISPLAY_URL%/%DESCRIBE_PATH%](%LINK_URL%/%DESCRIBE_PATH%) |
+| How to choose a software licence | &#x2714; | &#x2714; |   | [%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%) | [%DISPLAY_URL%/%LICENCE_PATH%](%LINK_URL%/%LICENCE_PATH%) |
+| How to review a software deposit | &#x2714; |   | &#x2714; | [%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%) | [%DISPLAY_URL%/%REVIEW_PATH%](%LINK_URL%/%REVIEW_PATH%) |
 
 A summary of the content of each guide is as follows.
 
