@@ -189,7 +189,7 @@ The Markdown was then manually edited to clean it up and improve its formatting,
 
 ## Contributing
 
-See [Contributing](./CONTRIBUTING).
+See [Contributing](./CONTRIBUTING.md).
 
 ---
 
