@@ -83,8 +83,8 @@ Check that the only binary files and executables you include in your deposit are
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%VERSION%/%WHAT_PATH%](%URL%/%VERSION%/WHAT_PATH%).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%VERSION%/%LICENCE_PATH%](%URL%/%VERSION%/LICENCE_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%URL%/%VERSION%/%WHAT_PATH%](%URL%/%VERSION%/%WHAT_PATH%).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%URL%/%VERSION%/%LICENCE_PATH%](%URL%/%VERSION%/%LICENCE_PATH%).
 
 Temporary directories and files:
 
