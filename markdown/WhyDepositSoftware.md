@@ -23,7 +23,7 @@ This guide was written by The Software Sustainability Institute, funded by Jisc.
 
 ## Your software is retained and remains available for the future
 
-By depositing your software within a digital repository, the exact versions of your software upon which you have published your research results is retained and remains available for future use both by yourself and by other researchers. You enable other researchers, and your future self, to inspect, replicate, reproduce, and reuse your research, as manifested in your software, in the short term, and to inspect, for the historical record, in the long term. It allows your software to remain available beyond the lifetime of your current project, or your current employment at a specific institution.
+By depositing your software within a digital repository, the exact versions of your software upon which you have published your research results is retained and remains available for future use both by yourself and by other researchers. You enable other researchers, and your future self, to inspect, replicate, reproduce and reuse your research, as manifested in your software, in the short term and to inspect, for the historical record, in the long term. It allows your software to remain available beyond the lifetime of your current project, or your current employment at a specific institution.
 
 Even if, in the long term, it is no longer possible to compile or run your software's source code, it still serves as a valuable historical record, as a programmatic description of how your research was implemented.
 

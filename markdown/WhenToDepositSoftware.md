@@ -25,7 +25,7 @@ This guide was written by The Software Sustainability Institute, funded by Jisc.
 
 If you are about to publish results derived from the use of your software, whether it is in a journal paper, conference proceeding, presentation, poster or blog post, you'll want to deposit your software into a digital repository.
 
-Your software deposit will allow others who have read your publication to download your software, with the aim of inspecting your software to understand how you got your results and, if desired, to try to replicate or reproduce what you did, or reuse your software in their own research. What is more, your software deposit will have given them a persistent digital identifier which they can cite, and which you can then use as a means to measure and demonstrate your impact.
+Your software deposit will allow others who have read your publication to download your software, with the aim of inspecting your software to understand how you got your results and, if desired, to try to replicate or reproduce what you did, or reuse your software in their own research. What is more, your software deposit will have given them a persistent digital identifier which they can cite and which you can then use as a means to measure and demonstrate your impact.
 
 Similar comments apply if you are making a publication about the software itself.
 
@@ -41,7 +41,7 @@ While repository hosting services such as GitHub [^1], BitBucket [^2], GitLab [^
 
 They don't create unique persistent digital identifiers for your deposits (only URLs), repositories could be deleted by yourself later (breaking links to URLs in papers by you or others) or the repository hosting service may go out of business.
 
-A digital repository allows you to archive your software in a place which will ensure it is available for yourself and others to inspect and reuse long after your project has ended, and with a persistent digital identifier too.
+A digital repository allows you to archive your software in a place which will ensure it is available for yourself and others to inspect and reuse long after your project has ended and with a persistent digital identifier too.
 
 ## Is your project going into a hiatus?
 

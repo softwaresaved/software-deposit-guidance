@@ -107,7 +107,7 @@ If you want to enforce an embargo and your repository supports this feature, set
 
 ## Check your uploaded deposit
 
-Once uploaded, and, if applicable, published, download and unpack your deposit archive file, following the process described above.
+Once uploaded and, if applicable, published, download and unpack your deposit archive file, following the process described above.
 
 ## Find out more
 

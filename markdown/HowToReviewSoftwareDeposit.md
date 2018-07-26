@@ -9,7 +9,7 @@ date: "%DATE%"
 
 ## Introduction
 
-Digital repositories can differ in the deposits that they accept, the metadata requested from researchers, how researchers make their deposits, and how these deposits are processed. This includes how deposits are reviewed post-deposit and pre-publication, and the criteria that are used in these reviews. Despite the differences between individual digital repositories, there are some common checks that can be done for any software deposit. The nature and degree to which a software deposit can be reviewed depends upon the time, effort and expertise you have available. This guide describes three approaches to reviewing a deposit: a quick content review, a more detailed consistency review and a comprehensive review of quality, utility and usability.
+Digital repositories can differ in the deposits that they accept, the metadata requested from researchers, how researchers make their deposits and how these deposits are processed. This includes how deposits are reviewed post-deposit and pre-publication and the criteria that are used in these reviews. Despite the differences between individual digital repositories, there are some common checks that can be done for any software deposit. The nature and degree to which a software deposit can be reviewed depends upon the time, effort and expertise you have available. This guide describes three approaches to reviewing a deposit: a quick content review, a more detailed consistency review and a comprehensive review of quality, utility and usability.
 
 ## About this guide
 
@@ -67,7 +67,7 @@ Check for the following content, if you want to check whether the deposit theore
 
 ### Check for comprehensive content (optional)
 
-Check for the following content, if you want to check whether the deposit theoretically provides enough content to allow other researchers to reuse, customise, and modify the software and provides documentation allowing them to understand, in detail, both how the software implements the research, and where it sits in its wider software ecosystem:
+Check for the following content, if you want to check whether the deposit theoretically provides enough content to allow other researchers to reuse, customise and modify the software and provides documentation allowing them to understand, in detail, both how the software implements the research and where it sits in its wider software ecosystem:
 
 * Developer documentation. This could be in various formats e.g. text (".txt"), Markdown (".md"), reStructuredText (".rst"), HTML (".html"), Microsoft Word (".doc", ".docx"), OpenDocument Text Document (".odt"), Adobe Portable Document Format (".pdf"). It may be located in a subdirectory of the deposit.
 * Narratives of what the code does and how it does it.
@@ -91,7 +91,7 @@ If there are any discrepancies or inconsistencies then it would be expected that
 
 ## Review quality, utility and usability
 
-A review of quality, utility and usability involves trying to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. This review can help to determine whether another researcher could understand what has been deposited and whether they could replicate, reproduce, and reuse the research, as manifested in the software, in the short term, and inspect, for the historical record, in the long term, i.e., does the deposit now standalone as a useful resource independent of the researcher who deposited it. The disadvantage of such a review is that it requires a lot more time to do. It may require you to consult the services of a research software engineer.
+A review of quality, utility and usability involves trying to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. This review can help to determine whether another researcher could understand what has been deposited and whether they could replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect, for the historical record, in the long term, i.e., does the deposit now standalone as a useful resource independent of the researcher who deposited it. The disadvantage of such a review is that it requires a lot more time to do. It may require you to consult the services of a research software engineer.
 
 ## Find out more
 

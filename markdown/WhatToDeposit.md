@@ -9,7 +9,7 @@ date: "%DATE%"
 
 ## Introduction
 
-What do we mean by a "software deposit"? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term, and inspect the software, for the historical record, in the long term. This guide describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).
+What do we mean by a "software deposit"? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect the software, for the historical record, in the long term. This guide describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).
 
 ## About this guide
 
@@ -104,7 +104,7 @@ Including sample data can be valuable for those who use your software deposit. T
 
 If you have published, or intend to publish, results based on your data files then consider following the FAIR [^15] principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together [^16].
 
-Changes in dependencies can cause both subtle, and not so subtle, changes in outputs for sample input data [^17]. Document what you consider to be acceptable output for your sample inputs, what you would consider to be "close enough" (for example, whether you consider equality to within 3 decimal places to be "close enough", error margins or tolerances) for cases where someone else does not get identical outputs when using your sample data.
+Changes in dependencies can cause both subtle and not so subtle, changes in outputs for sample input data [^17]. Document what you consider to be acceptable output for your sample inputs, what you would consider to be "close enough" (for example, whether you consider equality to within 3 decimal places to be "close enough", error margins or tolerances) for cases where someone else does not get identical outputs when using your sample data.
 
 ### Recommended citation
 
@@ -122,7 +122,7 @@ For more information, see our guide on "Software Deposit: How to describe a soft
 
 ## Comprehensive deposit
 
-A comprehensive deposit includes everything in a minimal and runnable deposit but provides a richer set of documentation and includes test code and additional test and other sample data. A comprehensive deposit allows other researchers to reuse, customise, and modify your software and provides documentation allowing them to understand, in detail, both how your software implements your research, and where it sits in its wider software ecosystem.
+A comprehensive deposit includes everything in a minimal and runnable deposit but provides a richer set of documentation and includes test code and additional test and other sample data. A comprehensive deposit allows other researchers to reuse, customise and modify your software and provides documentation allowing them to understand, in detail, both how your software implements your research and where it sits in its wider software ecosystem.
 
 ### Developer documentation
 
@@ -130,11 +130,11 @@ If you want others to customise your software, you need to document how they can
 
 ### Narratives of what the code does and how it does it
 
-It can help others if you complement your source code with a pseudo-code [^24] narrative of what it does and how it does it. This narrative can bridge the gap between your research in the abstract, as for example, described in papers, and your research as concretely implemented in your source code. It can help others understand how you implemented your research without needing to understand the specific programming language in which you implemented it. As for source code, a pseudo-code narrative can include citations for publications describing algorithms or analyses that have been implemented, or used, by you.
+It can help others if you complement your source code with a pseudo-code [^24] narrative of what it does and how it does it. This narrative can bridge the gap between your research in the abstract, as, for example, described in papers, and your research as concretely implemented in your source code. It can help others understand how you implemented your research without needing to understand the specific programming language in which you implemented it. As for source code, a pseudo-code narrative can include citations for publications describing algorithms or analyses that have been implemented, or used, by you.
 
 ### Narratives of the software's ecosystem
 
-Research software does not exist in a vacuum, but forms a part of an ecosystem, which includes the sources – hand-crafted data, processes, services, software, databases – from which the data it consumes originates and the sinks to which the data it produces is destined. It can help others to understand how your software contributes to research, and what it does, if you provide information on this ecosystem.
+Research software does not exist in a vacuum, but forms a part of an ecosystem, which includes the sources – hand-crafted data, processes, services, software, databases – from which the data it consumes originates and the sinks to which the data it produces is destined. It can help others to understand how your software contributes to research and what it does, if you provide information on this ecosystem.
 
 You can use an English language narrative to describe this ecosystem. In addition to this, Research Object ontology [^25], Common Workflow Language (CWL) [^26], GA4GH Task Execution Schema (TES) [^27], Workflow Description Language (WDL) [^28] and YAWL (Yet Another Workflow Language) [^29] all offer ways to more formally represent software, processes, parameters, inputs, outputs and the relationships between these.
 

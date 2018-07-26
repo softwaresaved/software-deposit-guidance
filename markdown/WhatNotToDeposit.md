@@ -43,7 +43,7 @@ Check that the licences of any third-party software or data files allow you to r
 
 ## Inappropriate content
 
-Remember that witty and profane comment you buried in your source code after battling a day to fix a bug? Or that amusingly tasteless cartoon image you downloaded, but can't remember where? Take care that your deposit does not include such content as it will be associated with your name in a digital repository for quite some time, and may cause, at best, amusement to your colleagues and, at worst, damage to your reputation.
+Remember that witty and profane comment you buried in your source code after battling a day to fix a bug? Or that amusingly tasteless cartoon image you downloaded, but can't remember where? Take care that your deposit does not include such content as it will be associated with your name in a digital repository for quite some time and may cause, at best, amusement to your colleagues and, at worst, damage to your reputation.
 
 Tasteless or inappropriate content can be in documentation, data files, source code (especially comments), images and movies.
 
@@ -73,7 +73,7 @@ Including sample data files can be valuable for those who use your software depo
 
 Check your data files and ensure you are only depositing data files that are of use to others, for example sample inputs and the corresponding outputs.
 
-If you have published, or intend to publish, results based on your data files, then consider following the FAIR [^4] principles for research data management, and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together [^5].
+If you have published, or intend to publish, results based on your data files, then consider following the FAIR [^4] principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together [^5].
 
 ## Unintended binary files and executables
 

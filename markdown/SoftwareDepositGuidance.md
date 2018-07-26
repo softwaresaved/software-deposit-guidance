@@ -11,13 +11,13 @@ date: "%DATE%"
 
 Research software is an integral part of the modern research ecosystem. Taken together, research software, alongside data, facilities, equipment and an overarching research question can be viewed as a research activity or experiment, worthy to be published. Conversely, a publication can be considered as a narrative that describes how the research objects are used together to reply to the research question.
 
-Depositing research software into a digital repository can offer significant benefits. By depositing not just papers, but software, and data sets, as well, researchers can store a more complete record of this ecosystem for future use to both the researchers who undertook the research and also the wider research community. Making research software available allows other researchers to inspect, replicate, reproduce, and reuse the research, as manifested in the software, in the short term, and to inspect, for the historical record, in the long term. It allows research software to remain available beyond the lifetime of any current project, or a researcher's current employment at a specific institution. Digital repositories can also provide unique persistent digital identifiers for software which can be cited and help researchers to get attribution and credit for their research software when it is used by others.
+Depositing research software into a digital repository can offer significant benefits. By depositing not just papers, but software, and data sets, as well, researchers can store a more complete record of this ecosystem for future use to both the researchers who undertook the research and also the wider research community. Making research software available allows other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and to inspect, for the historical record, in the long term. It allows research software to remain available beyond the lifetime of any current project, or a researcher's current employment at a specific institution. Digital repositories can also provide unique persistent digital identifiers for software which can be cited and help researchers to get attribution and credit for their research software when it is used by others.
 
-The Software Sustainability Institute [1], funded by Jisc [2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders, and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%BASE_URL%](%BASE_URL%).
+The Software Sustainability Institute [1], funded by Jisc [2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%BASE_URL%](%BASE_URL%).
 
 ## What is research software?
 
-The Software Sustainability Institute takes the view that research software is any software used in research and does not differentiate between what are often termed scripts, written in scripting languages such as bash shell or Python or R, and programs written in "traditional" programming languages such as C, C++, Fortran or Java. In the view of the Institute a 50 line bash shell script for manipulating and filtering files, a collection of 50 line R scripts for running a bioinformatics analysis, 10,000 lines of Java for medical image analysis or 100,000 lines of Fortran using MPI for computational fluid dynamics are all examples of research software and may be suitable candidates for deposit into a digital repository. It is this view of research software that is assumed throughout the guides.
+The Software Sustainability Institute takes the view that research software is any software used in research and does not differentiate between what are often termed scripts, written in scripting languages such as bash shell or Python or R, and programs, written in "traditional" programming languages such as C, C++, Fortran or Java. In the view of the Institute a 50 line bash shell script for manipulating and filtering files, a collection of 50 line R scripts for running a bioinformatics analysis, 10,000 lines of Java for medical image analysis or 100,000 lines of Fortran using MPI for computational fluid dynamics are all examples of research software and may be suitable candidates for deposit into a digital repository. It is this view of research software that is assumed throughout the guides.
 
 ## Guiding principles
 
@@ -25,17 +25,17 @@ The guiding principles that motivated the form and content of the guides were as
 
 **Mandate little, recommend lots, focus not on "best practice" but "good enough, or better than at present, practice"**. This was motivated by Beals et al. (2018) in particular the observation that "Incremental progress is still progress."
 
-**Emphasise the importance of deposits to allow others to inspect, replicate, reproduce, and reuse in the short term, and inspect, for the historical record, in the long term.** This was motivated by Brown (2017)'s argument that "[I]t is at least plausible to argue that we don't really care about our ability to exactly re-run a decade old computational analysis. What we do care about is our ability to figure out what was run and what the important decisions were -- something that Yolanda Gil refers to as 'inspectability.' But exact repeatability has a short shelf-life.".
+**Emphasise the importance of deposits to allow others to inspect, replicate, reproduce and reuse in the short term and inspect, for the historical record, in the long term.** This was motivated by Brown (2017)'s argument that "[I]t is at least plausible to argue that we don't really care about our ability to exactly re-run a decade old computational analysis. What we do care about is our ability to figure out what was run and what the important decisions were -- something that Yolanda Gil refers to as 'inspectability.' But exact repeatability has a short shelf-life.".
 
 **Take no position on whether or not to deposit binaries, containers or virtual machines.** Whether these provide solutions to issues around replicability, reproducibility and reuse of research software or spawn a different set of problems is very much an open question (compare, for example, Haines and Jay (2016) versus Brown (2017)). The guides do not mandate or suggest depositing such artefacts but nor do they preclude them.
 
-**Provide lists of key points or things to do, only a few pages long, with minimal rationale. Direct researchers to other resources for further information.** This was motivated by a recommendation in Brown et al. (2018) that guidance "for stakeholders e.g. researchers, research data managers, institutions and publishers, needs to speak their respective languages, not require significant time or effort to apply, and be free of developer jargon."
+**Provide lists of key points or things to do, only a few pages long, with minimal rationale. Direct researchers to other resources for further information.** This was motivated by a recommendation in Brown et al. (2018) that guidance "for stakeholders e.g. researchers, research data managers, institutions and publishers, needs to speak their respective languages, not require significant time or effort to apply and be free of developer jargon."
 
 **Consider deposits of software as attachments or ancillary files submitted alongside publications to publishers to be out-of-scope**. Instead, software is considered as a first class research object, worthy of deposit as an object in its own right. However, much of the guidance in these guides (especially what to deposit and how to describe such deposits) would apply to depositing software in this scenario too.
 
 ## Guides for software deposit
 
-The guides, their Zenodo DOIs, and their target audiences are as follows:
+The guides, their Zenodo DOIs and their target audiences are as follows:
 
 | Guide | Zenodo DOI | Researchers | Principal Investigators | Research Data Managers |
 | --- | --- | :---: | :---: | :---: |
@@ -77,7 +77,7 @@ Different digital repositories have different means of submission and different 
 
 ### What to deposit
 
-What do we mean by a "software deposit"? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term, and inspect the software, for the historical record, in the long term. "What to deposit" describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).
+What do we mean by a "software deposit"? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect the software, for the historical record, in the long term. "What to deposit" describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).
 
 ![What to deposit](./images/WhatToDeposit.png){#guidance-image}
 
@@ -101,7 +101,7 @@ By depositing software into a digital repository, a researcher is implicitly sta
 
 ### How to review a software deposit
 
-Digital repositories can differ in the deposits that they accept, the metadata requested from researchers, how researchers make their deposits, and how these deposits are processed. This includes how deposits are reviewed post-deposit and pre-publication, and the criteria that are used in these reviews. Despite the differences between individual digital repositories, there are some common checks that can be done for any software deposit. The nature and degree to which a software deposit can be reviewed depends upon the time, effort and expertise you have available. "How to review a software deposit" describes three approaches to reviewing a deposit: a quick  content review, a more detailed consistency review and a comprehensive review of quality, utility and usability.
+Digital repositories can differ in the deposits that they accept, the metadata requested from researchers, how researchers make their deposits and how these deposits are processed. This includes how deposits are reviewed post-deposit and pre-publication and the criteria that are used in these reviews. Despite the differences between individual digital repositories, there are some common checks that can be done for any software deposit. The nature and degree to which a software deposit can be reviewed depends upon the time, effort and expertise you have available. "How to review a software deposit" describes three approaches to reviewing a deposit: a quick  content review, a more detailed consistency review and a comprehensive review of quality, utility and usability.
 
 ![How to review a software deposit](./images/HowToReviewSoftwareDeposit.png){#guidance-image}
 
@@ -135,7 +135,7 @@ The following terms are used throughout the guides.
 
 ## Accessing the guides
 
-Each guide, plus this overview document, has been published via Zenodo. The DOIs of each guide are shown in the table above. The guides are also available online at [%BASE_URL%](%BASE_URL%) which will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits, and good research software generally, and why these are considered to be good.
+Each guide, plus this overview document, has been published via Zenodo. The DOIs of each guide are shown in the table above. The guides are also available online at [%BASE_URL%](%BASE_URL%) which will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits and good research software generally supported with commentary on why these are considered to be good.
 
 ## Acknowledgements
 
@@ -161,7 +161,7 @@ Goble, C. (2016) "What is Reproducibility? The R\* Brouhaha", Alan Turing Instit
 
 Haines, R., Jay. C. (2016) "Reproducible Research: Citing your execution environment using Docker and a DOI", The Software Sustainability Institute blog, 29 March 2016. [https://www.software.ac.uk/blog/2016-09-12-reproducible-research-citing-your-execution-environment-using-docker-and-doi](https://www.software.ac.uk/blog/2016-09-12-reproducible-research-citing-your-execution-environment-using-docker-and-doi)
 
-Jackson, M., Crouch, S., and Baxter, R. (2011) "Software Evaluation Guide", The Software Sustainability Institute. [https://www.software.ac.uk/resources/guides-everything/software-evaluation-guide](https://www.software.ac.uk/resources/guides-everything/software-evaluation-guide)
+Jackson, M., Crouch, S. and Baxter, R. (2011) "Software Evaluation Guide", The Software Sustainability Institute. [https://www.software.ac.uk/resources/guides-everything/software-evaluation-guide](https://www.software.ac.uk/resources/guides-everything/software-evaluation-guide)
 
 Penfold, N. (2018) "Sustainability in research communication", SSI CW18, March 2018. doi:[10.6084/m9.figshare.6033749.v2](https://doi.org/10.6084/m9.figshare.6033749.v2). [slide 19]
 
