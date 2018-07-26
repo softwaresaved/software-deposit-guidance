@@ -36,10 +36,10 @@ Check for minimal content
 Check that the deposit includes the following minimal, essential, content:
 
 * A simple README file which includes:
-  - Name of the software.
-  - Brief overview of the software, what it does (for example, what research problem it was written to solve) and what makes it novel (or different or distinct from similar software already available).
-  - Contact: Researcher's name, affiliation, current email address and (optionally) ORCiD identifier.
-  - Link to live software: for ongoing projects, links to their project web site and/or repository hosting service.
+    - Name of the software.
+    - Brief overview of the software, what it does (for example, what research problem it was written to solve) and what makes it novel (or different or distinct from similar software already available).
+    - Contact: Researcher's name, affiliation, current email address and (optionally) ORCiD identifier.
+    - Link to live software: for ongoing projects, links to their project web site and/or repository hosting service.
 * Copyright and licence information. This could be in the README file, a LICENCE file (or a similarly named file e.g. LICENSE, LICENCE.txt, LICENSE.txt, LICENCE.md, LICENSE.md, Licence.txt etc.), a licences/ (or licenses/) sub-directory or in other documentation files.
 * Authors and other contributors. This could be in the README file, a CONTRIBUTORS file (or a similarly named file e.g. CONTRIBUTORS.txt, CONTRIBUTORS.md, AUTHORS, CREDITS etc.) or in other documentation files.
 * Source code.
@@ -55,11 +55,11 @@ Check that the deposit does _not_ include the following files:
 Check for the following content, if you want to check whether the deposit theoretically provides enough content to allow other researchers to build, install, configure and run the software on sample data:
 
 * The README file also includes:
-  - Version number of the software.
-  - Copyright statement.
-  - Name of their licence and third-party licences.
-  - User documentation, or where in the deposit this can be found.
-  - Summary of the other contents of the deposit with information on where in the deposit these can be found.
+    - Version number of the software.
+    - Copyright statement.
+    - Name of their licence and third-party licences.
+    - User documentation, or where in the deposit this can be found.
+    - Summary of the other contents of the deposit with information on where in the deposit these can be found.
 * User documentation and dependencies documentation. This could be in various formats e.g. text (".txt"), Markdown (".md"), reStructuredText (".rst"), HTML (".html"), Microsoft Word (".doc", ".docx"), OpenDocument Text Document (".odt"), Adobe Portable Document Format (".pdf"). It may be located in a subdirectory of the deposit.
 * Sample input and output data.
 * Recommended citation e.g., a CITATION.cff file.
