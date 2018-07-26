@@ -3,7 +3,7 @@ title: "Software Deposit: When to deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
 doi: "[doi:%WHEN_DOI%](http://doi.org/%WHEN_DOI%)"
-url: "[%URL%/%WHEN_PATH%](%WHEN_PATH%)"
+url: "[%URL%/%WHEN_PATH%](%URL%/%WHEN_PATH%)"
 date: "%DATE%"
 ---
 
