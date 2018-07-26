@@ -1,7 +1,7 @@
 BASE_URL: %URL%
-DISPLAY_URL: %URL%/%VERSION%
+DISPLAY_URL: %URL%
 # Uncomment this if building PDFs.
-LINK_URL: %URL%/%VERSION%
+LINK_URL: %URL%
 # Uncomment this if building HTML.
 # LINK_URL: .
 VERSION: %VERSION%

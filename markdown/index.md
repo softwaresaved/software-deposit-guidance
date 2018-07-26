@@ -12,7 +12,7 @@ The [Software Sustainability Institute](https://www.software.ac.uk), funded by [
 
 ## Version 1.0
 
-[Software Deposit: Guidance for Researchers](./1.0/%GUIDANCE_PATH%). This overarching guide provides links to both online versions and PDFs deposited in Zenodo for all the guides in the series.
+[Software Deposit: Guidance for Researchers](./%GUIDANCE_PATH%). This overarching guide provides links to both online versions and PDFs deposited in Zenodo for all the guides in the series.
 
 ## Contributing
 
