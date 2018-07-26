@@ -46,12 +46,15 @@ PATTERN = re.compile("%.*?%")
 
 def load_tokens(token_file):
     """
-    Load keys and values from YAML file, token_file. Values must be
-    strings, integers, floats or booleans only.
-    For every TOKEN:VALUE in in file, a key-value pair,
-    %TOKEN%,VALUE, is added to a dict that is returned. A special
-    key-value pair, %DATE%,<CURRENT-DATE> is also added, where
-    the current date is of form, for example, "23 July 2018".
+    Load keys and values from YAML file, token_file.
+
+    Values must be strings, integers, floats or booleans only.
+
+    For every TOKEN:VALUE in file, a key-value pair,
+    %TOKEN%,VALUE, is added to a dict that is returned.
+
+    A special key-value pair, %DATE%,<CURRENT-DATE> is also added,
+    where the current date is of form, for example, "23 July 2018".
 
     :param token_file: file name
     :type token_file: str or unicode
@@ -67,6 +70,29 @@ def load_tokens(token_file):
     return tokens
 
 
+def replace_tokens_in_string(tokens, string):
+    """
+    Replace tokens with values in a string.
+
+    For every occurrence of a string of form %...%, look for a
+    corresponding token in tokens. If present, replace the string with
+    the corresponding value.
+
+    :param tokens: tokens and values
+    :rtype tokens: dict
+    :param string: string
+    :type str: str or unicode
+    :return: string with tokens replaced by values
+    :trype: str or unicode
+    """
+    matches = re.findall(PATTERN, string)
+    for match in matches:
+        if match in tokens:
+            # Convert to str in case value is a number
+            string = string.replace(match, str(tokens[match]))
+    return string
+
+
 def replace_tokens(tokens, src, dst):
     """
     Read an input file, replace tokens with values, write the
@@ -74,7 +100,8 @@ def replace_tokens(tokens, src, dst):
 
     Read src and for every occurrence of a string of form %...%,
     look for a corresponding token in tokens. If present, replace
-    the string with the corresponding value.
+    the string with the corresponding value. Write the updated
+    content to dst.
 
     :param tokens: tokens and values
     :rtype tokens: dict
@@ -87,11 +114,7 @@ def replace_tokens(tokens, src, dst):
     with open(src, "r") as f:
         lines = f.readlines()
     for line in lines:
-        matches = re.findall(PATTERN, line)
-        for match in matches:
-            if match in tokens:
-                # Convert to str in case value is a number
-                line = line.replace(match, str(tokens[match]))
+        line = replace_tokens_in_string(tokens, line)
         filtered.append(line)
     with open(dst, "w") as f:
         for line in filtered:
