@@ -1,5 +1,5 @@
 VERSION: 1.0
-URL: http://softwaresaved.github.io/software-deposit-guidance/1.0
+URL: http://softwaresaved.github.io/software-deposit-guidance
 GUIDANCE_DOI: 10.5281/zenodo.GuidanceDoi
 GUIDANCE_PATH: SoftwareDeposit.html
 WHY_DOI: 10.5281/zenodo.WhyDoi
