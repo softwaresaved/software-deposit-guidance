@@ -1,46 +1,46 @@
 h1.title
 {
-    text-align: center
+    text-align: center;
 }
 h2.author
 {
-    text-align: center
+    text-align: center;
 }
 h3.date
 {
-    text-align: center
+    text-align: center;
 }
 p.version, p.doi, p.url
 {
-    text-align: center
+    text-align: center;
 }
 p.caption
 {
-    text-align: center
+    text-align: center;
 }
 #jisc-logo, #ssi-logo
 {
-    height: 60px 
+    height: 60px;
 }
 #ccby-logo
 {
-    height: 40px 
+    height: 40px;
 }
 #logos-table
 { 
-    width: 100%
+    width: 100%;
 }
 #logos-left-cell
 { 
-    text-align: left
+    text-align: left;
 }
 #logos-right-cell
 { 
-    text-align: right
+    text-align: right;
 }
 #guidance-image
 {
-    width: 100% 
+    width: 100%;
 }
 table.center
 {
@@ -58,4 +58,9 @@ table, th, td
 .pagebreak
 { 
     page-break-after: always;
+}
+
+div.footnotes li
+{ 
+    font-size: 80%;
 }
