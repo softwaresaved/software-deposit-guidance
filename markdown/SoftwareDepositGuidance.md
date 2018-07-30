@@ -176,13 +176,13 @@ University of Edinburgh. "Benefits of deposit", The University of Edinburgh, [ht
 Wilson, G., Aruliah, D.A., Brown, C.T., Chue Hong, N.P. and Davis, M. (2014) "Best Practices for Scientific Computing", PLoS Biol 12(1): e1001745, January 2014. doi:[10.1371/journal.pbio.1001745](https://doi.org/doi:10.1371/journal.pbio.1001745).
 
 [^1]: The Software Sustainability Institute, [http://www.software.ac.uk](http://www.software.ac.uk)
-[^2]: Jisc, [http://www.jisc.ac.uk](http://www.jist.ac.uk)
+[^2]: Jisc, [http://www.jisc.ac.uk](http://www.jisc.ac.uk)
 [^3]: Archivematica, [https://www.archivematica.org/](https://www.archivematica.org/)
 [^4]: Preservica, [https://preservica.com/](https://preservica.com/)
 [^5]: Arkivum Perpetua, [https://arkivum.com/perpetua/](https://arkivum.com/perpetua/)
 [^6]: Zenodo, [https://zenodo.org](https://zenodo.org)
 [^7]: figshare, [https://figshare.com](https://figshare.com)
-[^8]: DSpace, [http://www.dpsace.org](http://www.dpsace.org)
+[^8]: DSpace, [http://www.dspace.org](http://www.dspace.org)
 [^9]: Samvera, [https://samvera.org](https://samvera.org)
 [^10]: GitHub, [https://github.com](https://github.com)
 [^11]: BitBucket, [https://bitbucket.com](https://bitbucket.com)
