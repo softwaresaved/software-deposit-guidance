@@ -101,7 +101,7 @@ Edit `config.yml`:
 * Ensure this line is commented-out. If not then do so.
 
 ```
-# LINK_URL: %URL%/%VERSION% 
+# LINK_URL: http://softwaresaved.github.io/software-deposit-guidance 
 ```
 
 * Ensure this line is uncommented. If not then do so.
@@ -127,10 +127,16 @@ Run:
 make check-links
 ```
 
+If any links are broken then this will fail with a message:
+
+```
+make: *** [check-links] Error 1
+```
+
 A report is created in `build/link-check.txt`. To just see the broken links, run:
 
 ```bash
-grep Real build/link-check.txt | sort
+grep Real build/link-check.txt | sort | uniq
 ```
 
 ### Publishing 
