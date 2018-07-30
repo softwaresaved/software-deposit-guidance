@@ -68,6 +68,12 @@ Install [pyyaml](https://pyyaml.org/):
 pip install pyyaml
 ```
 
+Install Microsoft TrueType core fonts:
+
+```bash
+apt-get install ttf-mscorefonts-installer
+```
+
 Install linkchecker:
 
 ```bash
