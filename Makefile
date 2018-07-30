@@ -1,7 +1,6 @@
 MDS = $(wildcard markdown/*.md)
 IMAGES = $(wildcard images/*.png)
 CSS = css/style.css
-PRECONFIG = preconfig.yml
 CONFIG = config.yml
 FILTER = scripts/replace_tokens.py
 TEMPLATE = templates/doc.html
@@ -10,7 +9,6 @@ WKHTMLTOPDF = wkhtmltopdf
 LINK_CHECKER = linkchecker --check-extern
 
 BUILD_DIR = build
-BUILD_CONFIG=$(BUILD_DIR)/$(CONFIG)
 BUILD_MD_DIR = $(BUILD_DIR)/markdown
 BUILD_HTML_DIR = $(BUILD_DIR)/html
 BUILD_PDF_DIR = $(BUILD_DIR)/pdf
@@ -28,11 +26,6 @@ all : commands
 clean :
 	@rm -rf $(BUILD_DIR)
 
-## preconfig : Replace tokens in configuration with preconfiguration values.
-$(BUILD_CONFIG) : $(FILTER) $(PRECONFIG) $(CONFIG) 
-	mkdir -p $(BUILD_DIR)
-	python $^ $@
-
 ## markdown  : Replace tokens in Markdown with configuration values.
 .PHONY : markdown
 markdown : $(BUILD_MD)
@@ -46,8 +39,9 @@ html : $(BUILD_HTML)
 pdf : $(BUILD_PDF)
 
 # Replace tokens in Markdown with configuration values.
-$(BUILD_MD_DIR)/%.md : $(FILTER) $(BUILD_CONFIG) markdown/%.md
+$(BUILD_MD_DIR)/%.md : $(FILTER) $(CONFIG) markdown/%.md
 	mkdir -p $(BUILD_MD_DIR)
+	echo python $^ $@
 	python $^ $@
 
 # Convert Markdown to HTML.
@@ -79,7 +73,6 @@ settings :
 	@echo 'MDS:' $(MDS)
 	@echo 'IMAGES:' $(IMAGES)
 	@echo 'CSS:' $(CSS)
-	@echo 'PRECONFIG:' $(PRECONFIG)
 	@echo 'CONFIG:' $(CONFIG)
 	@echo 'FILTER:' $(FILTER)
 	@echo 'TEMPLATE:' $(TEMPLATE)
@@ -87,7 +80,6 @@ settings :
 	@echo 'WKHTMLTOPDF:' $(WKHTMLTOPDF)
 	@echo 'LINK_CHECKER:' $(LINK_CHECKER)
 	@echo 'BUILD_DIR:' $(BUILD_DIR)
-	@echo 'BUILD_CONFIG:' $(BUILD_CONFOG)
 	@echo 'BUILD_MD_DIR:' $(BUILD_MD_DIR)
 	@echo 'BUILD_HTML_DIR:' $(BUILD_HTML_DIR)
 	@echo 'BUILD_PDF_DIR:' $(BUILD_PDF_DIR)

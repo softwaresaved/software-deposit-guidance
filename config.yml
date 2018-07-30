@@ -1,10 +1,10 @@
-BASE_URL: %URL%
-DISPLAY_URL: %URL%
-# Uncomment this if building PDFs.
-LINK_URL: %URL%
-# Uncomment this if building HTML.
+BASE_URL: http://softwaresaved.github.io/software-deposit-guidance
+DISPLAY_URL: http://softwaresaved.github.io/software-deposit-guidance
+# Uncomment this if creating PDFs:
+LINK_URL: http://softwaresaved.github.io/software-deposit-guidance
+# Uncomment this if creating HTML for web site publication:
 # LINK_URL: .
-VERSION: %VERSION%
+VERSION: 1.0
 GUIDANCE_DOI: 10.5281/zenodo.GuidanceDoi
 GUIDANCE_PATH: SoftwareDepositGuidance.html
 WHY_DOI: 10.5281/zenodo.WhyDoi
