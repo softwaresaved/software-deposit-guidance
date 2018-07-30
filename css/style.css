@@ -63,8 +63,17 @@ table, th, td
 { 
     page-break-after: always;
 }
-
 div.footnotes li
 { 
     font-size: 80%;
+}
+.figure { 
+  float: right;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
 }
