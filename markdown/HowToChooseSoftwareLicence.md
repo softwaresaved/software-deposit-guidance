@@ -11,15 +11,13 @@ date: "%DATE%"
 
 By depositing your software into a digital repository, you are implicitly stating that, at some point in time, you expect, or hope, someone will download it, with the aim of inspecting, replicating, reproducing or reusing your software. A software licence is an explicit, and legally-binding, statement of what others can, and cannot, do with your software and any obligations upon them. This guide provides an overview of the licensing options available - specifically open source licences, dual licencing and proprietary licences - and the key qualities of each in respect to allowing others to inspect, use and reuse your software.
 
+![How to choose a software licence](./images/HowToChooseSoftwareLicence.png){#licence-image}
+
 ## About this guide
 
 This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
-## Key points
-
-![How to choose a software licence](./images/HowToChooseSoftwareLicence.png){#guidance-image}
 
 ## What is copyright?
 

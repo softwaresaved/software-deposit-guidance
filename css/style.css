@@ -49,9 +49,26 @@ p.caption
 { 
     text-align: right;
 }
+/**
+    Image widths are chosen such that, when converted to PDFs, each HTML
+    page has both the Introduction and image on its first page i.e. 
+    the image is not placed on the second page.
+*/
+#why-image, #when-image, #where-image, #how-image, #what-image, #what-not-image, #describe-image, #review-image
+{
+    width: 1000px;
+}
+#licence-image
+{
+    width: 600px;
+}
 #guidance-image
 {
-    width: 100%;
+    height: 700px;
+}
+.figure
+{ 
+    text-align: center;
 }
 table.center
 {
@@ -73,11 +90,4 @@ table, th, td
 div.footnotes li
 { 
     font-size: 80%;
-}
-.figure { 
-    float: right;
-    width: 100%;
-    margin: 0.5em;
-    padding: 0.5em;
-    border: double;
 }

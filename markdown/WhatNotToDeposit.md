@@ -11,15 +11,13 @@ date: "%DATE%"
 
 A software deposit lodged within a digital repository can contain myriad content. But there is certain content that should not be included within a software deposit into a digital repository. Some of this content may be innocuous and only result in your deposit being more bloated than it otherwise needs to be. Some of this content may compromise your security. And, in the worst case, some of this content may result in you inadvertently breaking local laws relating to data protection. This guide summarises the content should not be deposited with your software.
 
+![What not to deposit](./images/WhatNotToDeposit.png){#what-not-image}
+
 ## About this guide
 
 This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
-## Key points
-
-![What not to deposit](./images/WhatNotToDeposit.png){#guidance-image}
 
 ## Sensitive personal information
 

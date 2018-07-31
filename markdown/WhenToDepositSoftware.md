@@ -11,15 +11,13 @@ date: "%DATE%"
 
 You may be convinced of the importance and benefits of depositing research software within a digital repository, so that the exact versions of your software upon which you have published your research results are retained and remains available for future inspection and use, both by yourself and by other researchers. But, you may ask, when is the best time to deposit your software? This guide poses a series of questions to ask yourself and, if the answer to any of these questions is "yes", then that is the time to deposit your software!
 
+![When to deposit software](./images/WhenToDepositSoftware.png){#when-image}
+
 ## About this guide
 
 This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
-## Key points
-
-![When to deposit software](./images/WhenToDepositSoftware.png){#guidance-image}
 
 ## Are you about to publish results derived from your software?
 

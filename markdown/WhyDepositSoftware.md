@@ -11,15 +11,13 @@ date: "%DATE%"
 
 Research software can be any collection of scripts or code written for, or used within, a research context. For example, a 50 line bash shell script for manipulating and filtering files, a collection of 50 line R scripts for running a bioinformatics analysis, 10,000 lines of Java for medical image analysis or 100,000 lines of Fortran using MPI for computational fluid dynamics are all examples of research software. But, why bother depositing research software into a digital repository? Why go to all that time and effort? What are the benefits to us as researchers for doing so? This guide describes some of the significant benefits that depositing research software delivers, both to you and to the research community. and also addresses concerns that you may have about sharing your software with others.
 
+![Why deposit software](./images/WhyDepositSoftware.png){#why-image}
+
 ## About this guide
 
 This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
-## Key points
-
-![Why deposit software](./images/WhyDepositSoftware.png){#guidance-image}
 
 ## Your software is retained and remains available for the future
 

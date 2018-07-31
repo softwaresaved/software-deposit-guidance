@@ -11,15 +11,13 @@ date: "%DATE%"
 
 You know why you want to deposit your software, have chosen when to do it and where and know what you need to deposit and how to describe it. Now you are ready to deposit your software in your chosen digital repository. Different digital repositories have different means of submission and different requirements as to the deposits they will accept, the metadata associated with these deposits and how deposits are done. However, regardless of the digital repository you are using, there are some common tasks that you should do before, during and after you deposit your software, which are described in this guide.
 
+![How to deposit software](./images/HowToDepositSoftware.png){#how-image}
+
 ## About this guide
 
 This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
-
-## Key points
-
-![How to deposit software](./images/HowToDepositSoftware.png){#guidance-image}
 
 ## Read the documentation provided by the digital repository
 
