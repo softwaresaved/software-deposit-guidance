@@ -2,8 +2,6 @@
 title: "Software Deposit Guidance for Researchers"
 ---
 
-# Introduction
-
 Research software is an integral part of the modern research ecosystem. Taken together, research software, alongside data, facilities, equipment and an overarching research question can be viewed as a research activity or experiment, worthy to be published. Conversely, a publication can be considered as a narrative that describes how the research objects are used together to reply to the research question.
 
 Depositing research software into a digital repository can offer significant benefits. By depositing not just papers, but software, and data sets, as well, researchers can store a more complete record of this ecosystem for future use to both the researchers who undertook the research and also the wider research community. Making research software available allows other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and to inspect, for the historical record, in the long term. It allows research software to remain available beyond the lifetime of any current project, or a researcher's current employment at a specific institution. Digital repositories can also provide unique persistent digital identifiers for software which can be cited and help researchers to get attribution and credit for their research software when it is used by others.
@@ -12,7 +10,18 @@ The [Software Sustainability Institute](https://www.software.ac.uk), funded by [
 
 ## Version 1.0
 
-[Software Deposit: Guidance for Researchers](./SoftwareDepositGuidance.html). This overarching guide provides links to both online versions and PDFs deposited in Zenodo for all the guides in the series.
+* [Software Deposit: Guidance for Researchers](./SoftwareDepositGuidance.html). This guide provides an overview of all the guides in the series.
+* [Why deposit software](%LINK_URL%/WhyDepositSoftware.html)
+* [When to deposit software](%LINK_URL%/WhenToDepositSoftware.html)
+* [Where to deposit software](%LINK_URL%/WhereToDepositSoftware.html)
+* [How to deposit software](%LINK_URL%/HowToDepositSoftware.html)
+* [What to deposit](%LINK_URL%/WhatToDeposit.html)
+* [What not to deposit](%LINK_URL%/WhatNotToDeposit.html)
+* [How to describe a software deposit](%LINK_URL%/HowToDescribeSoftwareDeposit.html)
+* [How to choose a software licence](%LINK_URL%/HowToChooseSoftwareLicence.html)
+* [How to review a software deposit](%LINK_URL%/HowToReviewSoftwareDeposit.html)
+
+The guides are also available as PDFs deposited within [Zenodo](https://zenodo.org/). Links to these PDFs are within each individual guide.
 
 ## Contributing
 
