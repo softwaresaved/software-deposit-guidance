@@ -2,7 +2,7 @@
 title: "Software Deposit: How to deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "doi:[%HOW_DOI%](http://doi.org/%HOW_DOI%)"
+doi: "doi:[%HOW_DOI%](https://doi.org/%HOW_DOI%)"
 url: "[%DISPLAY_URL%/HowToDepositSoftware.html](%LINK_URL%/HowToDepositSoftware.html)"
 date: "%DATE%"
 ---
@@ -13,7 +13,7 @@ You know why you want to deposit your software, have chosen when to do it and wh
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -116,10 +116,10 @@ If you are depositing into an institutional repository, your local research data
 Related Software deposit guides:
 
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%DISPLAY_URL%/WhatToDeposit.html](%LINK_URL%/WhatToDeposit.html).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_NOT_DOI%](http://doi.org/%WHAT_NOT_DOI%). Online: [%DISPLAY_URL%/WhatNotToDeposit.html](%LINK_URL%/WhatNotToDeposit.html).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. doi:[%DESCRIBE_DOI%](http://doi.org/%DESCRIBE_DOI%). Online: [%DISPLAY_URL%/HowToDescribeSoftwareDeposit.html](%LINK_URL%/HowToDescribeSoftwareDeposit.html).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. doi:[%REVIEW_DOI%](http://doi.org/%REVIEW_DOI%). Online: [%DISPLAY_URL%/HowToReviewSoftwareDeposit.html](%LINK_URL%/HowToReviewSoftwareDeposit.html).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](https://doi.org/%WHAT_DOI%). Online: [%DISPLAY_URL%/WhatToDeposit.html](%LINK_URL%/WhatToDeposit.html).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_NOT_DOI%](https://doi.org/%WHAT_NOT_DOI%). Online: [%DISPLAY_URL%/WhatNotToDeposit.html](%LINK_URL%/WhatNotToDeposit.html).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. doi:[%DESCRIBE_DOI%](https://doi.org/%DESCRIBE_DOI%). Online: [%DISPLAY_URL%/HowToDescribeSoftwareDeposit.html](%LINK_URL%/HowToDescribeSoftwareDeposit.html).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to review a software deposit (Version %VERSION%). Zenodo. doi:[%REVIEW_DOI%](https://doi.org/%REVIEW_DOI%). Online: [%DISPLAY_URL%/HowToReviewSoftwareDeposit.html](%LINK_URL%/HowToReviewSoftwareDeposit.html).
 
 Archive naming:
 

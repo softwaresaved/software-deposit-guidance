@@ -2,7 +2,7 @@
 title: "Software Deposit: How to choose a software licence"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%)"
+doi: "doi:[%LICENCE_DOI%](https://doi.org/%LICENCE_DOI%)"
 url: "[%DISPLAY_URL%/HowToChooseSoftwareLicence.html](%LINK_URL%/HowToChooseSoftwareLicence.html)"
 date: "%DATE%"
 ---
@@ -13,7 +13,7 @@ By depositing your software into a digital repository, you are implicitly statin
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 

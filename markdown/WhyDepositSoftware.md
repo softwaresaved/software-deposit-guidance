@@ -2,7 +2,7 @@
 title: "Software Deposit: Why deposit software"
 author: "Michael Jackson (ed.), The Software Sustainability Institute"
 version: "%VERSION%"
-doi: "doi:[%WHY_DOI%](http://doi.org/%WHY_DOI%)"
+doi: "doi:[%WHY_DOI%](https://doi.org/%WHY_DOI%)"
 url: "[%DISPLAY_URL%/WhyDepositSoftware.html](%LINK_URL%/WhyDepositSoftware.html)"
 date: "%DATE%"
 ---
@@ -13,7 +13,7 @@ Research software can be any collection of scripts or code written for, or used 
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](http://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -93,8 +93,8 @@ If your software is good enough for you to publish a paper with results based up
 
 Related Software deposit guides:
 
-* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](http://doi.org/%WHAT_DOI%). Online: [%DISPLAY_URL%/WhatToDeposit.html](%LINK_URL%/WhatToDeposit.html).
-* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](http://doi.org/%LICENCE_DOI%). Online: [%DISPLAY_URL%/HowToChooseSoftwareLicence.html](%LINK_URL%/HowToChooseSoftwareLicence.html).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](https://doi.org/%WHAT_DOI%). Online: [%DISPLAY_URL%/WhatToDeposit.html](%LINK_URL%/WhatToDeposit.html).
+* Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:[%LICENCE_DOI%](https://doi.org/%LICENCE_DOI%). Online: [%DISPLAY_URL%/HowToChooseSoftwareLicence.html](%LINK_URL%/HowToChooseSoftwareLicence.html).
 
 Articles and blog posts on why researchers should share and deposit research software:
 
