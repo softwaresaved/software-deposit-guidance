@@ -100,6 +100,20 @@ As an intermediate stage, it will create HTML documents in `build/html/`. These 
 
 To create HTML documents with relative inter-guide links (e.g. for hosting on a web site) see the next section.
 
+**Troubleshooting**
+
+If you see an error like:
+
+```
+terminate called after throwing an instance of 'std::bad_alloc'Page 2 of 5
+  what():  std::bad_alloc
+Makefile:57: recipe for target 'build/pdf/<FILENAME>.pdf' failed
+make: *** [build/pdf/<FILENAME>.pdf] Aborted (core dumped)
+make: *** Deleting file 'build/pdf/<FILENAME>.pdf'
+```
+
+then it may be that one or more image files used in the guide are too big and causing `wkhtmltopdf`, which creates PDFs, to run out of memory. Try resizing the images and try again.
+
 ### Create HTML guidance with relative inter-guide links
 
 Edit `config.yml`:
