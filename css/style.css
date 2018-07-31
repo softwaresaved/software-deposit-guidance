@@ -25,6 +25,9 @@ p.version, p.doi
 p.caption
 {
     text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100%;
 }
 #jisc-logo, #ssi-logo
 {
@@ -72,12 +75,9 @@ div.footnotes li
     font-size: 80%;
 }
 .figure { 
-  float: right;
-  width: 100%;
-  text-align: center;
-  font-style: italic;
-  font-size: smaller;
-  text-indent: 0;
-  margin: 0.5em;
-  padding: 0.5em;
+    float: right;
+    width: 100%;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: double;
 }
