@@ -13,7 +13,7 @@ A software deposit lodged within a digital repository can contain myriad content
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -57,9 +57,9 @@ Check that your content does not include temporary directories or files that oth
 
 If you are using a source code repository and are creating a software deposit from it, then make sure that you do not include the repository configuration files and directories within your deposit. Their presence in your deposit will unnecessarily bloat it.
 
-These files and directories can include ".git/" directories, ".hg/" directories, ".svn/" directories and "CVS/" directories. Git, Mercurial, Subversion and CVS all provide commands to get a copy of the source code repository without these repository configuration files and directories [^1].
+These files and directories can include ".git/" directories, ".hg/" directories, ".svn/" directories and "CVS/" directories. Git, Mercurial, Subversion and CVS all provide commands to get a copy of the source code repository without these repository configuration files and directories [^3].
 
-Tools that help deposit software from source code repositories into digital repositories, e.g., figshare-GitHub integration [^2] and Zenodo-GitHub integration [^3], ignore these repository configuration files automatically.
+Tools that help deposit software from source code repositories into digital repositories, e.g., figshare-GitHub integration [^4] and Zenodo-GitHub integration [^5], ignore these repository configuration files automatically.
 
 ## Unused source code
 
@@ -73,7 +73,7 @@ Including sample data files can be valuable for those who use your software depo
 
 Check your data files and ensure you are only depositing data files that are of use to others, for example sample inputs and the corresponding outputs.
 
-If you have published, or intend to publish, results based on your data files, then consider following the FAIR [^4] principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together [^5].
+If you have published, or intend to publish, results based on your data files, then consider following the FAIR [^6] principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together [^7].
 
 ## Unintended binary files and executables
 
@@ -95,8 +95,10 @@ Depositing research data:
 * DCC (2014). "Five steps to decide what data to keep: a checklist for appraising research data v.1". Edinburgh: Digital Curation Centre. Available online: [http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep](http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep)
 * Whyte, A. (2015). "Where to keep research data: DCC checklist for evaluating data repositories" v.1.1 Edinburgh: Digital Curation Centre. Available online: [http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data](http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data)
 
-[^1]: For example, "git archive", [https://git-scm.com/docs/git-archive](https://git-scm.com/docs/git-archive); "hg archive", [https://www.mercurial-scm.org/repo/hg/help/archive](https://www.mercurial-scm.org/repo/hg/help/archive); "svn export", [http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html); "cvs export", [https://www.gnu.org/software/trans-coord/manual/cvs/html\_node/export.html](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html)
-[^2]: How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-[^3]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-[^4]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples)
-[^5]: For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
+[^3]: For example, "git archive", [https://git-scm.com/docs/git-archive](https://git-scm.com/docs/git-archive); "hg archive", [https://www.mercurial-scm.org/repo/hg/help/archive](https://www.mercurial-scm.org/repo/hg/help/archive); "svn export", [http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html); "cvs export", [https://www.gnu.org/software/trans-coord/manual/cvs/html\_node/export.html](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html)
+[^4]: How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
+[^5]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
+[^6]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples)
+[^7]: For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.

@@ -13,7 +13,7 @@ You know why you want to deposit your software, have chosen when to do it and wh
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -47,13 +47,13 @@ Ask a colleague to check that your deposit will include everything you intend to
 
 ### Ask a colleague to review the quality, utility and usability of the intended content
 
-Ask a colleague to try to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. The disadvantage of such a review is that it requires a lot more time to do, though it provides the most comprehensive feedback on your software [^1]. You may want to refer them to the "Review quality, utility and usability" section in our guide on "Software Deposit: How to review a software deposit".
+Ask a colleague to try to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. The disadvantage of such a review is that it requires a lot more time to do, though it provides the most comprehensive feedback on your software [^3]. You may want to refer them to the "Review quality, utility and usability" section in our guide on "Software Deposit: How to review a software deposit".
 
 ## Decide how to deposit
 
 Most digital repositories support manual deposits by means of completing web-based forms and selecting the files you want to deposit.
 
-However, your digital repository may support tools which provide some form of automation for this process, depending upon where your source code, and related resources, are held. For example, if using GitHub and intending to deposit into Zenodo or figshare, then the figshare-GitHub integration [^2] or Zenodo-GitHub integration [^3] can automate much of the deposit process for you.
+However, your digital repository may support tools which provide some form of automation for this process, depending upon where your source code, and related resources, are held. For example, if using GitHub and intending to deposit into Zenodo or figshare, then the figshare-GitHub integration [^4] or Zenodo-GitHub integration [^5] can automate much of the deposit process for you.
 
 ## Make a manual deposit
 
@@ -61,7 +61,7 @@ However, your digital repository may support tools which provide some form of au
 
 Create a directory containing the contents of your deposit.
 
-Give the directory a meaningful name, e.g., "your-software-name/". If you have a software release process and use semantic versioning [^4] then name the directory using your version numbering scheme, e.g., "your-software-name.1.0.0/".
+Give the directory a meaningful name, e.g., "your-software-name/". If you have a software release process and use semantic versioning [^6] then name the directory using your version numbering scheme, e.g., "your-software-name.1.0.0/".
 
 Archive your directory into an archive file. Good formats to use for your archive file are ".zip", ".tar", ".tar.gz", ".tgz", or ".tar.bz2", all of which are popular open formats. Avoid using ".7z" or ".rar", as support for these is not available by default in current versions of Linux, Windows or MacOS.
 
@@ -125,7 +125,9 @@ Archive naming:
 
 * Raymond, E.S. (2000) Software Release Practice HOWTO, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/), has a good section on naming software archive files, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html).
 
-[^1]: This is a good thing to do regularly, regardless of whether you are depositing software or not. It can help to increase your software's bus factor ([https://en.wikipedia.org/wiki/Bus\_factor](https://en.wikipedia.org/wiki/Bus_factor)).
-[^2]: "How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-[^3]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-[^4]: Semantic Versioning, [https://semver.org/](https://semver.org/)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
+[^3]: This is a good thing to do regularly, regardless of whether you are depositing software or not. It can help to increase your software's bus factor ([https://en.wikipedia.org/wiki/Bus\_factor](https://en.wikipedia.org/wiki/Bus_factor)).
+[^4]: "How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
+[^5]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
+[^6]: Semantic Versioning, [https://semver.org/](https://semver.org/)

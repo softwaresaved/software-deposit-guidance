@@ -13,7 +13,7 @@ You may be convinced of the importance and benefits of depositing research softw
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -37,7 +37,7 @@ Even if you're not publishing results derived from your software and are only sh
 
 If your project is coming to an end then researchers may be leaving, resources may be freed up, you may no longer have a local resource upon which to host your software.
 
-While repository hosting services such as GitHub [^1], BitBucket [^2], GitLab [^3], CCPForge [^4] or Microsoft Visual Studio Team Services [^5] are great for hosting live software, they are not so good for archiving software that will no longer be under active development [^6].
+While repository hosting services such as GitHub [^3], BitBucket [^4], GitLab [^5], CCPForge [^6] or Microsoft Visual Studio Team Services [^7] are great for hosting live software, they are not so good for archiving software that will no longer be under active development [^8].
 
 They don't create unique persistent digital identifiers for your deposits (only URLs), repositories could be deleted by yourself later (breaking links to URLs in papers by you or others) or the repository hosting service may go out of business.
 
@@ -51,18 +51,20 @@ Your project might not be coming to an end but might be going into a hiatus due 
 
 You may be concerned that you deposit your software then other researchers use your software to generate results and publish these before you yourself have a chance to.
 
-There is a distinction between the time at which software is deposited into a digital repository and the time when it is published so that others can view it. Many digital repositories, including Zenodo [^7] and figshare [^8], allow you to **apply an embargo** which allows you to specify a date when you want the deposit to be made publicly available. So, for example, you could choose to set an embargo on your software deposit so that it is only made public after any related papers have been published.
+There is a distinction between the time at which software is deposited into a digital repository and the time when it is published so that others can view it. Many digital repositories, including Zenodo [^9] and figshare [^10], allow you to **apply an embargo** which allows you to specify a date when you want the deposit to be made publicly available. So, for example, you could choose to set an embargo on your software deposit so that it is only made public after any related papers have been published.
 
-A deposit can be embargoed for a long time. For example, Edinburgh DataShare supports embargos of up to 5 years [^9].
+A deposit can be embargoed for a long time. For example, Edinburgh DataShare supports embargos of up to 5 years [^11].
 
 Another advantage of embargoes is that you can prepare your deposit and describe it, via metadata, while the knowledge of the version of your software being deposited is fresh in your mind.
 
-[^1]: GitHub, [https://github.com/](https://github.com/)
-[^2]: BitBucket, [https://bitbucket.com/](https://bitbucket.com/)
-[^3]: GitLab, [https://gitlab.com](https://gitlab.com)
-[^4]: CCPForge, [https://ccpforge.cse.rl.ac.uk/gf/](https://ccpforge.cse.rl.ac.uk/gf/)
-[^5]: Microsoft Visual Studio Team Services, [https://www.visualstudio.com/team-services/](https://www.visualstudio.com/team-services/))
-[^6]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
-[^7]: Zenodo, [https://zenodo.org](https://zenodo.org)
-[^8]: figshare, [https://figshare.com](https://figshare.com)
-[^9]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
+[^3]: GitHub, [https://github.com/](https://github.com/)
+[^4]: BitBucket, [https://bitbucket.com/](https://bitbucket.com/)
+[^5]: GitLab, [https://gitlab.com](https://gitlab.com)
+[^6]: CCPForge, [https://ccpforge.cse.rl.ac.uk/gf/](https://ccpforge.cse.rl.ac.uk/gf/)
+[^7]: Microsoft Visual Studio Team Services, [https://www.visualstudio.com/team-services/](https://www.visualstudio.com/team-services/))
+[^8]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
+[^9]: Zenodo, [https://zenodo.org](https://zenodo.org)
+[^10]: figshare, [https://figshare.com](https://figshare.com)
+[^11]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist)

@@ -13,7 +13,7 @@ Digital repositories can differ in the deposits that they accept, the metadata r
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute, funded by Jisc. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
+This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
@@ -112,3 +112,6 @@ CodeMeta and codeMeta.json files:
 Software citation and CITATION.cff files:
 
 * Citation File Format (CFF), [https://citation-file-format.github.io/](https://citation-file-format.github.io/). A machine-readable approach to specifying the citation that others should use when citing your software.
+
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
