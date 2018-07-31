@@ -18,9 +18,9 @@ The [Software Sustainability Institute](https://www.software.ac.uk), funded by [
 
 For major suggestions or comments about the form or content of this guidance:
 
-1. Check that an existing [issue](https://github.com/softwaresaved/software-deposit-guidance/issues) has not already been created that may cover the scope of your suggestion or comment. 
+1. Check that an existing [issue](%GITHUB_URL%/issues) has not already been created that may cover the scope of your suggestion or comment. 
 2. If an existing issue already covers the scope of your suggestion or comment, then please add your own to the issue.
-3. If there isn't an applicable issue then please [create a new issue](https://github.com/softwaresaved/software-deposit-guidance/issues/new).
+3. If there isn't an applicable issue then please [create a new issue](%GITHUB_URL%/issues/new).
 
 For minor rewordings or rephrasings:
 
