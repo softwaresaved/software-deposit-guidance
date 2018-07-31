@@ -133,17 +133,33 @@ Run:
 make check-links
 ```
 
-If any links are broken then this will fail with a message:
+This will display the broken links, if any:
 
 ```
-make: *** [check-links] Error 1
+Extracting broken links from link report build/link-check.txt
+Broken links:
+Real URL   https://doi.org/10.5281/zenodo.DescribeDoi
+Real URL   https://doi.org/10.5281/zenodo.GuidanceDoi
+Real URL   https://doi.org/10.5281/zenodo.HowDoi
+Real URL   https://doi.org/10.5281/zenodo.LicenceDoi
+Real URL   https://doi.org/10.5281/zenodo.ReviewDoi
+Real URL   https://doi.org/10.5281/zenodo.WhatDoi
+Real URL   https://doi.org/10.5281/zenodo.WhatNotDoi
+Real URL   https://doi.org/10.5281/zenodo.WhenDoi
+Real URL   https://doi.org/10.5281/zenodo.WhereDoi
+Real URL   https://doi.org/10.5281/zenodo.WhyDoi
 ```
 
-A report is created in `build/link-check.txt`. To just see the broken links, run:
+If you see an error before this e.g.
 
-```bash
-grep Real build/link-check.txt | sort | uniq
 ```
+Makefile:66: recipe for target 'check-links' failed
+make: [check-links] Error 1 (ignored)
+```
+
+then this can be ignored (an error code of 1 means that the `linkchecker` program encountered one or more broken links).
+
+A full report is created in `build/link-check.txt`.
 
 ### Publishing 
 

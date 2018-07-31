@@ -58,9 +58,15 @@ $(BUILD_PDF_DIR)/%.pdf : $(BUILD_HTML_DIR)/%.html
 	$(WKHTMLTOPDF) $< $@
 
 ## check-links  : Check HTML links.
+# linkchecker fails with exit code 1 if there are broken. The
+# Makefile will continue to exit the remaining action to filter
+# the link report even if linkchecker fails in this way.
 .PHONY : check-links
 check-links : $(HTML)
-	$(LINK_CHECKER) $(BUILD_HTML_DIR)/*.html > $(LINK_REPORT)
+	-$(LINK_CHECKER) -Ftext/$(LINK_REPORT) $(BUILD_HTML_DIR)/*.html
+	@echo Extracting broken links from link report $(LINK_REPORT)
+	@echo Broken links:
+	@grep Real $(LINK_REPORT) | sort | uniq
 
 ## commands  : Display available commands.
 .PHONY : commands
