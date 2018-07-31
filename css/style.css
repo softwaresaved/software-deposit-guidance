@@ -9,10 +9,14 @@ h1.title
 h2.author
 {
     text-align: center;
+    font-weight: normal;
+    font-size: 100%;
 }
 h3.date
 {
     text-align: center;
+    font-weight: normal;
+    font-size: 100%;
 }
 p.version, p.doi, p.url
 {
