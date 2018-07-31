@@ -13,7 +13,7 @@ Research software is an integral part of the modern research ecosystem. Taken to
 
 Depositing research software into a digital repository can offer significant benefits. By depositing not just papers, but software, and data sets, as well, researchers can store a more complete record of this ecosystem for future use to both the researchers who undertook the research and also the wider research community. Making research software available allows other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and to inspect, for the historical record, in the long term. It allows research software to remain available beyond the lifetime of any current project, or a researcher's current employment at a specific institution. Digital repositories can also provide unique persistent digital identifiers for software which can be cited and help researchers to get attribution and credit for their research software when it is used by others.
 
-The Software Sustainability Institute [^1], funded by Jisc [^2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders and research data and digital repository managers. This document provides an overview of the guides in the set, which are available both within Zenodo and online at [%BASE_URL%](%BASE_URL%).
+The Software Sustainability Institute [^1], funded by Jisc [^2] have developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders and research data and digital repository managers. This document provides an overview of the content covered by the guides.
 
 ## What is research software?
 
@@ -33,85 +33,85 @@ The guiding principles that motivated the form and content of the guides were as
 
 **Consider deposits of software as attachments or ancillary files submitted alongside publications to publishers to be out-of-scope**. Instead, software is considered as a first class research object, worthy of deposit as an object in its own right. However, much of the guidance in these guides (especially what to deposit and how to describe such deposits) would apply to depositing software in this scenario too.
 
-## Guides for software deposit
+## Guides for software deposit {.pagebreak-before}
 
-The guides, their Zenodo DOIs and their target audiences are as follows:
+The guides and their target audiences are shown in the following table. Each guide, plus this overview document, has been published via Zenodo [^3] and the DOIs are shown below. The guides are also available online at [%BASE_URL%](%BASE_URL%) which will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits and good research software generally supported with commentary on why these are considered to be good.
 
-| Guide | Researchers | Principal Investigators | Research Data Managers | Zenodo DOI | Online |
+| Guide | Researchers | Principal Investigators | Research Data Managers | DOI |
 | --- | :---: | :---: | :---: | --- | --- |
-| Why deposit software | &#x2714; | &#x2714; | | [%WHY_DOI%](https://doi.org/%WHY_DOI%) | [%DISPLAY_URL%/WhyDepositSoftware.html](%LINK_URL%/WhyDepositSoftware.html) |
-| When to deposit software | &#x2714; | &#x2714; | | [%WHEN_DOI%](https://doi.org/%WHEN_DOI%) | [%DISPLAY_URL%/WhenToDepositSoftware.html](%LINK_URL%/WhenToDepositSoftware.html) |
-| Where to deposit software | &#x2714; | &#x2714; |   | [%WHERE_DOI%](https://doi.org/%WHERE_DOI%) | [%DISPLAY_URL%/WhereToDepositSoftware.html](%LINK_URL%/WhereToDepositSoftware.html) |
-| How to deposit software | &#x2714; |   |   | [%HOW_DOI%](https://doi.org/%HOW_DOI%) | [%DISPLAY_URL%/HowToDepositSoftware.html](%LINK_URL%/HowToDepositSoftware.html) |
-| What to deposit | &#x2714; |   | &#x2714; | [%WHAT_DOI%](https://doi.org/%WHAT_DOI%) | [%DISPLAY_URL%/WhatToDeposit.html](%LINK_URL%/WhatToDeposit.html) |
-| What not to deposit | &#x2714; |   | &#x2714; | [%WHAT_NOT_DOI%](https://doi.org/%WHAT_NOT_DOI%) | [%DISPLAY_URL%/WhatNotToDeposit.html](%LINK_URL%/WhatNotToDeposit.html) |
-| How to describe a software deposit | &#x2714; |   | &#x2714; | [%DESCRIBE_DOI%](https://doi.org/%DESCRIBE_DOI%) | [%DISPLAY_URL%/HowToDescribeSoftwareDeposit.html](%LINK_URL%/HowToDescribeSoftwareDeposit.html) |
-| How to choose a software licence | &#x2714; | &#x2714; |   | [%LICENCE_DOI%](https://doi.org/%LICENCE_DOI%) | [%DISPLAY_URL%/HowToChooseSoftwareLicence.html](%LINK_URL%/HowToChooseSoftwareLicence.html) |
-| How to review a software deposit | &#x2714; |   | &#x2714; | [%REVIEW_DOI%](https://doi.org/%REVIEW_DOI%) | [%DISPLAY_URL%/HowToReviewSoftwareDeposit.html](%LINK_URL%/HowToReviewSoftwareDeposit.html) |
+| Why deposit software | &#x2714; | &#x2714; | | [%WHY_DOI%](https://doi.org/%WHY_DOI%) |
+| When to deposit software | &#x2714; | &#x2714; | | [%WHEN_DOI%](https://doi.org/%WHEN_DOI%) |
+| Where to deposit software | &#x2714; | &#x2714; |   | [%WHERE_DOI%](https://doi.org/%WHERE_DOI%) |
+| How to deposit software | &#x2714; |   |   | [%HOW_DOI%](https://doi.org/%HOW_DOI%) |
+| What to deposit | &#x2714; |   | &#x2714; | [%WHAT_DOI%](https://doi.org/%WHAT_DOI%) |
+| What not to deposit | &#x2714; |   | &#x2714; | [%WHAT_NOT_DOI%](https://doi.org/%WHAT_NOT_DOI%) |
+| How to describe a software deposit | &#x2714; |   | &#x2714; | [%DESCRIBE_DOI%](https://doi.org/%DESCRIBE_DOI%) |
+| How to choose a software licence | &#x2714; | &#x2714; |   | [%LICENCE_DOI%](https://doi.org/%LICENCE_DOI%) |
+| How to review a software deposit | &#x2714; |   | &#x2714; | [%REVIEW_DOI%](https://doi.org/%REVIEW_DOI%) |
 
-A summary of the content of each guide is as follows.
+A summary of the content of each guide now follows.
 
-### Why deposit software
+## Why deposit software
+
+![Why deposit software](./images/WhyDepositSoftware.png){#guidance-why-image}
 
 Why bother depositing research software into a digital repository? Why go to all that time and effort? What are the benefits to researchers for doing so? "Why deposit software" describes some of the significant benefits that depositing research software delivers, both to individual researchers and to the research community. and also addresses concerns that they may have about sharing their software with others.
 
-![Why deposit software](./images/WhyDepositSoftware.png){#why-image}
+## When to deposit software {.pagebreak-before}
 
-### When to deposit software
+![When to deposit software](./images/WhenToDepositSoftware.png){#guidance-when-image}
 
 A researcher may be convinced of the importance and benefits of depositing research software within a digital repository, so that the exact versions of your software upon which they have published their research results are retained and remains available for future inspection and use, both by themselves and by other researchers. But, the researcher may then ask, when is the best time to deposit their software? "When to deposit software" poses a series of questions for researchers to ask themselves. If the answer to any of these questions is "yes", then that is the time for them to deposit their software.
 
-![When to deposit software](./images/WhenToDepositSoftware.png){#when-image}
+## Where to deposit software
 
-### Where to deposit software
+![Where to deposit software](./images/WhereToDepositSoftware.png){#guidance-where-image}
 
 There are myriad digital repositories where researchers can deposit their research software so that the exact versions of their software upon which they have published their research results are retained and remains available for future inspection and use, both by themselves and by other researchers. These digital repositories may be provided by their institutions, recommended, or mandated, by funders or publishers, or provided as a service to research communities by third-party organisations. "Why deposit software" provides advice to researchers on choosing where to deposit their software.
 
-![Where to deposit software](./images/WhereToDepositSoftware.png){#where-image}
+## How to deposit software {.pagebreak-before}
 
-### How to deposit software
+![How to deposit software](./images/HowToDepositSoftware.png){#guidance-how-image}
 
 Different digital repositories have different means of submission and different requirements as to the deposits they will accept, the metadata associated with these deposits and how deposits are done. However, regardless of the digital repository that a researcher will use, there are some common tasks that the researcher should do before, during and after they deposit their software. "How to deposit software" describes these tasks.
 
-![How to deposit software](./images/HowToDepositSoftware.png){#how-image}
+## What to deposit
 
-### What to deposit
+![What to deposit](./images/WhatToDeposit.png){#guidance-what-image}
 
 What do we mean by a "software deposit"? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect the software, for the historical record, in the long term. "What to deposit" describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).
 
-![What to deposit](./images/WhatToDeposit.png){#what-image}
+## What not to deposit {.pagebreak-before}
 
-### What not to deposit
+![What not to deposit](./images/WhatNotToDeposit.png){#guidance-what-not-image}
 
 A software deposit lodged within a digital repository can contain myriad content. But there is certain content that should not be included within a software deposit into a digital repository. Some of this content may be innocuous and only result in a deposit being more bloated than it otherwise needs to be. Some of this content may compromise a researcher's security. And, in the worst case, some of this content may result in a researcher inadvertently breaking local laws relating to data protection. "What not to deposit" summarises the content should not be deposited with a researcher's software.
 
-![What not to deposit](./images/WhatNotToDeposit.png){#what-not-image}
+## How to describe a software deposit
 
-### How to describe a software deposit
+![How to describe a software deposit](./images/HowToDescribeSoftwareDeposit.png){#guidance-describe-image}
 
 Papers can have titles, authors, abstracts, subject categories and keywords, all of which are metadata, data which describes the paper. These metadata help others to categorise and index papers and find papers of interest to them. Metadata can serve a similar purpose for software deposits, providing a description of a software deposit. This metadata can help a researcher get credit for their software, help digital repository managers categorise and index their software deposit and help other researchers find this software according to criteria of relevance to them. Researchers will need this metadata when depositing their software into a digital repository. "How to describe a software deposit" summarises the metadata researchers can, and should, capture.
 
-![How to describe a software deposit](./images/HowToDescribeSoftwareDeposit.png){#describe-image}
+## How to choose a software licence {.pagebreak-before}
 
-### How to choose a software licence
+![How to choose a software licence](./images/HowToChooseSoftwareLicence.png){#guidance-licence-image}
 
 By depositing software into a digital repository, a researcher is implicitly stating that, at some point in time, they expect, or hope, someone will download it, with the aim of inspecting, replicating, reproducing or reusing their software. A software licence is an explicit, and legally-binding, statement of what others can, and cannot, do with a researcher's software and any obligations upon them. "How to choose a software licence" provides an overview of the licensing options available -  specifically open source licences, dual licencing and proprietary licences - and the key qualities of each in respect to allowing others to inspect, use and reuse research software.
 
-![How to choose a software licence](./images/HowToChooseSoftwareLicence.png){#licence-image}
+## How to review a software deposit {.pagebreak-before}
 
-### How to review a software deposit
+![How to review a software deposit](./images/HowToReviewSoftwareDeposit.png){#guidance-review-image}
 
 Digital repositories can differ in the deposits that they accept, the metadata requested from researchers, how researchers make their deposits and how these deposits are processed. This includes how deposits are reviewed post-deposit and pre-publication and the criteria that are used in these reviews. Despite the differences between individual digital repositories, there are some common checks that can be done for any software deposit. The nature and degree to which a software deposit can be reviewed depends upon the time, effort and expertise you have available. "How to review a software deposit" describes three approaches to reviewing a deposit: a quick  content review, a more detailed consistency review and a comprehensive review of quality, utility and usability.
 
-![How to review a software deposit](./images/HowToReviewSoftwareDeposit.png){#review-image}
-
-### Glossary
+## Glossary
 
 The following terms are used throughout the guides.
 
-**Digital preservation system:** a repository, archive or service that also hosts digital artefacts, including research outputs, but also implements strategies to afford long term access to the digital artefacts, in the face of technological changes. For example, Archivematica [^3]. Preservica [^4] or Arkivum Perpetua [^5].
+**Digital preservation system:** a repository, archive or service that also hosts digital artefacts, including research outputs, but also implements strategies to afford long term access to the digital artefacts, in the face of technological changes. For example, Archivematica [^4]. Preservica [^5] or Arkivum Perpetua [^6].
 
-**Digital repository** : a repository, archive or service that hosts digital artefacts, including research outputs such as papers, presentations, data sets and software. For example, Zenodo [^6], figshare [^7], DSpace [^8] or Samvera [^9].
+**Digital repository** : a repository, archive or service that hosts digital artefacts, including research outputs such as papers, presentations, data sets and software. For example, Zenodo [^3], figshare [^7], DSpace [^8] or Samvera [^9].
 
 **Inspect:** read source code, supporting narratives and papers to understand what was run, the environment in which it was run, important decisions that were made, how results were produced and to identify any flaws.
 
@@ -132,10 +132,6 @@ The following terms are used throughout the guides.
 **Research software** or **software** : see **research software**.
 
 **Source code repository** is a version control tool, revision control system, source code management tool or source code repository i.e. any tool that manages versions of source code and related files. For example, Git, Mercurial, Subversion or Microsoft Team Foundation Version Control.
-
-## Accessing the guides
-
-Each guide, plus this overview document, has been published via Zenodo. The DOIs of each guide are shown in the table above. The guides are also available online at [%BASE_URL%](%BASE_URL%) which will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits and good research software generally supported with commentary on why these are considered to be good.
 
 ## Acknowledgements
 
@@ -177,12 +173,16 @@ University of Edinburgh. "Benefits of deposit", The University of Edinburgh, [ht
 
 Wilson, G., Aruliah, D.A., Brown, C.T., Chue Hong, N.P. and Davis, M. (2014) "Best Practices for Scientific Computing", PLoS Biol 12(1): e1001745, January 2014. doi:[10.1371/journal.pbio.1001745](https://doi.org/doi:10.1371/journal.pbio.1001745).
 
+## Licence
+
+![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
+
 [^1]: The Software Sustainability Institute, [http://www.software.ac.uk](http://www.software.ac.uk)
 [^2]: Jisc, [http://www.jisc.ac.uk](http://www.jisc.ac.uk)
-[^3]: Archivematica, [https://www.archivematica.org/](https://www.archivematica.org/)
-[^4]: Preservica, [https://preservica.com/](https://preservica.com/)
-[^5]: Arkivum Perpetua, [https://arkivum.com/perpetua/](https://arkivum.com/perpetua/)
-[^6]: Zenodo, [https://zenodo.org](https://zenodo.org)
+[^3]: Zenodo, [https://zenodo.org](https://zenodo.org)
+[^4]: Archivematica, [https://www.archivematica.org/](https://www.archivematica.org/)
+[^5]: Preservica, [https://preservica.com/](https://preservica.com/)
+[^6]: Arkivum Perpetua, [https://arkivum.com/perpetua/](https://arkivum.com/perpetua/)
 [^7]: figshare, [https://figshare.com](https://figshare.com)
 [^8]: DSpace, [http://www.dspace.org](http://www.dspace.org)
 [^9]: Samvera, [https://samvera.org](https://samvera.org)

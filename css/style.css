@@ -29,6 +29,35 @@ p.caption
     font-weight: bold;
     font-size: 100%;
 }
+.figure
+{ 
+    text-align: center;
+}
+table.center
+{
+    margin-left:auto; 
+    margin-right:auto;
+}
+table, th, td
+{
+   border: 1px solid black;
+}
+.noborder, .noborder tr, .noborder th, .noborder td
+{
+    border: none;
+}
+.pagebreak-after
+{ 
+    page-break-after: always;
+}
+.pagebreak-before
+{ 
+    page-break-before: always;
+}
+div.footnotes li
+{ 
+    font-size: 80%;
+}
 #jisc-logo, #ssi-logo
 {
     height: 60px;
@@ -62,32 +91,11 @@ p.caption
 {
     width: 600px;
 }
-#guidance-image
+#guidance-why-image, #guidance-when-image, #guidance-where-image, #guidance-how-image, #guidance-what-image, #guidance-describe-image, #guidance-licence-image, #guidance-review-image
 {
-    height: 700px;
+    width: 700px;
 }
-.figure
-{ 
-    text-align: center;
-}
-table.center
+#guidance-what-not-image
 {
-    margin-left:auto; 
-    margin-right:auto;
-}
-table, th, td
-{
-   border: 1px solid black;
-}
-.noborder, .noborder tr, .noborder th, .noborder td
-{
-    border: none;
-}
-.pagebreak
-{ 
-    page-break-after: always;
-}
-div.footnotes li
-{ 
-    font-size: 80%;
+    width: 500px;
 }
