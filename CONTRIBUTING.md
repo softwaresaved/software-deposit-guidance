@@ -12,8 +12,7 @@ For minor rewordings or rephrasings:
 * Or create a pull request with the suggested changes:
     - Fork this repository into your own GitHub account.
     - Check out the `master` branch.
-    - Read [README.md](./README.md) on how to build the guidance locally.
+    - Read [README.md](./README.md) on how to edit and build the guidance locally.
     - Make your changes to your local fork.
-    - Regenerate the HTML and, optionally, PDFs, to ensure your changes look OK.
+    - Regenerate the HTML, SVGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
     - When you are ready to contribute your changes, submit a pull request.
-    - Note that changes to diagrams will require editing the diagrams in [images-src/Workflows.pptx](./images-src/Workflows.pptx) then exporting these as PNG files and saving them in [images/](./images)
