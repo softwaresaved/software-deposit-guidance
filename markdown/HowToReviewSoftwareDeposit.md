@@ -21,13 +21,13 @@ This guide is one of a series of guides on software deposit, written by The Soft
 
 A content review has the advantage that it is quick to assess whether a deposit contains, or does not contain, content essential, or useful, for other researchers. However, the content review does not assess the quality, accuracy or consistency of these contents.
 
-## Check deposit archive
+### Check deposit archive
 
-Check that the deposit is in a popular open archive format i.e. one of ".zip", ".tar", ".tar.gz", ".tgz", or ".tar.bz2".
+Check that the deposit is in a popular open archive format i.e. one of ".zip", ".tar", ".tar.gz", ".tgz", or ".tar.bz2". ".7z" or ".rar" should be avoided as support for these is not available by default in current versions of Linux, Windows or MacOS.
 
 Unpack the deposit archive file to ensure that it has not been corrupted and can be unpacked successfully.
 
-Check for minimal content
+### Check for minimal content
 
 Check that the deposit includes the following minimal, essential, content:
 
@@ -115,5 +115,5 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: How to review 
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
