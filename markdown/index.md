@@ -23,9 +23,11 @@ The [Software Sustainability Institute](https://www.software.ac.uk), funded by [
 * [How to choose a software licence](%LINK_URL%/HowToChooseSoftwareLicence.html)
 * [How to review a software deposit](%LINK_URL%/HowToReviewSoftwareDeposit.html)
 
-The guides are also available as PDFs deposited within [Zenodo](https://zenodo.org/). Links to these PDFs are within each individual guide.
+The guides are also available as PDFs deposited within [Zenodo](https://zenodo.org/). Their DOIs, and links to these, can be accessed via "Software Deposit: Guidance for Researchers" or from within each guide.
 
 ## Contributing
+
+Contributions are accepted via our [software-deposit-guidance](%GITHUB_URL%) repository on GitHub.
 
 For major suggestions or comments about the form or content of this guidance:
 
@@ -37,17 +39,16 @@ For minor rewordings or rephrasings:
 
 * Either raise an issue, as above.
 * Or create a pull request with the suggested changes:
-    - Fork this repository into your own GitHub account.
+    - Fork the GitHub repository into your own GitHub account.
     - Check out the `master` branch.
-    - Read README.md in the `master` branch on how to build the guidance locally.
+    - Read README.md in the `master` branch on how to edit and build the guidance locally.
     - Make your changes to your local fork.
-    - Regenerate the HTML and, optionally, PDFs, to ensure your changes look OK.
+    - Regenerate the HTML, SVGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
     - When you are ready to contribute your changes, submit a pull request.
-    - Note that changes to diagrams will require editing the diagrams in `images-src/Workflows.pptx` then exporting these as PNG files and saving them in `images/`.
 
 ## About this guidance
 
-This guidance was an output of the JISC-RDSS Software Deposit and Preservation which ran from October 2017 to August 2018. For more information about this project, please see the following blog posts and reports:
+This guidance was an output of the JISC-RDSS Software Deposit and Preservation project which ran from October 2017 to August 2018. For more information about this project, please see the following blog posts and reports:
 
 * Jackson, M. [Software Deposit and Preservation Workshop](https://www.software.ac.uk/blog/2018-07-24-software-deposit-and-preservation-workshop), The Software Sustainability Institute blog, July 2018.
 * Brown, C., Chue Hong, N., Jackson, M. (eds) (2018) Software Deposit and Preservation Policy and Planning Workshop Report 1.1, The Software Sustainability Institute and Jisc, 4 July 2018. doi: [10.5281/zenodo.1304912](https://dx.doi.org/10.5281/zenodo.1304912)
