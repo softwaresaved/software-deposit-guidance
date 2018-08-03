@@ -5,7 +5,7 @@ CONFIG = config.yml
 FILTER = scripts/replace_tokens.py
 TEMPLATE = templates/doc.html
 PANDOC = pandoc
-WKHTMLTOPDF = wkhtmltopdf
+WKHTMLTOPDF = wkhtmltopdf --disable-smart-shrinking
 LINK_CHECKER = linkchecker --check-extern
 
 BUILD_DIR = build
