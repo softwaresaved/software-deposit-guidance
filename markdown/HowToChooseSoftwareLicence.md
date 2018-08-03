@@ -9,7 +9,7 @@ date: "%DATE%"
 
 ## Introduction
 
-By depositing your software into a digital repository, you are implicitly stating that, at some point in time, you expect, or hope, someone will download it, with the aim of inspecting, replicating, reproducing or reusing your software. A software licence is an explicit, and legally-binding, statement of what others can, and cannot, do with your software and any obligations upon them. This guide provides an overview of the licensing options available - specifically open source licences, dual licencing and proprietary licences - and the key qualities of each in respect to allowing others to inspect, use and reuse your software.
+By depositing your software into a digital repository, you are implicitly stating that, at some point in time, you expect, or hope, someone will download it, with the aim of inspecting, replicating, reproducing or reusing your research. A software licence is an explicit, and legally-binding, statement of what others can, and cannot, do with your software and any obligations upon them. This guide provides an overview of the licensing options available - specifically open source licences, proprietary licences and dual licencing - and the key qualities of each in respect to allowing others to inspect, use and reuse your software.
 
 ![How to choose a software licence](./images/HowToChooseSoftwareLicence.png){#licence-image}
 
@@ -27,7 +27,7 @@ Jisc's guide to "Copyright law" defines a licence as a "a contractual agreement 
 
 ## Why share source code?
 
-Binaries such as executables, Docker [^5] or Singularity [^6] containers or virtual machines [^7] can support replicability and reuse. Depending on the implementation (e.g. how configurable they are) they may also support reproducibility. However, they do not allow others to inspect your software to understand exactly what was run and how your results were produced. A complementary paper may provide this information but the paper does not produce your results, the source code that you run does.
+Binaries such as executables, Docker [^5] or Singularity [^6] containers or virtual machines [^7] can support replicability and reuse. Depending on the implementation (e.g. how configurable they are) they may also support reproducibility. However, they do not allow others to inspect your software to understand exactly what was run and how your results were produced. A complementary paper may provide this information but the paper does not produce your results, the source code that you run does. Source code has a value even if it no longer can be compiled or run, serving as a programmatic description of the research that was done.
 
 ## Open source licences
 
@@ -37,7 +37,7 @@ Even if your funders or other stakeholders do not require you to release your so
 
 ### OSI-approved open source licences
 
-The global non-profit Open Source Initiative (OSI) [^9] has produced an "Open Source Definition" [^10]. This promotes a shared understanding of, and a consensus around, the term "open source". The OSI use this definition, along with criteria including clarity and simplicity to accredit licences, which are termed "OSI-approved". Most of the popular open source licences are OSI-approved.
+The global non-profit Open Source Initiative (OSI) [^9] has produced an "Open Source Definition" [^10]. This promotes a shared understanding of, and a consensus around, the term "open source". The OSI use this definition, along with criteria, including the clarity and simplicity of a licence, to accredit licences, which are termed "OSI-approved". Most of the popular open source licences are OSI-approved.
 
 If choosing an open source licence, then adopt one that is OSI-approved, has been through this community-driven accreditation process, is widely used and is well understood.
 
@@ -45,7 +45,7 @@ If choosing an open source licence, then adopt one that is OSI-approved, has bee
 
 One class of open source licences are free open source licences, where free refers to freedom, not zero-cost. In essence, free open source licences allow anyone to customise or extend the source code and then release a binary of this modified code. However, they require that the source code of the changes also be distributed. Free open source licences are intended to preserve the freedom to inspect, redistribute and modify source code.
 
-Free open source licences may deter commercial exploitation, as companies may not be willing to use software that requires releasing the source code of any modifications they make. However, they do keep the source code available, even in the presence of modifications by others.
+Free open source licences may deter commercial exploitation, as companies may not be willing to use software that requires them to release the source code of any modifications they make. However, they do keep the source code available, even in the presence of modifications by others.
 
 Examples of popular OSI-approved free open source licences include GNU General Public License 3 [^11] and the Mozilla Public License [^12].
 
@@ -53,7 +53,7 @@ Examples of popular OSI-approved free open source licences include GNU General P
 
 Permissive open source licences allow anyone to customise or extend the source code and then release a binary of this modified code. However, unlike free open source licences, there is no obligation to release the source code of the changes.
 
-Permissive open source licences can encourage commercial exploitation, as companies may be more willing to use software that does not requires releasing the source code of any modifications they make. Your software could be commercially exploited but you won't get any financial benefit from it.
+Permissive open source licences can encourage commercial exploitation, as companies may be more willing to use software that does not require them to release the source code of any modifications they make. Your software could be commercially exploited but you won't get any financial benefit from it.
 
 Examples of popular OSI-approved permissive open source licences include the Apache 2 License [^13], 3-clause BSD License [^14] and the MIT Public Licence [^15].
 
@@ -73,7 +73,7 @@ An example of dual licensed software is MIT's FFTW [^19] Fourier transform libra
 
 There can be many factors that can constrain both your statement of copyright and the licence you could choose. Ask yourself, and your fellow stakeholders, the following questions.
 
-**Who owns the copyright?** If you are an employee of an institution or company, check your contract and with your employer, since they may own the copyright on any work you do as an employee. If you are part of a collaboration, then copyright may be shared across all institutions or companies in that collaboration.
+**Who owns the copyright?** If you are an employee of an institution or company, check your contract with your employer, since they may own the copyright on any work you do as an employee. If you are part of a collaboration, then copyright may be shared across all institutions or companies in that collaboration.
 
 **Is the copyright owner a legal entity?** Copyright holders must be legal entities such as people, companies, institutions, or groups of these.
 
@@ -131,27 +131,27 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose 
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
-[^3]: "Intellectual property law", Jisc, 2014, [https://www.jisc.ac.uk/guides/intellectual-property-law](https://www.jisc.ac.uk/guides/intellectual-property-law)
-[^4]: "Copyright law", Jisc, 2014, [https://www.jisc.ac.uk/guides/copyright-law](https://www.jisc.ac.uk/guides/copyright-law)
-[^5]: Docker, [https://www.docker.com/](https://www.docker.com/)
-[^6]: Singularity, [http://singularity.lbl.gov/](http://singularity.lbl.gov/)
-[^7]: "Virtual machine", Wikipedia, [https://en.wikipedia.org/wiki/Virtual\_machine](https://en.wikipedia.org/wiki/Virtual_machine)
-[^8]: "5. License Grant to Other Users", GitHub, [https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership](https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership)
-[^9]: Open Source Initiative (OSI), [https://opensource.org](https://opensource.org)
-[^10]: Open Source Definition", Open Source Initiative (OSI), [http://opensource.org/osd](http://opensource.org/osd)
-[^11]: "GNU General Public License version 3", GNU, [http://www.gnu.org/licenses/gpl-3.0.en.html](http://www.gnu.org/licenses/gpl-3.0.en.html)
-[^12]: "Mozilla Public License", Mozilla, [https://www.mozilla.org/en-US/MPL](https://www.mozilla.org/en-US/MPL)
-[^13]: "Apache 2 License", Apache, [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
-[^14]: "3-Clause BSD License", Open Source Initiative, [https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
-[^15]: "MIT Public License, Open Source Initiative, [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
-[^16]: The HSL Mathematical Software Library, [http://www.hsl.rl.ac.uk](http://www.hsl.rl.ac.uk)
-[^17]: "HSL Licencing", The HSL Mathematical Software Library, [http://www.hsl.rl.ac.uk/licencing.html](http://www.hsl.rl.ac.uk/licencing.html)
-[^18]: Yeates, S. (2006) "Dual licensing", OSS Watch, May 2006, [http://oss-watch.ac.uk/resources/duallicence](http://oss-watch.ac.uk/resources/duallicence)
-[^19]: FFTW, [http://www.fftw.org/](http://www.fftw.org/)
-[^20]: "License and Copyright", FFTW, [http://www.fftw.org/doc/License-and-Copyright.html](http://www.fftw.org/doc/License-and-Copyright.html)
-[^21]: "Software & source code", Wellcome Open Research, [https://wellcomeopenresearch.org/for-authors/data-guidelines](https://wellcomeopenresearch.org/for-authors/data-guidelines)
-[^22]: "Licence compatibility", Wikipedia, [https://en.wikipedia.org/wiki/License\_compatibility](https://en.wikipedia.org/wiki/License_compatibility)
-[^23]: "Is the normal exclusion of liability and warranties in open-source licenses effective in Germany?", Institute for Legal Questions on Free and Open Source Software, [http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany](http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany)
-[^24]: "request" not "require". For a related discussion, see "Is there an open-source license that enforces citations?", Academia StackExchange, October 2017, [https://academia.stackexchange.com/questions/97480/is-there-an-open-source-license-that-enforces-citations](https://academia.stackexchange.com/questions/97480/is-there-an-open-source-license-that-enforces-citations)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
+[^3]: "Intellectual property law", Jisc, 2014, [https://www.jisc.ac.uk/guides/intellectual-property-law](https://www.jisc.ac.uk/guides/intellectual-property-law).
+[^4]: "Copyright law", Jisc, 2014, [https://www.jisc.ac.uk/guides/copyright-law](https://www.jisc.ac.uk/guides/copyright-law).
+[^5]: Docker, [https://www.docker.com/](https://www.docker.com/).
+[^6]: Singularity, [http://singularity.lbl.gov/](http://singularity.lbl.gov/).
+[^7]: "Virtual machine", Wikipedia, [https://en.wikipedia.org/wiki/Virtual\_machine](https://en.wikipedia.org/wiki/Virtual_machine).
+[^8]: "5. License Grant to Other Users", GitHub, [https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership](https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership).
+[^9]: Open Source Initiative (OSI), [https://opensource.org](https://opensource.org).
+[^10]: Open Source Definition", Open Source Initiative (OSI), [http://opensource.org/osd](http://opensource.org/osd).
+[^11]: "GNU General Public License version 3", GNU, [http://www.gnu.org/licenses/gpl-3.0.en.html](http://www.gnu.org/licenses/gpl-3.0.en.html).
+[^12]: "Mozilla Public License", Mozilla, [https://www.mozilla.org/en-US/MPL](https://www.mozilla.org/en-US/MPL).
+[^13]: "Apache 2 License", Apache, [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
+[^14]: "3-Clause BSD License", Open Source Initiative, [https://opensource.org/licenses/BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
+[^15]: "MIT Public License, Open Source Initiative, [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT).
+[^16]: The HSL Mathematical Software Library, [http://www.hsl.rl.ac.uk](http://www.hsl.rl.ac.uk).
+[^17]: "HSL Licencing", The HSL Mathematical Software Library, [http://www.hsl.rl.ac.uk/licencing.html](http://www.hsl.rl.ac.uk/licencing.html).
+[^18]: Yeates, S. (2006) "Dual licensing", OSS Watch, May 2006, [http://oss-watch.ac.uk/resources/duallicence](http://oss-watch.ac.uk/resources/duallicence).
+[^19]: FFTW, [http://www.fftw.org/](http://www.fftw.org/).
+[^20]: "License and Copyright", FFTW, [http://www.fftw.org/doc/License-and-Copyright.html](http://www.fftw.org/doc/License-and-Copyright.html).
+[^21]: "Software & source code", Wellcome Open Research, [https://wellcomeopenresearch.org/for-authors/data-guidelines](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+[^22]: "Licence compatibility", Wikipedia, [https://en.wikipedia.org/wiki/License\_compatibility](https://en.wikipedia.org/wiki/License_compatibility).
+[^23]: "Is the normal exclusion of liability and warranties in open-source licenses effective in Germany?", Institute for Legal Questions on Free and Open Source Software, [http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany](http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany).
+[^24]: "request" not "require". For a related discussion, see "Is there an open-source license that enforces citations?", Academia StackExchange, October 2017, [https://academia.stackexchange.com/questions/97480/is-there-an-open-source-license-that-enforces-citations](https://academia.stackexchange.com/questions/97480/is-there-an-open-source-license-that-enforces-citations).
