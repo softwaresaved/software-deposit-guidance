@@ -175,6 +175,8 @@ then this can be ignored (an error code of 1 means that the `linkchecker` progra
 
 A full report is created in `build/link-check.txt`.
 
+**Beware:** Linkchecker may not detect broken links within domains that have `robots.txt` files e.g. `https://github.com/softwaresaved/nosuchrepository` would not be flagged as an error as GitHub uses `robots.txt` files. See the Linkchecker FAQ, [Q:I still get an error, but the page is definitely ok](https://wummel.github.io/linkchecker/faq.html), for another issue with `robots.txt` files.
+
 ### Publishing 
 
 The online version of the guidance is published in the `gh-pages` branch of this repository. This can be updated as follows.
