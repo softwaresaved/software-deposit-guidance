@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Michael Jackson (ed.), The Software Sustainability Institute" />
+  <meta name="date" content="2018-08-03" />
+  <title>Software Deposit: Where to deposit software</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+
+<table id="logos-table" class="center noborder">
+<tr>
+<td id="logos-left-cell">
+<a href="https://www.software.ac.uk">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</a>
+</td>
+<td id="logos-right-cell">
+<a href="https://www.jisc.ac.uk">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/>
+</a>
+</td>
+</table>
+
+<div id="header">
+<h1 class="title">Software Deposit: Where to deposit software</h1>
+<h2 class="author">Michael Jackson (ed.), The Software Sustainability Institute</h2>
+<p class="version">Version 1.0<p>
+<p class="doi">doi:<a href="https://doi.org/10.5281/zenodo.WhereDoi">10.5281/zenodo.WhereDoi</a><p>
+<h3 class="date">03 August 2018</h3>
+</div>
+
+<p class="caution">
+Please note that, while you are welcome to have a look, these guides have not yet been officially published. The guides are currently being prepared for deposit in Zenodo. At that time the dates on these web pages will be updated to match the publication date and the guides' DOIs, issued by Zenodo, will be inserted.
+</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>There are myriad digital repositories where you can deposit your research software so that the exact versions of your software upon which you have published your research results are retained and remain available for future inspection and use, both by yourself and by other researchers. These digital repositories may be provided by your institution, recommended, or mandated, by funders or publishers, or provided as a service to research communities by third-party organisations. This guide provides advice on choosing where to deposit your software.</p>
+<div class="figure">
+<img src="./images/WhereToDepositSoftware.png" alt="Where to deposit software" id="where-image" />
+<p class="caption">Where to deposit software</p>
+</div>
+<h2 id="about-this-guide">About this guide</h2>
+<p>This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, funded by Jisc <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. For an overview of the series, see Michael Jackson (ed.) (03 August 2018). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.GuidanceDoi">10.5281/zenodo.GuidanceDoi</a>. Online: <a href="./SoftwareDepositGuidance.html">https://softwaresaved.github.io/software-deposit-guidance/SoftwareDepositGuidance.html</a>.</p>
+<h2 id="where-not-to-deposit-software">Where <em>not</em> to deposit software</h2>
+<p>There are many locations where you can, but should not, deposit your software for archival and reuse.</p>
+<p><strong>Your desktop, laptop or a USB stick:</strong> these can be easily broken or lost. They make it more difficult for researchers to access your deposit, since they have to email you, which then requires you to search through these devices every time you receive such a request.</p>
+<p><strong>A personal, departmental or project web site:</strong> while these allow others to access your software without contacting you directly, they could be deleted if you leave your current employer or after your project comes to an end. Anyone following links to your software cited in your papers will then be met with the dreaded &quot;404 Page Not Found&quot; error.</p>
+<p><strong>Repository hosting services:</strong> services such as GitHub <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>, BitBucket <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>, GitLab <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>, CCPForge <a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>, or Microsoft Visual Studio Team Services <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> that host source code repositories are not well suited for archiving software <a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a>. They don't create unique persistent digital identifiers for your repositories, instead you need to use URLs. Your repositories could later be deleted by yourself, breaking links to these URLs, or the repository hosting service may go out of business. It is these limitations that motivated the development of tools such as the figshare-GitHub integration <a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> and Zenodo-GitHub integration <a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a> that support the automated deposit of software within repository hosting services into digital repositories.</p>
+<p>You want to deposit your software in a place where other researchers can access it for the long-term, in a place that will exist beyond the timescale of your current project or employment at a specific institution and, ideally, in a place that will give you a persistent digital identifier.</p>
+<h2 id="where-to-deposit-software">Where to deposit software</h2>
+<p>There are many choices as to a digital repository to use for depositing software.</p>
+<p><strong>Institutional</strong> digital repositories are provided by institutions for the deposit of research objects, including software, that are created by their staff, typically to showcase their research. Even if you leave the institution, your research will remain in the repository. Examples which support software deposits include the University of Edinburgh DataShare <a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a>, UCL Discovery <a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a> and the University of Sheffield figshare <a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a> (an example of an institution-specific deployment of the figshare digital repository platform).</p>
+<p><strong>Funder- or publisher- mandated or recommended</strong> digital repositories are those that funders or publishers recommend, or require you to use. For example, Wellcome Open Research require that software written by a paper's authors be deposited and recommend the use of Zenodo for archived software <a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a>, so its title, digital object identifier (DOI) <a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a> and licence can be cited. Springer Nature's BioMed Central <a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a> series of journals, requires both a link to a live version of the software (e.g. on GitHub) but also to an archived version with a DOI, for which Zenodo is recommended <a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a>.</p>
+<p><strong>Community recommended</strong> digital repositories are those that may be recommended for, or popular within, a specific research community.</p>
+<p><strong>General purpose or open-to-all</strong> digital repositories are those that are available for use by any researchers in any community. The two most well-known are Zenodo <a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a> and figshare <a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a>.</p>
+<p>Regardless of where you deposit your software, you may also want to consider <strong>Software Heritage</strong> <a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a>, an international initiative to provide a universal archive and reference system for all software. Software can be explicitly deposited into the Software Heritage archive <a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a> via the Hal-Inria digital repository <a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a> which is open to use by all researchers.</p>
+<h2 id="questions-to-ask">Questions to ask</h2>
+<p>There can be many factors that can constrain your choice of digital repository. Ask yourself, and your fellow stakeholders, the following questions.</p>
+<h3 id="does-the-digital-repository-give-you-a-unique-persistent-digital-identifier-for-your-deposit">Does the digital repository give you a unique persistent digital identifier for your deposit?</h3>
+<p>Persistent digital identifiers <a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a> are identifiers that are provided under the assumption that they, and the digital objects they refer to, will remain available long term. Examples of unique persistent digital identifiers include DOIs and ARKs <a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a>. The use of persistent digital identifiers for research outputs, including papers, data and software, and the use of these for citation purposes, is becoming prevalent in research.</p>
+<h3 id="can-the-digital-repository-accommodate-the-size-of-your-deposit">Can the digital repository accommodate the size of your deposit?</h3>
+<p>Digital repositories may have constraints on the size of deposits they accept. For example, Zenodo has a limit of 50 GB <a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a> and the University of Edinburgh DataShare has a limit of 20 GB for deposits done via a browser and 100 GB otherwise <a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a>.</p>
+<h3 id="has-your-funder-or-publisher-recommended-or-mandated-a-digital-repository-to-use">Has your funder or publisher recommended or mandated a digital repository to use?</h3>
+<p>If both a funder and publisher mandate two different digital repositories you could deposit within them both, or discuss with each to see if they will agree for you to use one only, even if it is not the one they mandate.</p>
+<h3 id="are-the-policies-of-the-digital-repository-acceptable-to-you">Are the policies of the digital repository acceptable to you?</h3>
+<p>These can include <a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a> <a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a> <a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a> terms and conditions of use; availability of the service (e.g. does the service regularly go down for updates or does it run 24/7); how resilient the service is to breakdowns; where deposits are stored; how they are stored; what are the plans for stored deposits if the repository goes out of business; how secure the storage is; how regularly it is backed up; how long backups are kept for; and what disaster recovery plans are in place. Knowing the quality of service can help you judge whether your deposit will be available to others, and yourself, even in the face of disaster. It also allows you, and your institution, to develop contingency plans should such drastic circumstances arise.</p>
+<h3 id="is-the-longevity-of-the-digital-repository-acceptable-to-you">Is the longevity of the digital repository acceptable to you?</h3>
+<p>You want to know that the digital repository will host your deposit for as long as you need it too, not just 6 months or so. The policies or terms and conditions of the digital repository should state this. For example, Zenodo states that their lifetime is currently 20 years and figshare guarantees 10 years of persistent availability.</p>
+<h3 id="is-the-digital-repository-free-or-do-you-have-to-pay-a-fee">Is the digital repository free or do you have to pay a fee?</h3>
+<h3 id="if-there-is-a-fee-is-this-a-one-off-payment-and-can-you-afford-it">If there is a fee, is this a one-off payment and can you afford it?</h3>
+<p>If a digital repository expects a one-off payment, to subsidise its hosting, you may be able to pay for this out of your project budget or your institution may pay this for you. It is recommended that you avoid any digital repository that expects a regular fee for the duration for which they hold the deposit, since it would most likely be unsustainable for your institution to commit to ever-increasing fees over a long term. There are many free digital repositories available.</p>
+<h3 id="is-the-digital-repository-accredited-or-certified">Is the digital repository accredited or certified?</h3>
+<p>The digital repository may be accredited or certified by an independent agency that reviews digital repositories according to various criteria related to its policies and processes. The presence of an accreditation or certification may provide you with an additional degree of confidence that the digital repository meets your requirements. For example, the Data Seal of Approval <a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a> can be awarded to digital repositories who satisfy a set of quality guidelines <a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a> relating to how they manage, preserve and make available the deposits they hold. The presence of a Data Seal of Approval could give you additional confidence that a digital repository is suitable for holding your deposit.</p>
+<h2 id="find-out-more">Find out more</h2>
+<p>If you work for a college or university, you may have a research exploitation office that can advise you on which digital repository to use and which might best fit your requirements. Your local research data managers as well as collaborators, funders, publishers or researchers in your community may also be able to advise you and make suggestions or recommendations.</p>
+<p>re3data.org, <a href="https://www.re3data.org/" class="uri">https://www.re3data.org/</a>is a global registry of research data repositories. It supports searching for digital repositories by country, subject and content types (which includes various types of data, software applications and source code).</p>
+<h2 id="cite-this-guide">Cite this guide</h2>
+<p>Please cite as: Michael Jackson (ed.) (03 August 2018). Software Deposit: Where to deposit software (Version 1.0). Zenodo. doi:10.5281/zenodo.WhereDoi. Online: https://softwaresaved.github.io/software-deposit-guidance/WhereToDepositSoftware.html.</p>
+<p><img src="./images/cc-by.png" alt="CC-BY 4.0 logo" id="ccby-logo" /> This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/" class="uri">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The Software Sustainability Institute, <a href="https://www.software.ac.uk" class="uri">https://www.software.ac.uk</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Jisc, <a href="https://www.jisc.ac.uk" class="uri">https://www.jisc.ac.uk</a>.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>GitHub, <a href="https://github.com/" class="uri">https://github.com/</a>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>BitBucket, <a href="https://bitbucket.com/" class="uri">https://bitbucket.com/</a>.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>GitLab, <a href="https://gitlab.com/">https://gitlab.com</a>.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>CCPForge, <a href="https://ccpforge.cse.rl.ac.uk/gf/" class="uri">https://ccpforge.cse.rl.ac.uk/gf/</a>.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>Microsoft Visual Studio Team Services, <a href="https://www.visualstudio.com/team-services/" class="uri">https://www.visualstudio.com/team-services/</a>.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>Brown, C.T. (2016) &quot;You can make GitHub repositories archival by using Zenodo or figshare!&quot;, 16 November 2016, <a href="http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html" class="uri">http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html</a>.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>&quot;How to connect figshare with your GitHub account&quot;, figshare knowledge, <a href="https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1" class="uri">https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1</a>.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>&quot;Making your code citable&quot;, GitHub Guides, <a href="https://guides.github.com/activities/citable-code/" class="uri">https://guides.github.com/activities/citable-code/</a>.<a href="#fnref10">↩</a></p></li>
+<li id="fn11"><p>University of Edinburgh DataShare, <a href="https://datashare.is.ed.ac.uk" class="uri">https://datashare.is.ed.ac.uk</a>.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p>UCL Discovery, <a href="http://discovery.ucl.ac.uk/" class="uri">http://discovery.ucl.ac.uk/</a>.<a href="#fnref12">↩</a></p></li>
+<li id="fn13"><p>The University of Sheffield figshare, <a href="https://sheffield.figshare.com/" class="uri">https://sheffield.figshare.com/</a>.<a href="#fnref13">↩</a></p></li>
+<li id="fn14"><p>&quot;Software &amp; source code, Data Guidelines&quot;, Wellcome Open Research, <a href="https://wellcomeopenresearch.org/for-authors/data-guidelines" class="uri">https://wellcomeopenresearch.org/for-authors/data-guidelines</a>.<a href="#fnref14">↩</a></p></li>
+<li id="fn15"><p>Digital Object Identifier (DOI), <a href="https://www.doi.org/" class="uri">https://www.doi.org/</a>.<a href="#fnref15">↩</a></p></li>
+<li id="fn16"><p>BioMed Central, <a href="https://www.biomedcentral.com" class="uri">https://www.biomedcentral.com</a>.<a href="#fnref16">↩</a></p></li>
+<li id="fn17"><p>&quot;Software and code&quot;, BioMed Central, <a href="https://www.biomedcentral.com/getpublished/editorial-policies" class="uri">https://www.biomedcentral.com/getpublished/editorial-policies</a>.<a href="#fnref17">↩</a></p></li>
+<li id="fn18"><p>Zenodo, <a href="https://zenodo.org" class="uri">https://zenodo.org</a>.<a href="#fnref18">↩</a></p></li>
+<li id="fn19"><p>figshare, <a href="https://figshare.com" class="uri">https://figshare.com</a>.<a href="#fnref19">↩</a></p></li>
+<li id="fn20"><p>Software Heritage, <a href="https://www.softwareheritage.org/" class="uri">https://www.softwareheritage.org/</a>.<a href="#fnref20">↩</a></p></li>
+<li id="fn21"><p>Software Heritage archive, <a href="https://archive.softwareheritage.org/" class="uri">https://archive.softwareheritage.org/</a>.<a href="#fnref21">↩</a></p></li>
+<li id="fn22"><p>HAL-Inria, <a href="https://hal.inria.fr/" class="uri">https://hal.inria.fr/</a>.<a href="#fnref22">↩</a></p></li>
+<li id="fn23"><p>Persistent digital identifiers, <a href="https://en.wikipedia.org/wiki/Persistent_identifier" class="uri">https://en.wikipedia.org/wiki/Persistent_identifier</a>.<a href="#fnref23">↩</a></p></li>
+<li id="fn24"><p>Archival Resource Key (ARK) J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. <a href="https://escholarship.org/uc/item/9p9863nc" class="uri">https://escholarship.org/uc/item/9p9863nc</a>.<a href="#fnref24">↩</a></p></li>
+<li id="fn25"><p>&quot;What are the size limits in Zenodo?&quot;, Zenodo, <a href="https://help.zenodo.org" class="uri">https://help.zenodo.org</a>.<a href="#fnref25">↩</a></p></li>
+<li id="fn26"><p>&quot;Checklist for deposit&quot;, The University of Edinburgh, <a href="https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist" class="uri">https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist</a>.<a href="#fnref26">↩</a></p></li>
+<li id="fn27"><p>&quot;General Policies&quot;, Zenodo, <a href="http://about.zenodo.org/policies/" class="uri">http://about.zenodo.org/policies/</a>.<a href="#fnref27">↩</a></p></li>
+<li id="fn28"><p>&quot;Our Policies&quot;, figshare, <a href="https://knowledge.figshare.com/articles/our-policies" class="uri">https://knowledge.figshare.com/articles/our-policies</a>.<a href="#fnref28">↩</a></p></li>
+<li id="fn29"><p>See, for example, &quot;Service level definition&quot;, The University of Edinburgh, <a href="https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition" class="uri">https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition</a>.<a href="#fnref29">↩</a></p></li>
+<li id="fn30"><p>Data Seal of Approval, <a href="https://www.datasealofapproval.org/en/" class="uri">https://www.datasealofapproval.org/en/</a>.<a href="#fnref30">↩</a></p></li>
+<li id="fn31"><p>&quot;The Core Trustworthy Data Repository Requirements&quot;, Data Seal of Approval, <a href="https://www.datasealofapproval.org/en/information/requirements/" class="uri">https://www.datasealofapproval.org/en/information/requirements/</a>.<a href="#fnref31">↩</a></p></li>
+</ol>
+</div>
+
+</body>
+</html>

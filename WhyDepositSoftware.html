@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Michael Jackson (ed.), The Software Sustainability Institute" />
+  <meta name="date" content="2018-08-03" />
+  <title>Software Deposit: Why deposit software</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+
+<table id="logos-table" class="center noborder">
+<tr>
+<td id="logos-left-cell">
+<a href="https://www.software.ac.uk">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</a>
+</td>
+<td id="logos-right-cell">
+<a href="https://www.jisc.ac.uk">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/>
+</a>
+</td>
+</table>
+
+<div id="header">
+<h1 class="title">Software Deposit: Why deposit software</h1>
+<h2 class="author">Michael Jackson (ed.), The Software Sustainability Institute</h2>
+<p class="version">Version 1.0<p>
+<p class="doi">doi:<a href="https://doi.org/10.5281/zenodo.WhyDoi">10.5281/zenodo.WhyDoi</a><p>
+<h3 class="date">03 August 2018</h3>
+</div>
+
+<p class="caution">
+Please note that, while you are welcome to have a look, these guides have not yet been officially published. The guides are currently being prepared for deposit in Zenodo. At that time the dates on these web pages will be updated to match the publication date and the guides' DOIs, issued by Zenodo, will be inserted.
+</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>Research software can be any collection of scripts or code written for, or used within, a research context. For example, a 50 line bash shell script for manipulating and filtering files, a collection of 50 line R scripts for running a bioinformatics analysis, 10,000 lines of Java for medical image analysis or 100,000 lines of Fortran using MPI for computational fluid dynamics are all examples of research software. But, why bother depositing research software into a digital repository? Why go to all that time and effort? What are the benefits to researchers for doing so? This guide describes some of the significant benefits that depositing research software delivers, both to you and to the research community. and also addresses concerns that you may have about sharing your software with others.</p>
+<div class="figure">
+<img src="./images/WhyDepositSoftware.png" alt="Why deposit software" id="why-image" />
+<p class="caption">Why deposit software</p>
+</div>
+<h2 id="about-this-guide">About this guide</h2>
+<p>This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, funded by Jisc <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. For an overview of the series, see Michael Jackson (ed.) (03 August 2018). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.GuidanceDoi">10.5281/zenodo.GuidanceDoi</a>. Online: <a href="./SoftwareDepositGuidance.html">https://softwaresaved.github.io/software-deposit-guidance/SoftwareDepositGuidance.html</a>.</p>
+<h2 id="your-software-is-retained-and-remains-available-for-the-future">Your software is retained and remains available for the future</h2>
+<p>By depositing your software within a digital repository, the exact versions of your software upon which you have published your research results is retained and remains available for future use both by yourself and by other researchers. You enable other researchers, and your future self, to inspect, replicate, reproduce and reuse your research, as manifested in your software, in the short term and to inspect, for the historical record, in the long term. It allows your software to remain available beyond the lifetime of your current project, or your current employment at a specific institution.</p>
+<p>Even if, in the long term, it is no longer possible to compile or run your software's source code, it still serves as a valuable historical record, as a programmatic description of how your research was implemented.</p>
+<h2 id="software-is-an-integral-part-of-the-research-ecosystem">Software is an integral part of the research ecosystem</h2>
+<p>Taken together, research software, data, facilities, equipment and an overarching research question can be viewed as a research activity or experiment, worthy to be published. Conversely, a publication can be considered as a narrative that describes how the research objects are used together to reply to the research question.</p>
+<p>By depositing not just papers, but software and data sets <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> as well, you are storing a more complete record of this ecosystem for future use of both yourself and others. Furthermore, many digital repositories allow you to explicitly express these relationships between your research outputs.</p>
+<h2 id="methods-do-not-produce-your-results-software-does">Methods do not produce your results, software does</h2>
+<p>The results published in a paper are not typically produced by the method described in the paper. More commonly, they are produced by the implementation of that method using the other research outputs in the ecosystem, which includes the software. Your method may be scientifically valid, but your implementation may be flawed, which may give you misleading results, from which you draw incorrect conclusions. Making your software available can allow others to validate what you have done and to determine whether your conclusions are valid.</p>
+<h2 id="improve-both-quality-and-trust">Improve both quality and trust</h2>
+<p>Continuing on from the above, allowing others to validate what you have done can promote trust in your research, that you have nothing to hide and are open to others inspecting what you have done. Yes, it is possible that errors will be found, but having mistakes identified offers a learning experience and an opportunity to improve the quality of your code for the next time. More importantly, it allows scientific outcomes, derived from data produced by the software, to be corrected and conclusions re-evaluated in light of these</p>
+<p>Events such as the &quot;ClimateGate&quot; controversy of 2009 <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> provide a worst-case example of what can happen when poor quality research software is developed away from the critical eyes of the community.</p>
+<h2 id="get-credit-for-your-research-software">Get credit for your research software</h2>
+<p>When you deposit your software into a digital repository you can get a unique persistent digital identifier for your deposit (for example, a DOI <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> or an ARK <a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>). Others can cite this identifier to identify the exact version of your software that they used in their research, rather than just citing, for example, just your software's name and a URL (which may break in future), or a related paper (which, as mentioned above, is not your software itself).</p>
+<p>In the same way you can expect others to cite your papers if they use them within their research, or to cite data <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> of yours that you have deposited and they have used, you can request that others cite your software and so get attribution when your research, as manifested in your software, is used by others.</p>
+<p>You can search for these citations in papers, publications, documentation, web pages, blog posts and other software and so gather information relating to impact of your software. This can help you to demonstrate the impact of your software and its contribution to research to your employers, your fellow researchers and your funders. It allows you and your fellow authors, including non-academic researchers who may have developed the software with you, to get recognition and credit for this valuable research output. Some digital repositories provide features to track citations and count downloads <a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a> to help you gather this information.</p>
+<h2 id="get-collaborators">Get collaborators</h2>
+<p>Researchers who read about your research, via a paper, for example, and then are able to reproduce or reuse your research, via using your research software, can be viewed as possible collaborators for future projects.</p>
+<h2 id="save-time">Save time</h2>
+<p>Other researchers reading your publications may contact you for your software, after reading a related paper or seeing a presentation at a conference. Directing them to a digital repository with your software is far quicker than having to rake through your files, find the version of the software they need, bundle this up and send it to them.</p>
+<p>More generally, having a digital repository manage hosting of your deposit is less time consuming than having to manage this yourself, on a departmental web server for example.</p>
+<h2 id="your-funder-or-a-publisher-requires-or-recommends-you-to">Your funder or a publisher requires, or recommends, you to</h2>
+<p>Your funder or a publisher may require, or recommend, that you deposit your software into a digital repository. Your funder may want to ensure that the research that they have funded remains available. A publisher may want your software to be provided as a complement to any papers you publish which describe results which were, in some way, produced using your software.</p>
+<p>Funders and publishers may support the concept of open access <a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a>, by which research outputs, including software, are distributed online and free of cost. For example, Wellcome Open Research require that software written by a paper's authors be deposited and recommend the use of Zenodo for archived software <a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a>, so its title, DOI and licence can be cited. Springer Nature's BioMed Central <a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> series of journals, requires both a link to a live version of the software (e.g. on GitHub) but also to an archived version with a DOI, for which Zenodo is recommended <a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a>.</p>
+<h2 id="are-you-concerned-that...">Are you concerned that...</h2>
+<h3 id="others-may-publish-results-based-on-your-software-before-you-do">...others may publish results based on your software before you do?</h3>
+<p>You may be concerned that you deposit your software then other researchers use your software to generate results and publish these before you yourself have a chance to.</p>
+<p>There is a distinction between the time at which software is deposited into a digital repository and the time when it is published so that others can view it. Many digital repositories, including Zenodo <a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a> and figshare <a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a>, support <strong>embargoes</strong> which allow you to specify a date when you want the deposit to be made publicly available. So, for example, you could choose to set an embargo on your software deposit so that it is only made public after any related papers have been published.</p>
+<p>A deposit can be embargoed for a long time. For example, the University of Edinburgh DataShare supports embargoes of up to 5 years <a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a>.</p>
+<p>Another advantage of embargoes is that you can prepare your deposit and describe it, via metadata, while the knowledge of the version of your software being deposited is fresh in your mind.</p>
+<p>Software licencing is another means by which you can control how and what other researchers can, and cannot, do with your software. You can, for example, make your software available solely for the purposes of validating your results.</p>
+<h3 id="others-may-commercialise-your-software-or-disclose-innovative-aspects-of-your-software">...others may commercialise your software or disclose innovative aspects of your software?</h3>
+<p>Again, software licencing allows you to control what other researchers can, and cannot, do with your software.</p>
+<h3 id="your-code-is-too-messy">..your code is too messy?</h3>
+<p>If your software is good enough for you to publish a paper with results based upon its use then it is good enough to be published so that other researchers can, at least, inspect it to validate your methodology. If others express concerns about its state then look upon that as a good thing both in that they are interested in your research and that you can learn from their comments and make improvements in the readability of code you write in future. See the section on &quot;Improve both quality and trust&quot; above.</p>
+<h2 id="find-out-more">Find out more</h2>
+<p>Related Software deposit guides:</p>
+<ul>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: What to deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.WhatDoi">10.5281/zenodo.WhatDoi</a>. Online: <a href="./WhatToDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/WhatToDeposit.html</a>.</li>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: How to choose a software licence (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.LicenceDoi">10.5281/zenodo.LicenceDoi</a>. Online: <a href="./HowToChooseSoftwareLicence.html">https://softwaresaved.github.io/software-deposit-guidance/HowToChooseSoftwareLicence.html</a>.</li>
+</ul>
+<p>Articles and blog posts on why researchers should share and deposit research software:</p>
+<ul>
+<li>Barnes, N. (2010) &quot;Publish your computer code: it is good enough&quot;. Nature <strong>467</strong> , 753, 13 October 2010. doi:<a href="https://doi.org/10.1038/467753a">10.1038/467753a</a>. A case for why researchers should share their code.</li>
+<li>D. (2010) &quot;If you're going to do good science, release the computer code too&quot;. The Guardian, 5 February 2010. <a href="https://www.theguardian.com/technology/2010/feb/05/science-climate-emails-code-release" class="uri">https://www.theguardian.com/technology/2010/feb/05/science-climate-emails-code-release</a>.</li>
+<li>Klein, M., de Sompel, H.V., Sanderson, R., Shankar, H., Balakireva, L., Zhou, L., Tobin. R. (2014) &quot;Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot&quot;, PLOS One, 26 December 2014. doi:<a href="https://doi.org/10.1371/journal.pone.0115253">10.1371/journal.pone.0115253</a>. An article on the necessity of using persistent identifiers in research.</li>
+<li>Science Code Manifesto, <a href="http://sciencecodemanifesto.org/" class="uri">http://sciencecodemanifesto.org/</a>. Five principles arising from software's integral position in 21st century research. The fifth is &quot;Curation - Source code must remain available, linked to related materials, for the useful lifetime of the publication.&quot;</li>
+</ul>
+<h2 id="cite-this-guide">Cite this guide</h2>
+<p>Please cite as: Michael Jackson (ed.) (03 August 2018). Software Deposit: Why deposit software (Version 1.0). Zenodo. doi:10.5281/zenodo.WhyDoi. Online: https://softwaresaved.github.io/software-deposit-guidance/WhyDepositSoftware.html.</p>
+<p><img src="./images/cc-by.png" alt="CC-BY 4.0 logo" id="ccby-logo" /> This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/" class="uri">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The Software Sustainability Institute, <a href="https://www.software.ac.uk" class="uri">https://www.software.ac.uk</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Jisc, <a href="https://www.jisc.ac.uk" class="uri">https://www.jisc.ac.uk</a>.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>DCC (2014). &quot;Five steps to decide what data to keep: a checklist for appraising research data v.1&quot;. Edinburgh: Digital Curation Centre. Available online: <a href="http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep" class="uri">http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep</a>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>Climatic Research Unit email controversy, Wikipedia, <a href="https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy" class="uri">https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy</a>.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>Digital Object Identifier (DOI), <a href="https://www.doi.org/" class="uri">https://www.doi.org/</a>.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>Archival Resource Key (ARK) J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. <a href="https://escholarship.org/uc/item/9p9863nc" class="uri">https://escholarship.org/uc/item/9p9863nc</a>.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>Ball, A. &amp; Duke, M. (2015). 'How to Cite Datasets and Link to Publications'. DCC How-to Guides. Edinburgh: Digital Curation Centre. Available online: <a href="http://www.dcc.ac.uk/resources/how-guides" class="uri">http://www.dcc.ac.uk/resources/how-guides</a>.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>See, for example, figshare, <a href="https://figshare.com/" class="uri">https://figshare.com/</a>, or the University of Edinburgh DataShare, <a href="https://datashare.is.ed.ac.uk" class="uri">https://datashare.is.ed.ac.uk</a>, which logs views by deposit page and deposited file.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>Open access, Wikipedia, <a href="https://en.wikipedia.org/wiki/Open_access" class="uri">https://en.wikipedia.org/wiki/Open_access</a>.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>&quot;Software &amp; source code&quot;, Wellcome Open Research, <a href="https://wellcomeopenresearch.org/for-authors/data-guidelines" class="uri">https://wellcomeopenresearch.org/for-authors/data-guidelines</a>.<a href="#fnref10">↩</a></p></li>
+<li id="fn11"><p>BioMed Central, <a href="https://www.biomedcentral.com" class="uri">https://www.biomedcentral.com</a>.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p>&quot;Software and code&quot;, BioMed Central, <a href="https://www.biomedcentral.com/getpublished/editorial-policies" class="uri">https://www.biomedcentral.com/getpublished/editorial-policies</a>.<a href="#fnref12">↩</a></p></li>
+<li id="fn13"><p>Zenodo, <a href="https://zenodo.org" class="uri">https://zenodo.org</a>.<a href="#fnref13">↩</a></p></li>
+<li id="fn14"><p>figshare, <a href="https://figshare.com" class="uri">https://figshare.com</a>.<a href="#fnref14">↩</a></p></li>
+<li id="fn15"><p>&quot;Checklist for deposit&quot;, The University of Edinburgh, <a href="https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist" class="uri">https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist</a>.<a href="#fnref15">↩</a></p></li>
+</ol>
+</div>
+
+</body>
+</html>

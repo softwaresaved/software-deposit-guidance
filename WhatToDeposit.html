@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Michael Jackson (ed.), The Software Sustainability Institute" />
+  <meta name="date" content="2018-08-03" />
+  <title>Software Deposit: What to deposit</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+
+<table id="logos-table" class="center noborder">
+<tr>
+<td id="logos-left-cell">
+<a href="https://www.software.ac.uk">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</a>
+</td>
+<td id="logos-right-cell">
+<a href="https://www.jisc.ac.uk">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/>
+</a>
+</td>
+</table>
+
+<div id="header">
+<h1 class="title">Software Deposit: What to deposit</h1>
+<h2 class="author">Michael Jackson (ed.), The Software Sustainability Institute</h2>
+<p class="version">Version 1.0<p>
+<p class="doi">doi:<a href="https://doi.org/10.5281/zenodo.WhatDoi">10.5281/zenodo.WhatDoi</a><p>
+<h3 class="date">03 August 2018</h3>
+</div>
+
+<p class="caution">
+Please note that, while you are welcome to have a look, these guides have not yet been officially published. The guides are currently being prepared for deposit in Zenodo. At that time the dates on these web pages will be updated to match the publication date and the guides' DOIs, issued by Zenodo, will be inserted.
+</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>What do we mean by a &quot;software deposit&quot;? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect the software, for the historical record, in the long term. This guide describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).</p>
+<div class="figure">
+<img src="./images/WhatToDeposit.png" alt="What to deposit" id="what-image" />
+<p class="caption">What to deposit</p>
+</div>
+<h2 id="about-this-guide">About this guide</h2>
+<p>This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, funded by Jisc <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. For an overview of the series, see Michael Jackson (ed.) (03 August 2018). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.GuidanceDoi">10.5281/zenodo.GuidanceDoi</a>. Online: <a href="./SoftwareDepositGuidance.html">https://softwaresaved.github.io/software-deposit-guidance/SoftwareDepositGuidance.html</a>.</p>
+<h2 id="minimal-deposit">Minimal deposit</h2>
+<p>At the very least, a software deposit should have the following content which allows others to access your software and inspect it.</p>
+<h3 id="simple-readme">Simple README</h3>
+<p>Others will expect to find a plain-text README <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> file in any software bundle. Your deposit should conform to this expectation and provide a README file providing a summary of the key facts about your software. This should include, at the least:</p>
+<ul>
+<li>Name of your software.</li>
+<li>Brief overview of your software, what it does (for example, what research problem it was written to solve) and what makes it novel (or different or distinct from similar software already available).</li>
+<li>Contact: Your name, affiliation, current email address and your ORCiD identifier <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>. This provides a point of contact for others to get in touch if they have questions about your deposit and your research more generally.</li>
+<li>Link to live software: for ongoing projects links to your project web site and/or repository hosting service. This allows others to easily find your current software from your deposit and to engage with you and your project.</li>
+</ul>
+<h3 id="copyright-and-licences">Copyright and licence(s)</h3>
+<p>A statement of copyright for your software makes it clear who created, and owns the rights to, your software. A licence makes it clear to others what they can, and cannot, do with your software and any obligations upon them.</p>
+<p>Provide your copyright and licence in a plain-text file called LICENCE <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>.</p>
+<p>If you include third-party components, then include their licences in your LICENCE file, or as separate files in a licences/ directory.</p>
+<h3 id="authors-and-other-contributors">Authors and other contributors</h3>
+<p>It is important that everyone who authored or otherwise contributed to your software is recognised for doing so and can get credit for their contribution. Provide a plain-text CONTRIBUTORS file which lists people who you deem to have made a significant contribution to your software (including yourself). This can include, for example, columns with each contributor's name, ORCiD identifier and affiliation and brief summary of what their contribution was (for example designer, developer, tester, documentation author etc).</p>
+<p>You should also state your funders, providing information on any grants that supported the software's development.</p>
+<p>Make sure that any named people have given their consent for their names, ORCiD identifiers and affiliations to be included.</p>
+<p>For legacy software, you might want to include statement along the lines of &quot;We have made all efforts to recall contributors. Please get in touch if you contributed to this software and we have forgotten you, so that this can be rectified in future deposits.&quot;</p>
+<h3 id="source-code">Source code</h3>
+<p>Binaries such as executables, Docker <a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> or Singularity <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> containers or virtual machine <a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a> can support replicability and reuse. Depending on the implementation (e.g. how configurable they are) they may also support reproducibility. However, they do not allow others to inspect your software to understand exactly what was run and how your results were produced. A complementary paper may provide this information but the paper does not produce your results, the source code that you run does. Source code has a value even if it no longer can be compiled or run, serving as a programmatic description of the research that was done.</p>
+<p>If your source code implements or uses a third-party implementation of algorithms, or analyses that has been published, then ensure that the code has comments with the citations for these publications.</p>
+<p>In places where your code uses calls to third-party functions or libraries, it might not be clear to others what these calls are doing, or how you are using them. This can be the case if, for example, a function's purpose is not clear from its name, or it uses default values which you rely upon. Ensure they are commented to make it clear exactly what the function is doing and how it is being used. Complement this with a link to any online documentation for the function.</p>
+<p>Ideally, your source code should be well-commented, formatted and indented, to ensure it is easily readable and understandable by others, not just yourself.</p>
+<h2 id="runnable-deposit">Runnable deposit</h2>
+<p>A runnable deposit includes everything in a minimal deposit but also includes user documentation, some sample data, includes files to provide a recommended citation and metadata about the deposit. A runnable deposit should allow another researcher to build, install, configure and run your software on the sample data.</p>
+<p>Please note that the suggested content for both runnable and comprehensive deposits are just that, suggestions. There is no reason why you can't prepare a deposit that includes some recommended content from a runnable deposit and some from a comprehensive deposit. In our view, the more content, the richer, and more useful, the deposit.</p>
+<h3 id="comprehensive-readme">Comprehensive README</h3>
+<p>Extend your README by including:</p>
+<ul>
+<li>Version number of your software.</li>
+<li>Copyright statement.</li>
+<li>Name of your licence and third-party licences.</li>
+<li>User documentation. If not too verbose. If it is verbose, then state where in your deposit this can be found.</li>
+<li>Summary of the other contents of the deposit (e.g. source code, sample data, user documentation, recommended citation, metadata) with information on where in the deposit these can be found.</li>
+</ul>
+<h3 id="user-documentation">User documentation</h3>
+<p>If you want others to run or reuse your software, you need to document how they can do this. You need to provide user documentation. Documentation for users can include: how to build, install, configure and run the software; how to run the software on any sample data sets; and, how to interpret and use the outputs of running your software.</p>
+<h3 id="dependencies-documentation">Dependencies documentation</h3>
+<p>An important part of documentation is your software's dependencies: the environment without which your software cannot be built, installed, configured or run. Even a 10 line script has a dependency on the language used to implement it and the operating systems it runs under. Dependencies should be explicitly documented and not implicitly buried within your source code. It is waste of a someone else's time to build, deploy and run your software only to have it fail an hour later due to a missing library or data set or database.</p>
+<p>Documenting your dependencies enable others to understand, and try to get, everything that is needed to run your software and, so help other researchers to replicate, reproduce and reuse your research, as manifested in your software.</p>
+<p>Your dependencies can include: operating systems (ones your software run on, others it is known to run on); programming languages; interpreters and compilers; packages, libraries, frameworks, or other tools; browsers; databases; web or other online services and resources; file formats, standards and specifications; data formats, standards and specifications; communications protocols; and, hardware (e.g. 32- or 64-bit platforms, specialised high-performance computing resources, or cloud infrastructures).</p>
+<p>For each dependency it can be useful to document the following: name; purpose (i.e. what you use it for); whether it is mandatory or optional; origin (for example, a web site URL, a persistent digital identifier such as a DOI <a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> or an ARK <a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a>, the author's email address); copyright and licence; whether it is free or needs payment of a fee; version information (for example, version number, repository commit identifier, date received, date accessed, for an online service, or a persistent digital identifier).</p>
+<p>Version information is important. Different versions of dependencies could differ in terms of syntax, behaviour or content. Software written to use one version might not be compatible with earlier or later versions. For example, Python code with the statement &quot;print 'hello'&quot; will not run under Python 3, but code with the statement &quot;print('hello')&quot; will run under both Python 2 and 3.</p>
+<p>If you have dependencies that you include in your deposit, for example, if you include copies of source code or data files, then document these too. If you have made any changes, then provide a summary of these. It is a common obligation when redistributing or modifying third-party software that you acknowledge its use, document its inclusion and provide its licence in your deposit.</p>
+<p>If you are using a dependency management tool, then some of your dependencies may also be expressed in a programmatic form. For example, a Python pip <a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> requirements.txt file; a Maven <a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a> pom.xml file; a RubyGems <a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a> Gemfile; an R DESCRIPTION <a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a> file; an Ansible <a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a> playbook, or a Vagrant <a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a> script.</p>
+<h3 id="sample-input-and-output-data">Sample input and output data</h3>
+<p>Including sample data can be valuable for those who use your software deposit. These provide users with sample inputs to use with your software and the expected outputs against which they can compare their outputs when running your software. This can help them to determine whether they have managed to build, install and run your software correctly. However, data files can also increase the size of your deposit. The data you provide does not have to be comprehensive, or exercise every feature of your software in every condition, a few sample data sets would suffice.</p>
+<p>If you have published, or intend to publish, results based on your data files then consider following the FAIR <a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a> principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together <a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a>.</p>
+<p>Changes in dependencies can cause both subtle and not so subtle, changes in outputs for sample input data <a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a>. Document what you consider to be acceptable output for your sample inputs, what you would consider to be &quot;close enough&quot; (for example, whether you consider equality to within 3 decimal places to be &quot;close enough&quot;), error margins or tolerances, or other ways of evaluating the outputs, for cases where someone else does not get identical outputs when using your sample data.</p>
+<h3 id="recommended-citation">Recommended citation</h3>
+<p>In the same way that it is expected that others cite your papers if they have used them within their research, you can request that others cite your software. This helps you to get credit for your research as manifested in your software. You can search for these citations in papers, publications, other software, documentation, web pages and blog posts and so gather information relating to impact of your software. This can help you to demonstrate the impact of your software and its contribution to research to your employers, your community and your funders.</p>
+<p>Provide a CITATION.cff file with your citation expressed in the Citation File Format (CFF) <a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a> <a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a>. CFF is a structured format for citation files, which allows such files to serve as both a human- and machine-readable description of your recommended citation.</p>
+<h3 id="metadata">Metadata</h3>
+<p>Metadata is information about your software. This can include programming language, operating systems, software type, authors, funders, licence and related research objects to name but a few. Metadata can both help digital repository managers categorise and index your software deposit and to help other researchers find your software according to criteria of relevance to them. However, some digital repositories are limited in the metadata they record, via their submission forms or APIs. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the figshare-GitHub integration <a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a> or Zenodo-GitHub integration <a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a>.</p>
+<p>Provide a codeMeta.json file with your metadata expressed in the CodeMeta schema <a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a>. CodeMeta is a structured format for software-related metadata and is both human- and machine-readable.</p>
+<h2 id="comprehensive-deposit">Comprehensive deposit</h2>
+<p>A comprehensive deposit includes everything in a minimal and runnable deposit but provides a richer set of documentation and includes test code and additional test and other sample data. A comprehensive deposit allows other researchers to reuse, customise and modify your software and provides documentation allowing them to understand, in detail, both how your software implements your research and where it sits in its wider software ecosystem.</p>
+<h3 id="developer-documentation">Developer documentation</h3>
+<p>If you want others to customise your software, you need to document how they can do this. You need to provide developer documentation. Documentation for developers can include: how to set up a development environment to build, test, modify and extend the software; how to run any tests; step-by-step lists of how to run any manual tests and how to interpret the outputs; information on any application programming interfaces (API) <a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a> supported by your software; descriptions and diagrams of the design of your software; and the rationale as to why it is as it is.</p>
+<h3 id="narratives-of-what-the-code-does-and-how-it-does-it">Narratives of what the code does and how it does it</h3>
+<p>It can help others if you complement your source code with a pseudo-code <a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a> narrative of what it does and how it does it. This narrative can bridge the gap between your research in the abstract, as, for example, described in papers, and your research as concretely implemented in your source code. It can help others understand how you implemented your research without needing to understand the specific programming language in which you implemented it. As for source code, a pseudo-code narrative can include citations for publications describing algorithms or analyses that have been implemented, or used, by you.</p>
+<h3 id="narratives-of-the-softwares-ecosystem">Narratives of the software's ecosystem</h3>
+<p>Research software does not exist in a vacuum, but forms a part of an ecosystem, which includes the sources – hand-crafted data, processes, services, software, databases – from which the data it consumes originates and the sinks to which the data it produces is destined. It can help others to understand how your software contributes to research and what it does, if you provide information on this ecosystem.</p>
+<p>You can use an English language narrative to describe this ecosystem. In addition to this, Research Object ontology <a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a>, Common Workflow Language (CWL) <a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a>, GA4GH Task Execution Schema (TES) <a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a>, Workflow Description Language (WDL) <a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a> and YAWL (Yet Another Workflow Language) <a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a> all offer ways to more formally represent software, processes, parameters, inputs, outputs and the relationships between these.</p>
+<h3 id="test-code">Test code</h3>
+<p>Source code for test cases can be a valuable complement for your source code, as these provide concrete examples of how your functions and components are used and the expected outputs for your test inputs.</p>
+<h3 id="additional-sample-or-test-data">Additional sample or test data</h3>
+<p>In a comprehensive deposit, you might want to include a richer set of sample input and output data that exercises a wider range of features of your software, or demonstrates its behaviour under a greater range of conditions.</p>
+<h2 id="find-out-more">Find out more</h2>
+<p>Related Software deposit guides:</p>
+<ul>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: What not to deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.WhatNotDoi">10.5281/zenodo.WhatNotDoi</a>. Online: <a href="./WhatNotToDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/WhatNotToDeposit.html</a>.</li>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: How to describe a software deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.DescribeDoi">10.5281/zenodo.DescribeDoi</a>. Online: <a href="./HowToDescribeSoftwareDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/HowToDescribeSoftwareDeposit.html</a>.</li>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: How to choose a software licence (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.LicenceDoi">10.5281/zenodo.LicenceDoi</a>. Online: <a href="./HowToChooseSoftwareLicence.html">https://softwaresaved.github.io/software-deposit-guidance/HowToChooseSoftwareLicence.html</a>.</li>
+</ul>
+<p>Deposits:</p>
+<ul>
+<li>Beals, M.H., Jones, C., Palmer, G., Jackson, M., Wilde, H., Hammersley, J., Grose, D., Long, R., Panescu, A-T. and Whitaker, K. (2018) &quot;Sharing reproducible research - minimum requirements and desirable features&quot;, The Software Sustainability Institute blog, 22 May 2018, <a href="https://www.software.ac.uk/blog/2018-05-22-sharing-reproducible-research-minimum-requirements-and-desirable-features" class="uri">https://www.software.ac.uk/blog/2018-05-22-sharing-reproducible-research-minimum-requirements-and-desirable-features</a>. A blog post which significantly influenced this guidance.</li>
+</ul>
+<p>Comments, readability and documentation:</p>
+<ul>
+<li>Jackson, M. (2012) &quot;Writing readable source code&quot;, The Software Sustainability Institute, December 2012. <a href="https://software.ac.uk/resources/guides/writing-readable-source-code" class="uri">https://software.ac.uk/resources/guides/writing-readable-source-code</a></li>
+<li>Pawlik, A. (2012) &quot;Five tops tips on documentation&quot;, The Software Sustainability Institute, 3 May 2012. <a href="https://software.ac.uk/blog/2012-05-03-five-tops-tips-documentation" class="uri">https://software.ac.uk/blog/2012-05-03-five-tops-tips-documentation</a></li>
+</ul>
+<p>Copyright and licences:</p>
+<ul>
+<li>Software Data Package Exchange (SPDX) License List, <a href="https://spdx.org/licenses/" class="uri">https://spdx.org/licenses/</a>, a list of popular licences used in free and open source software, including standardised identifiers, full licence texts and common exceptions to licence clauses.</li>
+</ul>
+<p>CodeMeta and codeMeta.json files:</p>
+<ul>
+<li>The CodeMeta Project, <a href="https://codemeta.github.io/" class="uri">https://codemeta.github.io/</a>. A machine-readable approach to documenting software metadata. Specific CodeMeta terms are listed at <a href="https://codemeta.github.io/terms/" class="uri">https://codemeta.github.io/terms/</a>.</li>
+</ul>
+<p>Software citation and CITATION.cff files:</p>
+<ul>
+<li>Citation File Format (CFF), <a href="https://citation-file-format.github.io/" class="uri">https://citation-file-format.github.io/</a>. A machine-readable approach to specifying the citation that others should use when citing your software.</li>
+<li>Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) &quot;Software Citation Principles&quot;. PeerJ Computer Science 2:e86. doi:<a href="https://doi.org/10.7717/peerj-cs.86" class="uri">https://doi.org/10.7717/peerj-cs.86</a>. <a href="https://www.force11.org/software-citation-principles" class="uri">https://www.force11.org/software-citation-principles</a>. Why software citation is important and how to cite research software.</li>
+</ul>
+<p>Depositing research data:</p>
+<ul>
+<li>DCC (2014). &quot;Five steps to decide what data to keep: a checklist for appraising research data v.1&quot;. Edinburgh: Digital Curation Centre. Available online: <a href="http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep" class="uri">http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep</a></li>
+<li>Whyte, A. (2015). &quot;Where to keep research data: DCC checklist for evaluating data repositories&quot; v.1.1 Edinburgh: Digital Curation Centre. Available online: <a href="http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data" class="uri">http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data</a></li>
+</ul>
+<h2 id="cite-this-guide">Cite this guide</h2>
+<p>Please cite as: Michael Jackson (ed.) (03 August 2018). Software Deposit: What to deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.WhatDoi. Online: https://softwaresaved.github.io/software-deposit-guidance/WhatToDeposit.html.</p>
+<p><img src="./images/cc-by.png" alt="CC-BY 4.0 logo" id="ccby-logo" /> This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/" class="uri">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<h2 id="deposit-contents-checklist" class="pagebreak-before">Deposit contents checklist</h2>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Deposit content</strong></th>
+<th><strong>Done</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Minimal deposit</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Simple README</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Copyright and licence(s) (LICENCE, licences/)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Authors and other contributors (CONTRIBUTORS)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Source code</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Runnable deposit</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Comprehensive README</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>User documentation</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Dependencies documentation</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Sample input and output data</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Recommended citation (CITATION.cff)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Metadata (codeMeta.json)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Comprehensive deposit</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Developer documentation</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Narratives of what the code does and how it does it</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Narratives of the software's ecosystem</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Test code</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Additional sample or test data</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The Software Sustainability Institute, <a href="https://www.software.ac.uk" class="uri">https://www.software.ac.uk</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Jisc, <a href="https://www.jisc.ac.uk" class="uri">https://www.jisc.ac.uk</a>.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>&quot;README&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/README" class="uri">https://en.wikipedia.org/wiki/README</a>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>ORCiD, <a href="https://orcid.org/" class="uri">https://orcid.org/</a>.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>Or LICENCE, LICENCE.txt, LICENSE.txt, LICENCE.md or LICENSE.md.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>Docker, <a href="https://www.docker.com/" class="uri">https://www.docker.com/</a>.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>Singularity, <a href="http://singularity.lbl.gov/" class="uri">http://singularity.lbl.gov/</a>.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>&quot;Virtual machine&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/Virtual_machine" class="uri">https://en.wikipedia.org/wiki/Virtual_machine</a>.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>Digital Object Identifier (DOI), <a href="https://www.doi.org/" class="uri">https://www.doi.org/</a>.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>Archival Resource Key (ARK), J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. <a href="https://escholarship.org/uc/item/9p9863nc" class="uri">https://escholarship.org/uc/item/9p9863nc</a>.<a href="#fnref10">↩</a></p></li>
+<li id="fn11"><p>PyPA pip, <a href="https://pip.pypa.io/en/stable/" class="uri">https://pip.pypa.io/en/stable/</a>.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p>Apache Maven, <a href="https://maven.apache.org" class="uri">https://maven.apache.org</a>.<a href="#fnref12">↩</a></p></li>
+<li id="fn13"><p>RubyGems, <a href="https://rubygems.org/" class="uri">https://rubygems.org/</a>.<a href="#fnref13">↩</a></p></li>
+<li id="fn14"><p>&quot;1.1.1 The DESCRIPTION file&quot;, Writing R Extensions, version 3.5.0 (2018-04-23), <a href="https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file" class="uri">https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file</a>.<a href="#fnref14">↩</a></p></li>
+<li id="fn15"><p>Ansible, <a href="https://www.ansible.com/" class="uri">https://www.ansible.com/</a>.<a href="#fnref15">↩</a></p></li>
+<li id="fn16"><p>Vagrant, <a href="https://www.vagrantup.com/" class="uri">https://www.vagrantup.com/</a>.<a href="#fnref16">↩</a></p></li>
+<li id="fn17"><p>&quot;The FAIR Data Principles&quot;, FORCE 11, <a href="https://www.force11.org/group/fairgroup/fairprinciples" class="uri">https://www.force11.org/group/fairgroup/fairprinciples</a>.<a href="#fnref17">↩</a></p></li>
+<li id="fn18"><p>For example, CodeMeta, <a href="https://codemeta.github.io/terms/" class="uri">https://codemeta.github.io/terms/</a>, provides a &quot;supportingData&quot; term; figshare, <a href="https://figshare.com/" class="uri">https://figshare.com/</a>, provides a &quot;references&quot; field; and, Zenodo, <a href="https://zenodo.org" class="uri">https://zenodo.org</a>, provides a &quot;relatedIdentifiers&quot; property.<a href="#fnref18">↩</a></p></li>
+<li id="fn19"><p>For example, in a number of versions of Python, 0.1 + 0.2 gives the result 0.30000000000000004!<a href="#fnref19">↩</a></p></li>
+<li id="fn20"><p>Citation File Format (CFF), <a href="https://citation-file-format.github.io/" class="uri">https://citation-file-format.github.io/</a>. A machine-readable approach to specifying the citation that others should use when citing your software.<a href="#fnref20">↩</a></p></li>
+<li id="fn21"><p>Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) &quot;Software Citation Principles&quot;. PeerJ Computer Science 2:e86. doi:<a href="https://doi.org/10.7717/peerj-cs.86" class="uri">https://doi.org/10.7717/peerj-cs.86</a>. <a href="https://www.force11.org/software-citation-principles" class="uri">https://www.force11.org/software-citation-principles</a>.<a href="#fnref21">↩</a></p></li>
+<li id="fn22"><p>&quot;How to connect figshare with your GitHub account&quot;, figshare knowledge, <a href="https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1" class="uri">https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1</a>.<a href="#fnref22">↩</a></p></li>
+<li id="fn23"><p>&quot;Making your code citable&quot;, GitHub Guides, <a href="https://guides.github.com/activities/citable-code/" class="uri">https://guides.github.com/activities/citable-code/</a>.<a href="#fnref23">↩</a></p></li>
+<li id="fn24"><p>The CodeMeta Project, <a href="https://codemeta.github.io/" class="uri">https://codemeta.github.io/</a>. A machine-readable approach to documenting software metadata. Specific CodeMeta terms are listed at <a href="https://codemeta.github.io/terms/" class="uri">https://codemeta.github.io/terms/</a>.<a href="#fnref24">↩</a></p></li>
+<li id="fn25"><p>&quot;Application programming interface&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/Application_programming_interface" class="uri">https://en.wikipedia.org/wiki/Application_programming_interface</a>.<a href="#fnref25">↩</a></p></li>
+<li id="fn26"><p>&quot;Pseudo-code&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/Pseudocode" class="uri">https://en.wikipedia.org/wiki/Pseudocode</a>.<a href="#fnref26">↩</a></p></li>
+<li id="fn27"><p>Soiland-Reyes, S. and Bechhofer, S. (eds.) (2016) &quot;Research Object ontology&quot;, 1.0.0-SNAPSHOT, 28 January 2016, <a href="http://wf4ever.github.io/ro/2016-01-28/" class="uri">http://wf4ever.github.io/ro/2016-01-28/</a>.<a href="#fnref27">↩</a></p></li>
+<li id="fn28"><p>Common Workflow Language (CWL), <a href="http://www.commonwl.org" class="uri">http://www.commonwl.org</a>.<a href="#fnref28">↩</a></p></li>
+<li id="fn29"><p>GA4GH Task Execution Schema (TES), <a href="https://github.com/ga4gh/task-execution-schemas" class="uri">https://github.com/ga4gh/task-execution-schemas</a>.<a href="#fnref29">↩</a></p></li>
+<li id="fn30"><p>Workflow Description Language (WDL), <a href="https://software.broadinstitute.org/wdl/" class="uri">https://software.broadinstitute.org/wdl/</a>.<a href="#fnref30">↩</a></p></li>
+<li id="fn31"><p>YAWL: Tet Another Workflow Language, <a href="http://yawlfoundation.org/" class="uri">http://yawlfoundation.org/</a>.<a href="#fnref31">↩</a></p></li>
+</ol>
+</div>
+
+</body>
+</html>

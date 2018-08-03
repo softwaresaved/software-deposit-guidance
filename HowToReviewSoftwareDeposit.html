@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Michael Jackson (ed.), The Software Sustainability Institute" />
+  <meta name="date" content="2018-08-03" />
+  <title>Software Deposit: How to review a software deposit</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+
+<table id="logos-table" class="center noborder">
+<tr>
+<td id="logos-left-cell">
+<a href="https://www.software.ac.uk">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</a>
+</td>
+<td id="logos-right-cell">
+<a href="https://www.jisc.ac.uk">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/>
+</a>
+</td>
+</table>
+
+<div id="header">
+<h1 class="title">Software Deposit: How to review a software deposit</h1>
+<h2 class="author">Michael Jackson (ed.), The Software Sustainability Institute</h2>
+<p class="version">Version 1.0<p>
+<p class="doi">doi:<a href="https://doi.org/10.5281/zenodo.ReviewDoi">10.5281/zenodo.ReviewDoi</a><p>
+<h3 class="date">03 August 2018</h3>
+</div>
+
+<p class="caution">
+Please note that, while you are welcome to have a look, these guides have not yet been officially published. The guides are currently being prepared for deposit in Zenodo. At that time the dates on these web pages will be updated to match the publication date and the guides' DOIs, issued by Zenodo, will be inserted.
+</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>Digital repositories can differ in the deposits that they accept, the metadata requested from researchers, how researchers make their deposits and how these deposits are processed. This includes how deposits are reviewed post-deposit and pre-publication and the criteria that are used in these reviews. Despite the differences between individual digital repositories, there are some common checks that can be done for any software deposit. The nature and degree to which a software deposit can be reviewed depends upon the time, effort and expertise you have available. This guide describes three approaches to reviewing a deposit: a quick content review, a more detailed consistency review and a comprehensive review of quality, utility and usability.</p>
+<div class="figure">
+<img src="./images/HowToReviewSoftwareDeposit.png" alt="How to review a software deposit" id="review-image" />
+<p class="caption">How to review a software deposit</p>
+</div>
+<h2 id="about-this-guide">About this guide</h2>
+<p>This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, funded by Jisc <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. For an overview of the series, see Michael Jackson (ed.) (03 August 2018). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.GuidanceDoi">10.5281/zenodo.GuidanceDoi</a>. Online: <a href="./SoftwareDepositGuidance.html">https://softwaresaved.github.io/software-deposit-guidance/SoftwareDepositGuidance.html</a>.</p>
+<h2 id="review-content">Review content</h2>
+<p>A content review has the advantage that it is quick to assess whether a deposit contains, or does not contain, content essential, or useful, for other researchers. However, the content review does not assess the quality, accuracy or consistency of these contents.</p>
+<h3 id="check-deposit-archive">Check deposit archive</h3>
+<p>Check that the deposit is in a popular open archive format i.e. one of &quot;.zip&quot;, &quot;.tar&quot;, &quot;.tar.gz&quot;, &quot;.tgz&quot;, or &quot;.tar.bz2&quot;. &quot;.7z&quot; or &quot;.rar&quot; should be avoided as support for these is not available by default in current versions of Linux, Windows or MacOS.</p>
+<p>Unpack the deposit archive file to ensure that it has not been corrupted and can be unpacked successfully.</p>
+<h3 id="check-for-minimal-content">Check for minimal content</h3>
+<p>Check that the deposit includes the following minimal, essential, content:</p>
+<ul>
+<li>A simple README file which includes:
+<ul>
+<li>Name of the software.</li>
+<li>Brief overview of the software, what it does (for example, what research problem it was written to solve) and what makes it novel (or different or distinct from similar software already available).</li>
+<li>Contact: Researcher's name, affiliation, current email address and (optionally) ORCiD identifier.</li>
+<li>Link to live software: for ongoing projects, links to their project web site and/or repository hosting service.</li>
+</ul></li>
+<li>Copyright and licence information. This could be in the README file, a LICENCE file (or a similarly named file e.g. LICENSE, LICENCE.txt, LICENSE.txt, LICENCE.md, LICENSE.md, Licence.txt etc.), a licences/ (or licenses/) sub-directory or in other documentation files.</li>
+<li>Authors and other contributors. This could be in the README file, a CONTRIBUTORS file (or a similarly named file e.g. CONTRIBUTORS.txt, CONTRIBUTORS.md, AUTHORS, CREDITS etc.) or in other documentation files.</li>
+<li>Source code.</li>
+</ul>
+<p>Check that the deposit does <em>not</em> include the following files:</p>
+<ul>
+<li>Temporary directories and file. These can include: files starting or ending in &quot;~&quot;; XEmacs scratch files (e.g. &quot;Dft.java~&quot;); Microsoft Word, Excel and Powerpoint temporary files (e.g. &quot;~wrcxxxx.tmp&quot;); and files or directories called, or ending in &quot;tmp&quot;.</li>
+<li>Source code repository configuration files. These can include &quot;.git/&quot; directories, &quot;.hg/&quot; directories, &quot;.svn/&quot; directories and &quot;CVS/&quot; directories.</li>
+<li>Binary files and executables. The only binary files and executables that should be present in a deposit are those that a researcher has explicitly and intentionally chose to include.</li>
+</ul>
+<h3 id="check-for-runnable-content-optional">Check for runnable content (optional)</h3>
+<p>Check for the following content, if you want to check whether the deposit theoretically provides enough content to allow other researchers to build, install, configure and run the software on sample data:</p>
+<ul>
+<li>The README file also includes:
+<ul>
+<li>Version number of the software.</li>
+<li>Copyright statement.</li>
+<li>Name of their licence and third-party licences.</li>
+<li>User documentation, or where in the deposit this can be found.</li>
+<li>Summary of the other contents of the deposit with information on where in the deposit these can be found.</li>
+</ul></li>
+<li>User documentation and dependencies documentation. This could be in various formats e.g. text (&quot;.txt&quot;), Markdown (&quot;.md&quot;), reStructuredText (&quot;.rst&quot;), HTML (&quot;.html&quot;), Microsoft Word (&quot;.doc&quot;, &quot;.docx&quot;), OpenDocument Text Document (&quot;.odt&quot;), Adobe Portable Document Format (&quot;.pdf&quot;). It may be located in a subdirectory of the deposit.</li>
+<li>Sample input and output data.</li>
+<li>Recommended citation e.g., a CITATION.cff file.</li>
+<li>Metadata e.g., a codeMeta.json file.</li>
+</ul>
+<h3 id="check-for-comprehensive-content-optional">Check for comprehensive content (optional)</h3>
+<p>Check for the following content, if you want to check whether the deposit theoretically provides enough content to allow other researchers to reuse, customise and modify the software and provides documentation allowing them to understand, in detail, both how the software implements the research and where it sits in its wider software ecosystem:</p>
+<ul>
+<li>Developer documentation. This could be in various formats e.g. text (&quot;.txt&quot;), Markdown (&quot;.md&quot;), reStructuredText (&quot;.rst&quot;), HTML (&quot;.html&quot;), Microsoft Word (&quot;.doc&quot;, &quot;.docx&quot;), OpenDocument Text Document (&quot;.odt&quot;), Adobe Portable Document Format (&quot;.pdf&quot;). It may be located in a subdirectory of the deposit.</li>
+<li>Narratives of what the code does and how it does it.</li>
+<li>Narratives of the software's ecosystem.</li>
+<li>Test code.</li>
+<li>Additional sample or test data.</li>
+</ul>
+<h2 id="review-consistency">Review consistency</h2>
+<p>Your digital repository will collect metadata about the researcher's deposit. The researcher's deposit itself will include metadata. This review checks that the metadata as recorded within your digital repository is consistent with that recorded within the researcher's deposit.</p>
+<p>Compare your digital repository's metadata to metadata in the following files in the deposit:</p>
+<ul>
+<li>README file.</li>
+<li>LICENCE file (or a similarly named file e.g. LICENSE, LICENCE.txt, LICENSE.txt, LICENCE.md, LICENSE.md, Licence.txt etc.) and additional licence files in any licences/ (or licenses/) directory.</li>
+<li>CONTRIBUTORS file (or a similarly named file e.g. CONTRIBUTORS.txt, CONTRIBUTORS.md, AUTHORS, CREDITS etc.)</li>
+<li>CITATION.cff file (if present): This file lists information on how other researchers should cite use of the software deposit. It can contain metadata such as the software's name, description, authors, license and keywords.</li>
+<li>codeMeta.json file (if present): This file lists metadata about the software, however it may include a far richer set of metadata than captured by your digital repository.</li>
+</ul>
+<p>If there are any discrepancies or inconsistencies then it would be expected that the metadata within the deposit takes precedence and the metadata within your digital repository should be updated accordingly. However, if in doubt, consult the researcher who made the deposit.</p>
+<h2 id="review-quality-utility-and-usability">Review quality, utility and usability</h2>
+<p>A review of quality, utility and usability involves trying to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. This review can help to determine whether another researcher could understand what has been deposited and whether they could replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect, for the historical record, in the long term, i.e., does the deposit now standalone as a useful resource independent of the researcher who deposited it. The disadvantage of such a review is that it requires a lot more time to do. It may require you to consult the services of a research software engineer.</p>
+<h2 id="find-out-more">Find out more</h2>
+<p>Related Software deposit guides:</p>
+<ul>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: What to deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.WhatDoi">10.5281/zenodo.WhatDoi</a>. Online: <a href="./WhatToDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/WhatToDeposit.html</a>.</li>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: What not to deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.WhatNotDoi">10.5281/zenodo.WhatNotDoi</a>. Online: <a href="./WhatNotToDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/WhatNotToDeposit.html</a>.</li>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: How to describe a software deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.DescribeDoi">10.5281/zenodo.DescribeDoi</a>. Online: <a href="./HowToDescribeSoftwareDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/HowToDescribeSoftwareDeposit.html</a>.</li>
+</ul>
+<p>Source code and data files:</p>
+<ul>
+<li>&quot;List of filename extensions&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_filename_extensions" class="uri">https://en.wikipedia.org/wiki/List_of_filename_extensions</a>. A list of common filename extensions including those for source code and data files.</li>
+</ul>
+<p>CodeMeta and codeMeta.json files:</p>
+<ul>
+<li>The CodeMeta Project, <a href="https://codemeta.github.io/" class="uri">https://codemeta.github.io/</a>. A machine-readable approach to documenting software metadata. Specific CodeMeta terms are listed at <a href="https://codemeta.github.io/terms/" class="uri">https://codemeta.github.io/terms/</a>.</li>
+</ul>
+<p>Software citation and CITATION.cff files:</p>
+<ul>
+<li>Citation File Format (CFF), <a href="https://citation-file-format.github.io/" class="uri">https://citation-file-format.github.io/</a>. A machine-readable approach to specifying the citation that others should use when citing your software.</li>
+</ul>
+<h2 id="cite-this-guide">Cite this guide</h2>
+<p>Please cite as: Michael Jackson (ed.) (03 August 2018). Software Deposit: How to review a software deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.ReviewDoi. Online: https://softwaresaved.github.io/software-deposit-guidance/HowToReviewSoftwareDeposit.html.</p>
+<p><img src="./images/cc-by.png" alt="CC-BY 4.0 logo" id="ccby-logo" /> This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/" class="uri">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The Software Sustainability Institute, <a href="https://www.software.ac.uk" class="uri">https://www.software.ac.uk</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Jisc, <a href="https://www.jisc.ac.uk" class="uri">https://www.jisc.ac.uk</a>.<a href="#fnref2">↩</a></p></li>
+</ol>
+</div>
+
+</body>
+</html>

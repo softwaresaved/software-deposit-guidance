@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Michael Jackson (ed.), The Software Sustainability Institute" />
+  <meta name="date" content="2018-08-03" />
+  <title>Software Deposit: What not to deposit</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+
+<table id="logos-table" class="center noborder">
+<tr>
+<td id="logos-left-cell">
+<a href="https://www.software.ac.uk">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</a>
+</td>
+<td id="logos-right-cell">
+<a href="https://www.jisc.ac.uk">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/>
+</a>
+</td>
+</table>
+
+<div id="header">
+<h1 class="title">Software Deposit: What not to deposit</h1>
+<h2 class="author">Michael Jackson (ed.), The Software Sustainability Institute</h2>
+<p class="version">Version 1.0<p>
+<p class="doi">doi:<a href="https://doi.org/10.5281/zenodo.WhatNotDoi">10.5281/zenodo.WhatNotDoi</a><p>
+<h3 class="date">03 August 2018</h3>
+</div>
+
+<p class="caution">
+Please note that, while you are welcome to have a look, these guides have not yet been officially published. The guides are currently being prepared for deposit in Zenodo. At that time the dates on these web pages will be updated to match the publication date and the guides' DOIs, issued by Zenodo, will be inserted.
+</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>A software deposit lodged within a digital repository can contain myriad content. But there is certain content that should not be included within a software deposit. Some of this content may be innocuous and only result in your deposit being more bloated than it otherwise needs to be. Some of this content may compromise your security. And, in the worst case, some of this content may result in you inadvertently breaking local laws relating to data protection. This guide summarises the content that should not be deposited with your software.</p>
+<div class="figure">
+<img src="./images/WhatNotToDeposit.png" alt="What not to deposit" id="what-not-image" />
+<p class="caption">What not to deposit</p>
+</div>
+<h2 id="about-this-guide">About this guide</h2>
+<p>This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, funded by Jisc <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. For an overview of the series, see Michael Jackson (ed.) (03 August 2018). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.GuidanceDoi">10.5281/zenodo.GuidanceDoi</a>. Online: <a href="./SoftwareDepositGuidance.html">https://softwaresaved.github.io/software-deposit-guidance/SoftwareDepositGuidance.html</a>.</p>
+<h2 id="sensitive-personal-information">Sensitive personal information</h2>
+<p>Check that your content does not contain any personal or identifiable information about other people which, if shared, may result in you violating local laws relating to data protection or patient confidentiality. This information can include: names, addresses, email addresses, phone or fax numbers, photos, gender, sexuality, sexual preferences, political beliefs, religious beliefs, allergies, illnesses, disabilities, financial data and medical data.</p>
+<p>For names, email addresses and organisational information relating to those who have written or contributed to your software, make sure you have received their permission to include this information.</p>
+<p>Look for sensitive personal information in documentation, source files, data files and image files (especially medical image files).</p>
+<h2 id="internal-information">Internal information</h2>
+<p>Check that your content does not include any information relating to your local infrastructure and servers and which might compromise their security if this information were exposed publicly. This information can include: URLs or IP addresses of servers or service endpoints, usernames, passwords, private SSH keys, security tokens and credentials.</p>
+<p>Look for internal information in documentation, configuration files, data files and source code.</p>
+<h2 id="software-and-data-not-licensed-for-sharing-or-redistribution">Software and data not licensed for sharing or redistribution</h2>
+<p>If you have built your software using third-party components then it may include source code, libraries or binaries which you are not allowed to redistribute. This is often the case with proprietary software from commercial companies. Similarly, you may not be allowed to redistribute certain data files. This is often the case with data that has been shared with you but is not for publication or redistribution to a third-party. Redistributing such software or data may cause you to violate confidentiality agreements with collaborators or local laws relating to copyright and intellectual property.</p>
+<p>Check that the licences of any third-party software or data files allow you to redistribute them. If not, then remove these files and, instead, document them as dependencies.</p>
+<h2 id="inappropriate-content">Inappropriate content</h2>
+<p>Remember that witty and profane comment you buried in your source code after battling a day to fix a bug? Or that amusingly tasteless cartoon image you downloaded, but can't remember where? Take care that your deposit does not include such content as it will be associated with your name in a digital repository for quite some time and may cause, at best, amusement to your colleagues and, at worst, damage to your reputation.</p>
+<p>Look for inappropriate content in documentation, data files, source code (especially comments), images and movies.</p>
+<h2 id="temporary-directories-and-files">Temporary directories and files</h2>
+<p>Many software packages, including your own, may create temporary directories and files. While useful in your day-to-day work, these won't be needed by others wishing to use your software and their presence in your deposit will unnecessarily bloat it and make its content look cluttered.</p>
+<p>Check that your content does not include temporary directories or files that others do not need to understand or run your software. These can include: files starting or ending in &quot;~&quot;; XEmacs scratch files (e.g. &quot;Dft.java~&quot;); Microsoft Word, Excel and Powerpoint temporary files (e.g. &quot;~wrcxxxx.tmp&quot;); and files or directories called, or ending in &quot;tmp&quot;.</p>
+<h2 id="source-code-repository-configuration-files">Source code repository configuration files</h2>
+<p>If you are using a source code repository and are creating a software deposit from it, then make sure that you do not include the repository configuration files and directories within your deposit. Their presence in your deposit will unnecessarily bloat it.</p>
+<p>These files and directories can include &quot;.git/&quot; directories, &quot;.hg/&quot; directories, &quot;.svn/&quot; directories and &quot;CVS/&quot; directories. Git, Mercurial, Subversion and CVS all provide commands to get a copy of the source code repository without these repository configuration files and directories <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>.</p>
+<p>Tools that help deposit software from source code repositories into digital repositories, such as the figshare-GitHub integration <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> and Zenodo-GitHub integration <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>, ignore these repository configuration files automatically.</p>
+<h2 id="unused-source-code">Unused source code</h2>
+<p>Source code that is no longer used can unnecessarily bloat your deposit. It can also make it challenging for others to understand what your software does as they will assume, naturally, that all the source code in your deposit serves some purpose.</p>
+<p>Remove any source code files that are no longer used. Similarly remove any commented-out code.</p>
+<h2 id="unnecessary-data-files">Unnecessary data files</h2>
+<p>Including sample data files can be valuable for those who use your software deposit. These provide users with sample inputs, to use with your software, and the expected outputs, against which they can compare their outputs when running your software. However, data files can also increase the size of your deposit.</p>
+<p>Check your data files and ensure you are only depositing data files that are of use to others, for example sample inputs and the corresponding outputs.</p>
+<p>If you have published, or intend to publish, results based on your data files, then consider following the FAIR <a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a>.</p>
+<h2 id="unintended-binary-files-and-executables">Unintended binary files and executables</h2>
+<p>Check that the only binary files and executables you include in your deposit are those you are explicitly and intentionally choosing to include. Any that you don't consider to be needed by others wishing to use your software will only unnecessarily bloat it.</p>
+<h2 id="find-out-more">Find out more</h2>
+<p>Related Software deposit guides:</p>
+<ul>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: What to deposit (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.WhatDoi">10.5281/zenodo.WhatDoi</a>. Online: <a href="./WhatToDeposit.html">https://softwaresaved.github.io/software-deposit-guidance/WhatToDeposit.html</a>.</li>
+<li>Michael Jackson (ed.) (03 August 2018). Software Deposit: How to choose a software licence (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.LicenceDoi">10.5281/zenodo.LicenceDoi</a>. Online: <a href="./HowToChooseSoftwareLicence.html">https://softwaresaved.github.io/software-deposit-guidance/HowToChooseSoftwareLicence.html</a>.</li>
+</ul>
+<p>Temporary directories and files:</p>
+<ul>
+<li>&quot;A collection of .gitignore templates&quot;, GitHub, <a href="https://github.com/github/gitignore" class="uri">https://github.com/github/gitignore</a>. A list of templates for various programming languages and software development framework. Each of these lists the types of files that are typically not to be added to source code repositories. These can serve as a guide for the types of files not to be included in a software deposit too.</li>
+</ul>
+<p>Depositing research data:</p>
+<ul>
+<li>DCC (2014). &quot;Five steps to decide what data to keep: a checklist for appraising research data v.1&quot;. Edinburgh: Digital Curation Centre. Available online: <a href="http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep" class="uri">http://www.dcc.ac.uk/resources/how-guides/five-steps-decide-what-data-keep</a></li>
+<li>Whyte, A. (2015). &quot;Where to keep research data: DCC checklist for evaluating data repositories&quot; v.1.1 Edinburgh: Digital Curation Centre. Available online: <a href="http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data" class="uri">http://www.dcc.ac.uk/resources/how-guides-checklists/where-keep-research-data/where-keep-research-data</a></li>
+</ul>
+<h2 id="cite-this-guide">Cite this guide</h2>
+<p>Please cite as: Michael Jackson (ed.) (03 August 2018). Software Deposit: What not to deposit (Version 1.0). Zenodo. doi:10.5281/zenodo.WhatNotDoi. Online: https://softwaresaved.github.io/software-deposit-guidance/WhatNotToDeposit.html.</p>
+<p><img src="./images/cc-by.png" alt="CC-BY 4.0 logo" id="ccby-logo" /> This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/" class="uri">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The Software Sustainability Institute, <a href="https://www.software.ac.uk" class="uri">https://www.software.ac.uk</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Jisc, <a href="https://www.jisc.ac.uk" class="uri">https://www.jisc.ac.uk</a>.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>For example, &quot;git archive&quot;, <a href="https://git-scm.com/docs/git-archive" class="uri">https://git-scm.com/docs/git-archive</a>; &quot;hg archive&quot;, <a href="https://www.mercurial-scm.org/repo/hg/help/archive" class="uri">https://www.mercurial-scm.org/repo/hg/help/archive</a>; &quot;svn export&quot;, <a href="http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html" class="uri">http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html</a>; &quot;cvs export&quot;, <a href="https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html" class="uri">https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html</a>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>How to connect figshare with your GitHub account&quot;, figshare knowledge, <a href="https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1" class="uri">https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1</a>.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>&quot;Making your code citable&quot;, GitHub Guides, <a href="https://guides.github.com/activities/citable-code/" class="uri">https://guides.github.com/activities/citable-code/</a>.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>&quot;The FAIR Data Principles&quot;, FORCE 11, <a href="https://www.force11.org/group/fairgroup/fairprinciples" class="uri">https://www.force11.org/group/fairgroup/fairprinciples</a>.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>For example, CodeMeta, <a href="https://codemeta.github.io/terms/" class="uri">https://codemeta.github.io/terms/</a>, provides a &quot;supportingData&quot; term; figshare, <a href="https://figshare.com/" class="uri">https://figshare.com/</a>, provides a &quot;references&quot; field; and, Zenodo, <a href="https://zenodo.org" class="uri">https://zenodo.org</a>, provides a &quot;relatedIdentifiers&quot; property.<a href="#fnref7">↩</a></p></li>
+</ol>
+</div>
+
+</body>
+</html>

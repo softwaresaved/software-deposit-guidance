@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Michael Jackson (ed.), The Software Sustainability Institute" />
+  <meta name="date" content="2018-08-03" />
+  <title>Software Deposit: How to choose a software licence</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+
+<table id="logos-table" class="center noborder">
+<tr>
+<td id="logos-left-cell">
+<a href="https://www.software.ac.uk">
+<img id="ssi-logo" src="./images/ssi.png" alt="The Software Sustainability Institute logo"/>
+</a>
+</td>
+<td id="logos-right-cell">
+<a href="https://www.jisc.ac.uk">
+<img id="jisc-logo" src="./images/jisc.png" alt="Jisc logo"/>
+</a>
+</td>
+</table>
+
+<div id="header">
+<h1 class="title">Software Deposit: How to choose a software licence</h1>
+<h2 class="author">Michael Jackson (ed.), The Software Sustainability Institute</h2>
+<p class="version">Version 1.0<p>
+<p class="doi">doi:<a href="https://doi.org/10.5281/zenodo.LicenceDoi">10.5281/zenodo.LicenceDoi</a><p>
+<h3 class="date">03 August 2018</h3>
+</div>
+
+<p class="caution">
+Please note that, while you are welcome to have a look, these guides have not yet been officially published. The guides are currently being prepared for deposit in Zenodo. At that time the dates on these web pages will be updated to match the publication date and the guides' DOIs, issued by Zenodo, will be inserted.
+</p>
+
+<h2 id="introduction">Introduction</h2>
+<p>By depositing your software into a digital repository, you are implicitly stating that, at some point in time, you expect, or hope, someone will download it, with the aim of inspecting, replicating, reproducing or reusing your research. A software licence is an explicit, and legally-binding, statement of what others can, and cannot, do with your software and any obligations upon them. This guide provides an overview of the licensing options available - specifically open source licences, proprietary licences and dual licencing - and the key qualities of each in respect to allowing others to inspect, use and reuse your software.</p>
+<div class="figure">
+<img src="./images/HowToChooseSoftwareLicence.png" alt="How to choose a software licence" id="licence-image" />
+<p class="caption">How to choose a software licence</p>
+</div>
+<h2 id="about-this-guide">About this guide</h2>
+<p>This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, funded by Jisc <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>. For an overview of the series, see Michael Jackson (ed.) (03 August 2018). Software Deposit: Guidance for Researchers (Version 1.0). Zenodo. doi:<a href="https://doi.org/10.5281/zenodo.GuidanceDoi">10.5281/zenodo.GuidanceDoi</a>. Online: <a href="./SoftwareDepositGuidance.html">https://softwaresaved.github.io/software-deposit-guidance/SoftwareDepositGuidance.html</a>.</p>
+<h2 id="what-is-copyright">What is copyright?</h2>
+<p>Jisc's guide to &quot;Intellectual property law&quot; <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> defines intellectual property rights (IPR) as &quot;rights granted to creators and owners of works that are the result of human intellectual creativity.&quot; One such right is copyright, defined by Jisc's guide to &quot;Copyright law&quot; <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> as &quot;a legally enforceable property right that enables a rights holder to profit from a work such as a book, for example. It does this by preventing others from exploiting the work without the rights holder's say so for a period of time.&quot;</p>
+<h2 id="what-is-a-licence">What is a licence?</h2>
+<p>Jisc's guide to &quot;Copyright law&quot; defines a licence as a &quot;a contractual agreement between the copyright owner and user that limits how the user can use the work.&quot; For software, a licence specifies the terms and conditions under which others can use, distribute and modify your software.</p>
+<h2 id="why-share-source-code">Why share source code?</h2>
+<p>Binaries such as executables, Docker <a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> or Singularity <a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> containers or virtual machines <a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> can support replicability and reuse. Depending on the implementation (e.g. how configurable they are) they may also support reproducibility. However, they do not allow others to inspect your software to understand exactly what was run and how your results were produced. A complementary paper may provide this information but the paper does not produce your results, the source code that you run does. Source code has a value even if it no longer can be compiled or run, serving as a programmatic description of the research that was done.</p>
+<h2 id="open-source-licences">Open source licences</h2>
+<p>Publishing source code in a digital repository, or sharing it with others, does not immediately imply that the software is open source. For example, GitHub <a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a> states that in the absence of an appropriate licence, users only have permission to view and copy software that they host. To be considered open source, the software must be accompanied by a licence which typically allows others to view the source code, redistribute the source code as-is, to modify the source code and to distribute the source code of their modifications.</p>
+<p>Even if your funders or other stakeholders do not require you to release your source code, then depositing your software with an open source licence should still be your de facto choice, unless there are legal, ethical or commercial concerns. Open source software gives others the freedom to inspect your software, to read its source code and understand exactly what was run and how your results were produced and to validate your results. It also supports replicability, reproducibility and reuse.</p>
+<h3 id="osi-approved-open-source-licences">OSI-approved open source licences</h3>
+<p>The global non-profit Open Source Initiative (OSI) <a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> has produced an &quot;Open Source Definition&quot; <a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a>. This promotes a shared understanding of, and a consensus around, the term &quot;open source&quot;. The OSI use this definition, along with criteria, including the clarity and simplicity of a licence, to accredit licences, which are termed &quot;OSI-approved&quot;. Most of the popular open source licences are OSI-approved.</p>
+<p>If choosing an open source licence, then adopt one that is OSI-approved, has been through this community-driven accreditation process, is widely used and is well understood.</p>
+<h3 id="free-open-source-licences">Free open source licences</h3>
+<p>One class of open source licences are free open source licences, where free refers to freedom, not zero-cost. In essence, free open source licences allow anyone to customise or extend the source code and then release a binary of this modified code. However, they require that the source code of the changes also be distributed. Free open source licences are intended to preserve the freedom to inspect, redistribute and modify source code.</p>
+<p>Free open source licences may deter commercial exploitation, as companies may not be willing to use software that requires them to release the source code of any modifications they make. However, they do keep the source code available, even in the presence of modifications by others.</p>
+<p>Examples of popular OSI-approved free open source licences include GNU General Public License 3 <a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> and the Mozilla Public License <a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a>.</p>
+<h3 id="permissive-open-source-licences">Permissive open source licences</h3>
+<p>Permissive open source licences allow anyone to customise or extend the source code and then release a binary of this modified code. However, unlike free open source licences, there is no obligation to release the source code of the changes.</p>
+<p>Permissive open source licences can encourage commercial exploitation, as companies may be more willing to use software that does not require them to release the source code of any modifications they make. Your software could be commercially exploited but you won't get any financial benefit from it.</p>
+<p>Examples of popular OSI-approved permissive open source licences include the Apache 2 License <a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a>, 3-clause BSD License <a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a> and the MIT Public Licence <a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a>.</p>
+<h2 id="proprietary-licences">Proprietary licences</h2>
+<p>Proprietary licences are commonly used by commercial vendors who wish to protect their intellectual property. A proprietary licence typically only allows use of a binary and imposes conditions on the use of this binary, for example forbidding redistribution to others or reverse engineering it, or mandating installation on one computer only, or use for specific time period or for a specific purpose. The original authors retain full ownership over their software. Source code can be released under a proprietary license too. For example, the HSL Mathematical Software Library <a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a> provides source code under an academic licence which forbids redistribution in source or binary form <a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a>.</p>
+<p>Research software, including source code, could be deposited under a proprietary licence which allows others to inspect the source code and validate your results and, possibly, also support repeatability, replicability and reuse, including commercial reuse. However, the licence could preclude them from disclosing details of the source code, modifying or redistributing it or publishing papers derived from it without your explicit consent or a fee.</p>
+<h2 id="dual-licensing">Dual licensing</h2>
+<p>If you want to commercialise your research software, but also deposit it in a digital repository, then dual licensing is preferable to a sole proprietary licence. If you are a copyright owner, you can licence your software in as many ways as you want. Dual licensing <a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a> is a model where software is released under both a free open source licence and a proprietary licence. For example, you could deposit your software under the GNU Public Licence. Other researchers can then inspect your source code, validate your results and reuse your software, but will be obliged to release the source code of any changes. For commercial companies who want to exploit your software, but not want to share their modification, you can sell them a proprietary licence that does not oblige them to release their modifications.</p>
+<p>An example of dual licensed software is MIT's FFTW <a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a> Fourier transform library, available under both the GNU General Public License, version 2 and a proprietary licence available from MIT's Technology Licensing Office <a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a>.</p>
+<h2 id="questions-to-ask">Questions to ask</h2>
+<p>There can be many factors that can constrain both your statement of copyright and the licence you could choose. Ask yourself, and your fellow stakeholders, the following questions.</p>
+<p><strong>Who owns the copyright?</strong> If you are an employee of an institution or company, check your contract with your employer, since they may own the copyright on any work you do as an employee. If you are part of a collaboration, then copyright may be shared across all institutions or companies in that collaboration.</p>
+<p><strong>Is the copyright owner a legal entity?</strong> Copyright holders must be legal entities such as people, companies, institutions, or groups of these.</p>
+<p><strong>Is there a licence you are required to use?</strong> Your institution, company, funder, collaborators or other stakeholders may mandate a licence you are required to use. For example, Wellcome Open Research require an open source licence and strongly recommend an OSI-approved open source licence <a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a>.</p>
+<p><strong>What are the licences of third-party software you have included or modified in your own software?</strong> If your software includes third-party software, either as-is or modified, then your choice of licence may be affected by the licences of that software. For example, if you modify code released under the GNU Public Licence then you are required to licence your modifications under the GNU Public Licence too and to release the source code of your modifications along with any binaries. In some cases, different licences for your own and third-party code may be incompatible <a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a>, meaning either you need to change your licence or consider not distributing the third-party software alongside your own.</p>
+<p><strong>Are the terms of your chosen licence valid under your national laws? Or, do you know if any terms are not valid and the implications of this?</strong> Certain licences, or specific licence terms, may not be valid within certain countries. For example, the MIT License states that &quot;In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.&quot; But, under German law a complete disclaimer like this is invalid <a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a>. In contrast, the Apache 2 License has a similar statement but with the proviso &quot;unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing...&quot;.</p>
+<h2 id="request-that-others-cite-your-software">Request that others cite your software</h2>
+<p>In the same way that it is expected that others cite your papers if they have used them within their research, you can request <a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a> that others cite the use of your software. You can search for these citations in papers, publications, other software, documentation, web pages and blog posts and other software and so gather information relating to impact of your software. This can help you to demonstrate the impact of your software and its contribution to research to your institution, your community and your funders.</p>
+<h2 id="use-of-our-advice-and-guidance">Use of our advice and guidance</h2>
+<p>The Software Sustainability Institute provide the foregoing information on an &quot;as-is&quot; basis, makes no warranties regarding any information provided within and disclaims liability for damages resulting from using this information. You are solely responsible for determining the appropriateness of any advice and guidance provided and assume any risks associated with your use of this advice and guidance. If you have any questions regarding the right licence for your code or any other legal issues relating to it, consult with a professional for advice relating to your individual circumstances.</p>
+<h2 id="find-out-more">Find out more</h2>
+<p>If you work for a college or university, you may have a research exploitation office that can advise you on which licence to choose, which licences are valid under local laws and which might best fit your requirements. Your local research data managers, as well as collaborators, funders, or publishers may also be able to advise you.</p>
+<p>Organisations providing information and advice about open source software:</p>
+<ul>
+<li>Open Source Initiative (OSI), <a href="https://opensource.org/" class="uri">https://opensource.org/</a></li>
+<li>OSS Watch, <a href="http://oss-watch.ac.uk" class="uri">http://oss-watch.ac.uk</a></li>
+</ul>
+<p>Free online tools to help you select licences for your software:</p>
+<ul>
+<li>ChooseALicense.com, <a href="https://choosealicense.com/" class="uri">https://choosealicense.com/</a></li>
+<li>The Ufal License Selector, <a href="http://ufal.github.io/public-license-selector/" class="uri">http://ufal.github.io/public-license-selector/</a></li>
+<li>tl;drLegal, <a href="https://tldrlegal.com" class="uri">https://tldrlegal.com</a></li>
+</ul>
+<p>Intellectual property and copyright:</p>
+<ul>
+<li>&quot;Intellectual property law&quot;, Jisc, 2014, <a href="https://www.jisc.ac.uk/guides/intellectual-property-law" class="uri">https://www.jisc.ac.uk/guides/intellectual-property-law</a></li>
+<li>&quot;Copyright law&quot;, Jisc, 2014, <a href="https://www.jisc.ac.uk/guides/copyright-law" class="uri">https://www.jisc.ac.uk/guides/copyright-law</a></li>
+</ul>
+<p>Open source licensing:</p>
+<ul>
+<li>Chue Hong, N. and Parkinson, T. (2014) &quot;Choosing an open source licence&quot;, The Software Sustainability Institute, 2014, <a href="http://software.ac.uk/resources/guides/adopting-open-source-licence" class="uri">http://software.ac.uk/resources/guides/adopting-open-source-licence</a></li>
+<li>&quot;Various Licenses and Comments about Them&quot;, GNU, 2018, <a href="http://www.gnu.org/licenses/license-list.html" class="uri">http://www.gnu.org/licenses/license-list.html</a>. A review of open source licences and their compatibilities.</li>
+<li>&quot;Licenses &amp; Standards&quot;, Open Source Initiative (OSI), <a href="https://opensource.org/licenses" class="uri">https://opensource.org/licenses</a>. The list of OSI-approved licences.</li>
+<li>Software Data Package Exchange (SPDX) License List, <a href="https://spdx.org/licenses/" class="uri">https://spdx.org/licenses/</a>, a list of popular licences used in free and open source software, including standardised identifiers, full licence texts and common exceptions to licence clauses.</li>
+<li>Wheeler, D. (2017) &quot;Free-Libre / Open Source Software (FLOSS) License slide&quot;, 2017, <a href="http://www.dwheeler.com/essays/floss-license-slide.html" class="uri">http://www.dwheeler.com/essays/floss-license-slide.html</a>. A summary of how popular open source licences can be combined.</li>
+<li>Yeates, S. (2006) &quot;Dual licensing&quot;, OSS Watch, May 2006, <a href="http://oss-watch.ac.uk/resources/duallicence" class="uri">http://oss-watch.ac.uk/resources/duallicence</a></li>
+</ul>
+<p>Software citation and CITATION.cff files:</p>
+<ul>
+<li>Citation File Format (CFF), <a href="https://citation-file-format.github.io/" class="uri">https://citation-file-format.github.io/</a>. A machine-readable approach to specifying the citation that others should use when citing your software.</li>
+<li>Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) &quot;Software Citation Principles&quot;. PeerJ Computer Science 2:e86. doi:<a href="https://doi.org/10.7717/peerj-cs.86" class="uri">https://doi.org/10.7717/peerj-cs.86</a>. <a href="https://www.force11.org/software-citation-principles" class="uri">https://www.force11.org/software-citation-principles</a>. Why software citation is important and how to cite research software.</li>
+</ul>
+<h2 id="cite-this-guide">Cite this guide</h2>
+<p>Please cite as: Michael Jackson (ed.) (03 August 2018). Software Deposit: How to choose a software licence (Version 1.0). Zenodo. doi:10.5281/zenodo.LicenceDoi. Online: https://softwaresaved.github.io/software-deposit-guidance/HowToChooseSoftwareLicence.html.</p>
+<p><img src="./images/cc-by.png" alt="CC-BY 4.0 logo" id="ccby-logo" /> This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/" class="uri">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The Software Sustainability Institute, <a href="https://www.software.ac.uk" class="uri">https://www.software.ac.uk</a>.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Jisc, <a href="https://www.jisc.ac.uk" class="uri">https://www.jisc.ac.uk</a>.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>&quot;Intellectual property law&quot;, Jisc, 2014, <a href="https://www.jisc.ac.uk/guides/intellectual-property-law" class="uri">https://www.jisc.ac.uk/guides/intellectual-property-law</a>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>&quot;Copyright law&quot;, Jisc, 2014, <a href="https://www.jisc.ac.uk/guides/copyright-law" class="uri">https://www.jisc.ac.uk/guides/copyright-law</a>.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>Docker, <a href="https://www.docker.com/" class="uri">https://www.docker.com/</a>.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>Singularity, <a href="http://singularity.lbl.gov/" class="uri">http://singularity.lbl.gov/</a>.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>&quot;Virtual machine&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/Virtual_machine" class="uri">https://en.wikipedia.org/wiki/Virtual_machine</a>.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>&quot;5. License Grant to Other Users&quot;, GitHub, <a href="https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership" class="uri">https://help.github.com/articles/github-terms-of-service/#f-copyright-and-content-ownership</a>.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>Open Source Initiative (OSI), <a href="https://opensource.org" class="uri">https://opensource.org</a>.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>Open Source Definition&quot;, Open Source Initiative (OSI), <a href="http://opensource.org/osd" class="uri">http://opensource.org/osd</a>.<a href="#fnref10">↩</a></p></li>
+<li id="fn11"><p>&quot;GNU General Public License version 3&quot;, GNU, <a href="http://www.gnu.org/licenses/gpl-3.0.en.html" class="uri">http://www.gnu.org/licenses/gpl-3.0.en.html</a>.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p>&quot;Mozilla Public License&quot;, Mozilla, <a href="https://www.mozilla.org/en-US/MPL" class="uri">https://www.mozilla.org/en-US/MPL</a>.<a href="#fnref12">↩</a></p></li>
+<li id="fn13"><p>&quot;Apache 2 License&quot;, Apache, <a href="http://www.apache.org/licenses/LICENSE-2.0" class="uri">http://www.apache.org/licenses/LICENSE-2.0</a>.<a href="#fnref13">↩</a></p></li>
+<li id="fn14"><p>&quot;3-Clause BSD License&quot;, Open Source Initiative, <a href="https://opensource.org/licenses/BSD-3-Clause" class="uri">https://opensource.org/licenses/BSD-3-Clause</a>.<a href="#fnref14">↩</a></p></li>
+<li id="fn15"><p>&quot;MIT Public License, Open Source Initiative, <a href="http://opensource.org/licenses/MIT" class="uri">http://opensource.org/licenses/MIT</a>.<a href="#fnref15">↩</a></p></li>
+<li id="fn16"><p>The HSL Mathematical Software Library, <a href="http://www.hsl.rl.ac.uk" class="uri">http://www.hsl.rl.ac.uk</a>.<a href="#fnref16">↩</a></p></li>
+<li id="fn17"><p>&quot;HSL Licencing&quot;, The HSL Mathematical Software Library, <a href="http://www.hsl.rl.ac.uk/licencing.html" class="uri">http://www.hsl.rl.ac.uk/licencing.html</a>.<a href="#fnref17">↩</a></p></li>
+<li id="fn18"><p>Yeates, S. (2006) &quot;Dual licensing&quot;, OSS Watch, May 2006, <a href="http://oss-watch.ac.uk/resources/duallicence" class="uri">http://oss-watch.ac.uk/resources/duallicence</a>.<a href="#fnref18">↩</a></p></li>
+<li id="fn19"><p>FFTW, <a href="http://www.fftw.org/" class="uri">http://www.fftw.org/</a>.<a href="#fnref19">↩</a></p></li>
+<li id="fn20"><p>&quot;License and Copyright&quot;, FFTW, <a href="http://www.fftw.org/doc/License-and-Copyright.html" class="uri">http://www.fftw.org/doc/License-and-Copyright.html</a>.<a href="#fnref20">↩</a></p></li>
+<li id="fn21"><p>&quot;Software &amp; source code&quot;, Wellcome Open Research, <a href="https://wellcomeopenresearch.org/for-authors/data-guidelines" class="uri">https://wellcomeopenresearch.org/for-authors/data-guidelines</a>.<a href="#fnref21">↩</a></p></li>
+<li id="fn22"><p>&quot;Licence compatibility&quot;, Wikipedia, <a href="https://en.wikipedia.org/wiki/License_compatibility" class="uri">https://en.wikipedia.org/wiki/License_compatibility</a>.<a href="#fnref22">↩</a></p></li>
+<li id="fn23"><p>&quot;Is the normal exclusion of liability and warranties in open-source licenses effective in Germany?&quot;, Institute for Legal Questions on Free and Open Source Software, <a href="http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany" class="uri">http://www.ifross.org/en/normal-exclusion-liability-and-warranties-open-source-licenses-effective-germany</a>.<a href="#fnref23">↩</a></p></li>
+<li id="fn24"><p>&quot;request&quot; not &quot;require&quot;. For a related discussion, see &quot;Is there an open-source license that enforces citations?&quot;, Academia StackExchange, October 2017, <a href="https://academia.stackexchange.com/questions/97480/is-there-an-open-source-license-that-enforces-citations" class="uri">https://academia.stackexchange.com/questions/97480/is-there-an-open-source-license-that-enforces-citations</a>.<a href="#fnref24">↩</a></p></li>
+</ol>
+</div>
+
+</body>
+</html>
