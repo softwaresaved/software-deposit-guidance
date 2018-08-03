@@ -80,22 +80,90 @@ div.footnotes li
 }
 /**
     Image widths are chosen such that, when converted to PDFs, each HTML
-    page has both the Introduction and image on its first page i.e. 
-    the image is not placed on the second page.
+    page has both the Introduction and image plus its caption on its
+    first page i.e. the image is not placed on the second page; but
+    also so that no header appears right at the bottom of the page.
+
+    700px seems to be the maximum width possible before an image whose
+    width is greater than its height is cropped at its right edge.
 */
-#why-image, #when-image, #where-image, #how-image, #what-image, #what-not-image, #describe-image, #review-image
-{
-    width: 1000px;
-}
-#licence-image
-{
-    width: 600px;
-}
-#guidance-why-image, #guidance-when-image, #guidance-where-image, #guidance-how-image, #guidance-what-image, #guidance-describe-image, #guidance-licence-image, #guidance-review-image
+#why-image
 {
     width: 700px;
 }
+#when-image
+{
+    width: 700px;
+}
+#where-image
+{
+    width: 700px;
+}
+#how-image
+{
+    width: 700px;
+}
+#what-image
+{
+    width: 650px;
+}
+#what-not-image
+{
+    width: 600px;
+}
+#describe-image
+{
+    width: 700px;
+}
+#licence-image
+{
+    width: 400px;
+}
+#review-image
+{
+    width: 650px;
+}
+/**
+    Image widths are chosen such that, when converted to PDF,
+    SoftwareDepositGuidance, allows for an image and its caption
+    to be on the same page, but also so that large chunks of white
+    space are not left. This involved fiddling with both these
+    image widths and the placement of .pagebreak-before for certain
+    headings in SoftwareDepositGuidance.md.
+*/
+#guidance-why-image
+{
+    width: 550px;
+}
+#guidance-when-image
+{
+    width: 550px;
+}
+#guidance-where-image
+{
+    width: 550px;
+}
+#guidance-how-image
+{
+    width: 550px;
+}
+#guidance-what-image
+{
+    width: 550px;
+}
 #guidance-what-not-image
 {
-    width: 500px;
+    width: 300px;
+}
+#guidance-describe-image
+{
+    width: 550px;
+}
+#guidance-licence-image
+{
+    width: 550px;
+}
+#guidance-review-image
+{
+    width: 550px;
 }

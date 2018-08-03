@@ -33,7 +33,7 @@ The guiding principles that motivated the form and content of the guides were as
 
 **Consider deposits of software as attachments or ancillary files submitted alongside publications to publishers to be out-of-scope**. Instead, software is considered as a first class research object, worthy of deposit as an object in its own right. However, much of the guidance in these guides (especially what to deposit and how to describe such deposits) would apply to depositing software in this scenario too.
 
-## Guides for software deposit {.pagebreak-before}
+## Guides for software deposit
 
 The guides and their target audiences are shown in the following table. Each guide, plus this overview document, has been published via Zenodo [^3] and the DOIs are shown below. The guides are also available online [^4] and this online resource will also, in time, host resources that complement the guides including links to examples of what are considered to be good software deposits and good research software generally supported with commentary on why these are considered to be good.
 
@@ -51,55 +51,55 @@ The guides and their target audiences are shown in the following table. Each gui
 
 A summary of the content of each guide now follows.
 
-## Why deposit software
+### Why deposit software {.pagebreak-before}
 
 ![Why deposit software](./images/WhyDepositSoftware.png){#guidance-why-image}
 
 Why bother depositing research software into a digital repository? Why go to all that time and effort? What are the benefits to researchers for doing so? "Why deposit software" describes some of the significant benefits that depositing research software delivers, both to individual researchers and to the research community and also addresses concerns that they may have about sharing their software with others.
 
-## When to deposit software {.pagebreak-before}
+### When to deposit software
 
 ![When to deposit software](./images/WhenToDepositSoftware.png){#guidance-when-image}
 
 A researcher may be convinced of the importance and benefits of depositing research software within a digital repository, so that the exact versions of their software upon which they have published their research results are retained and remain available for future inspection and use, both by themselves and by other researchers. But, the researcher may ask, when is the best time for them to deposit their software? "When to deposit software" poses a series of questions for researchers to ask themselves. If the answer to any of these questions is "yes", then that is the time for them to deposit their software.
 
-## Where to deposit software
+### Where to deposit software {.pagebreak-before}
 
 ![Where to deposit software](./images/WhereToDepositSoftware.png){#guidance-where-image}
 
 There are myriad digital repositories where researchers can deposit their research software so that the exact versions of their software upon which they have published their research results are retained and remain available for future inspection and use, both by themselves and by other researchers. These digital repositories may be provided by their institutions, recommended, or mandated, by funders or publishers, or provided as a service to research communities by third-party organisations. "Where to deposit software" provides advice to researchers on choosing where to deposit their software.
 
-## How to deposit software {.pagebreak-before}
+### How to deposit software
 
 ![How to deposit software](./images/HowToDepositSoftware.png){#guidance-how-image}
 
 Different digital repositories have different means of submission and different requirements as to the deposits they will accept, the metadata associated with these deposits and how deposits are done. However, regardless of the digital repository that a researcher will use, there are some common tasks that a researcher should do before, during and after they deposit their software. "How to deposit software" describes these tasks.
 
-## What to deposit
+### What to deposit
 
 ![What to deposit](./images/WhatToDeposit.png){#guidance-what-image}
 
 What do we mean by a "software deposit"? What does a software deposit need to contain to enable it to allow other researchers to inspect, replicate, reproduce and reuse the research, as manifested in the software, in the short term and inspect the software, for the historical record, in the long term. "What to deposit" describes what a software deposit should include, in terms of three types of deposit: a minimal deposit (with a README, source code, copyright, licence and contributors information), a runnable deposit (with additional user documentation and sample data) and a comprehensive deposit (providing a rich set of code, data and documentation relating to the software).
 
-## What not to deposit {.pagebreak-before}
+### What not to deposit
 
 ![What not to deposit](./images/WhatNotToDeposit.png){#guidance-what-not-image}
 
 A software deposit lodged within a digital repository can contain myriad content. But there is certain content that should not be included within a software deposit. Some of this content may be innocuous and only result in a deposit being more bloated than it otherwise needs to be. Some of this content may compromise a researcher's security. And, in the worst case, some of this content may result in a researcher inadvertently breaking local laws relating to data protection. "What not to deposit" summarises the content should not be deposited with a researcher's software.
 
-## How to describe a software deposit
+### How to describe a software deposit
 
 ![How to describe a software deposit](./images/HowToDescribeSoftwareDeposit.png){#guidance-describe-image}
 
 Papers have titles, authors, abstracts, subject categories and keywords, all of which are metadata, data which describes the paper. These metadata help others to categorise and index papers and find papers of interest to them. Metadata can serve a similar purpose for software deposits, providing a description of a software deposit. This metadata can help a researcher get credit for their software, help digital repository managers categorise and index their software deposit and help other researchers find this software according to criteria of relevance to them. Researchers will need this metadata when depositing their software into a digital repository. "How to describe a software deposit" summarises the metadata researchers can, and should, capture.
 
-## How to choose a software licence {.pagebreak-before}
+### How to choose a software licence {.pagebreak-before}
 
 ![How to choose a software licence](./images/HowToChooseSoftwareLicence.png){#guidance-licence-image}
 
 By depositing software into a digital repository, a researcher is implicitly stating that, at some point in time, they expect, or hope, someone will download it, with the aim of inspecting, replicating, reproducing or reusing their research. A software licence is an explicit, and legally-binding, statement of what others can, and cannot, do with a researcher's software and any obligations upon them. "How to choose a software licence" provides an overview of the licensing options available - specifically open source licences, proprietary licences and dual licencing - and the key qualities of each in respect to allowing others to inspect, use and reuse research software.
 
-## How to review a software deposit {.pagebreak-before}
+### How to review a software deposit {.pagebreak-before}
 
 ![How to review a software deposit](./images/HowToReviewSoftwareDeposit.png){#guidance-review-image}
 
