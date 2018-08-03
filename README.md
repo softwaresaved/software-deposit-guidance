@@ -74,15 +74,18 @@ Install Microsoft TrueType core fonts:
 apt-get install ttf-mscorefonts-installer
 ```
 
-Install linkchecker:
+Install [linkchecker](https://github.com/linkchecker/linkchecker) 9.4:
 
 ```bash
-apt-get install linkchecker
+wget https://github.com/linkchecker/linkchecker/archive/v9.4.0.tar.gz
+tar -xf v9.4.0.tar.gz 
+cd linkchecker-9.4.0/
+pip install -r requirements.txt 
+python setup.py install
 linkchecker -V
 ```
 ```
-INFO 2018-07-26 08:11:53,242 MainThread Checking intern URLs only; use --check-extern to check extern URLs.
-LinkChecker 9.3 released 16.7.2014
+LinkChecker 9.4.0 released xx.xx.xxxx
 Copyright (C) 2000-2014 Bastian Kleineidam
 ```
 
@@ -175,7 +178,7 @@ then this can be ignored (an error code of 1 means that the `linkchecker` progra
 
 A full report is created in `build/link-check.txt`.
 
-**Beware:** Linkchecker may not detect broken links within domains that have `robots.txt` files e.g. `https://github.com/softwaresaved/nosuchrepository` would not be flagged as an error as GitHub uses `robots.txt` files. See the Linkchecker FAQ, [Q:I still get an error, but the page is definitely ok](https://wummel.github.io/linkchecker/faq.html), for another issue with `robots.txt` files.
+**Beware:** Certain links may be identified as broken when they in fact exist. See the Linkchecker FAQ, [Q:I still get an error, but the page is definitely ok](https://wummel.github.io/linkchecker/faq.html).
 
 ### Publishing 
 

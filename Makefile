@@ -6,7 +6,7 @@ FILTER = scripts/replace_tokens.py
 TEMPLATE = templates/doc.html
 PANDOC = pandoc
 WKHTMLTOPDF = wkhtmltopdf --disable-smart-shrinking
-LINK_CHECKER = linkchecker --check-extern
+LINK_CHECKER = linkchecker --check-extern --no-robots
 
 BUILD_DIR = build
 BUILD_MD_DIR = $(BUILD_DIR)/markdown
