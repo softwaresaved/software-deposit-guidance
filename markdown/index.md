@@ -40,8 +40,8 @@ For minor rewordings or rephrasings:
 * Either raise an issue, as above.
 * Or create a pull request with the suggested changes:
     - Fork the GitHub repository into your own GitHub account.
-    - Check out the `master` branch.
-    - Read README.md in the `master` branch on how to edit and build the guidance locally.
+    - Check out the [master](%GITHUB_URL%/tree/master) branch.
+    - Read [README.md](%GITHUB_URL%/blob/master/README.md) in the `master` branch on how to edit and build the guidance locally.
     - Make your changes to your local fork.
     - Regenerate the HTML, SVGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
     - When you are ready to contribute your changes, submit a pull request.
