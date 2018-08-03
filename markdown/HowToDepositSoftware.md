@@ -19,7 +19,7 @@ This guide is one of a series of guides on software deposit, written by The Soft
 
 ## Read the documentation provided by the digital repository
 
-Your chosen digital repository should provide documentation that describe exactly how you can make your deposit, including what you can deposit, the supported file formats for deposits, what metadata you may need to provide, how to provide this metadata and what happens after you make your deposit. If you're lucky, they'll have an intuitive user interface that informs you of this as you make your deposit.
+Your chosen digital repository should provide documentation that describes exactly how you can make your deposit, including what you can deposit, the supported file formats for deposits, what metadata you may need to provide, how to provide this metadata and what happens after you make your deposit. If you're lucky, they'll have an intuitive user interface that informs you of this as you make your deposit.
 
 If there is any conflict between the advice and guidance in our guides and in your chosen digital repository, then the requirements of the digital repository take precedence.
 
@@ -29,7 +29,7 @@ There are a number of ways you can review your intended deposit content.
 
 ### Review the intended content yourself
 
-You should always review your intended content yourself, checking that it will include everything you intend to deposit, with reference to our guides on "Software Deposit: What to deposit", "Software Deposit: What not to deposit", "Software Deposit: How to describe your deposit".
+You should always review your intended content yourself, checking that it will include everything you intend to deposit.
 
 If applicable, check that your software can be built, deployed, installed and run following your user documentation. Take care that your environment and your familiarity with the software do not cause you to skip steps or make assumptions that someone having a different environment or not familiar with the software would not make.
 
@@ -39,11 +39,11 @@ Discuss with a colleague what your software does and how it does it, give them a
 
 ### Ask a colleague to review the intended content
 
-Ask a colleague to check that your deposit will include everything you intend to deposit, remembering to let them know what you intend to deposit. You may want to refer them to the "Review content" section in our guide on "Software Deposit: How to review a software deposit".
+Ask a colleague to check that your deposit will include everything you intend to deposit, remembering to let them know what you intend to deposit.
 
 ### Ask a colleague to review the quality, utility and usability of the intended content
 
-Ask a colleague to try to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. The disadvantage of such a review is that it requires a lot more time to do, though it provides the most comprehensive feedback on your software [^3]. You may want to refer them to the "Review quality, utility and usability" section in our guide on "Software Deposit: How to review a software deposit".
+Ask a colleague to try to build, deploy and run the software, following its user and developer documentation, reviewing these for readability, accuracy and usability. While the downside of such a review is that it requires a lot more time to do, it provides the most comprehensive feedback on your software [^3].
 
 ## Decide how to deposit
 
@@ -99,7 +99,7 @@ You may also want to add additional metadata beyond that which was automatically
 
 ## Enforce an embargo (optional)
 
-If you want to enforce an embargo and your repository supports this feature, set the date until which the deposit is to be embargoed and provide any additional information required by the digital repository.
+If you want to enforce an embargo and the digital repository supports this feature, set the date until which the deposit is to be embargoed and provide any additional information required by the digital repository.
 
 ## Check your uploaded deposit
 
@@ -126,9 +126,9 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: How to deposit
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
-[^3]: This is a good thing to do regularly, regardless of whether you are depositing software or not. It can help to increase your software's bus factor ([https://en.wikipedia.org/wiki/Bus\_factor](https://en.wikipedia.org/wiki/Bus_factor)).
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
+[^3]: This is a good thing to do regularly, regardless of whether you are depositing software or not. It can help to increase your software's bus factor ([https://en.wikipedia.org/wiki/Bus\_factor](https://en.wikipedia.org/wiki/Bus_factor).
 [^4]: "How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-[^5]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-[^6]: Semantic Versioning, [https://semver.org/](https://semver.org/)
+[^5]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/).
+[^6]: Semantic Versioning, [https://semver.org/](https://semver.org/).
