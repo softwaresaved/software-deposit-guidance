@@ -15,9 +15,7 @@ There are myriad digital repositories where you can deposit your research softwa
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
-
-![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
+This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute [^1], funded by Jisc [^2]. For an overview of the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html). 
 
 ## Where _not_ to deposit software
 
@@ -86,6 +84,12 @@ The digital repository may be accredited or certified by an independent agency t
 If you work for a college or university, you may have a research exploitation office that can advise you on which digital repository to use and which might best fit your requirements. Your local research data managers as well as collaborators, funders, publishers or researchers in your community may also be able to advise you and make suggestions or recommendations.
 
 re3data.org, [https://www.re3data.org/](https://www.re3data.org/)is a global registry of research data repositories. It supports searching for digital repositories by country, subject and content types (which includes various types of data, software applications and source code).
+
+## Cite this guide
+
+Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: Where to deposit software (Version %VERSION%). Zenodo. doi:%WHERE_DOI%. Online: %DISPLAY_URL%/WhereToDepositSoftware.html.
+
+![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 [^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
 [^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)

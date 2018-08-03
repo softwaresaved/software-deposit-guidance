@@ -15,9 +15,7 @@ Research software can be any collection of scripts or code written for, or used 
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
-
-![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
+This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute [^1], funded by Jisc [^2]. For an overview of the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html). 
 
 ## Your software is retained and remains available for the future
 
@@ -100,6 +98,12 @@ Articles and blog posts on why researchers should share and deposit research sof
 * D. (2010) "If you're going to do good science, release the computer code too". The Guardian, 5 February 2010. [https://www.theguardian.com/technology/2010/feb/05/science-climate-emails-code-release](https://www.theguardian.com/technology/2010/feb/05/science-climate-emails-code-release).
 * Klein, M., de Sompel, H.V., Sanderson, R., Shankar, H., Balakireva, L., Zhou, L., Tobin. R. (2014) "Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot", PLOS One, 26 December 2014. doi:[10.1371/journal.pone.0115253](https://doi.org/10.1371/journal.pone.0115253). An article on the necessity of using persistent identifiers in research.
 * Science Code Manifesto, [http://sciencecodemanifesto.org/](http://sciencecodemanifesto.org/). Five principles arising from software's integral position in 21st century research. The fifth is "Curation - Source code must remain available, linked to related materials, for the useful lifetime of the publication."
+
+## Cite this guide
+
+Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: Why deposit software (Version %VERSION%). Zenodo. doi:%WHY_DOI%. Online: %DISPLAY_URL%/WhyDepositSoftware.html.
+
+![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 [^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
 [^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)

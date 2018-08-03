@@ -173,7 +173,9 @@ University of Edinburgh. "Benefits of deposit", The University of Edinburgh, [ht
 
 Wilson, G., Aruliah, D.A., Brown, C.T., Chue Hong, N.P. and Davis, M. (2014) "Best Practices for Scientific Computing", PLoS Biol 12(1): e1001745, January 2014. doi:[10.1371/journal.pbio.1001745](https://doi.org/doi:10.1371/journal.pbio.1001745).
 
-## Licence
+## Cite this guide
+
+Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit Guidance (Version %VERSION%). Zenodo. doi:%GUIDANCE_DOI%. Online: %DISPLAY_URL%/SoftwareDepositGuidance.html.
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 

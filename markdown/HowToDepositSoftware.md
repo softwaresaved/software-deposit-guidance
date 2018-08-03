@@ -15,9 +15,7 @@ You know why you want to deposit your software, have chosen when to do it and wh
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
-
-![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
+This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute [^1], funded by Jisc [^2]. For an overview of the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html). 
 
 ## Read the documentation provided by the digital repository
 
@@ -113,7 +111,6 @@ If you are depositing into an institutional repository, your local research data
 
 Related Software deposit guides:
 
-
 * Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_DOI%](https://doi.org/%WHAT_DOI%). Online: [%DISPLAY_URL%/WhatToDeposit.html](%LINK_URL%/WhatToDeposit.html).
 * Michael Jackson (ed.) (%DATE%). Software Deposit: What not to deposit (Version %VERSION%). Zenodo. doi:[%WHAT_NOT_DOI%](https://doi.org/%WHAT_NOT_DOI%). Online: [%DISPLAY_URL%/WhatNotToDeposit.html](%LINK_URL%/WhatNotToDeposit.html).
 * Michael Jackson (ed.) (%DATE%). Software Deposit: How to describe a software deposit (Version %VERSION%). Zenodo. doi:[%DESCRIBE_DOI%](https://doi.org/%DESCRIBE_DOI%). Online: [%DISPLAY_URL%/HowToDescribeSoftwareDeposit.html](%LINK_URL%/HowToDescribeSoftwareDeposit.html).
@@ -122,6 +119,12 @@ Related Software deposit guides:
 Archive naming:
 
 * Raymond, E.S. (2000) Software Release Practice HOWTO, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/), has a good section on naming software archive files, [http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html](http://www.tldp.org/HOWTO/Software-Release-Practice-HOWTO/naming.html).
+
+## Cite this guide
+
+Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: How to deposit software (Version %VERSION%). Zenodo. doi:%HOW_DOI%. Online: %DISPLAY_URL%/HowToDepositSoftware.html.
+
+![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 [^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
 [^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)

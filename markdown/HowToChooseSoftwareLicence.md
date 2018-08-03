@@ -15,9 +15,7 @@ By depositing your software into a digital repository, you are implicitly statin
 
 ## About this guide
 
-This guide was written by The Software Sustainability Institute [^1], funded by Jisc [^2]. It forms part of a series of guides on software deposit. For an overview of all guides in the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html).
-
-![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
+This guide is one of a series of guides on software deposit, written by The Software Sustainability Institute [^1], funded by Jisc [^2]. For an overview of the series, see Michael Jackson (ed.) (%DATE%). Software Deposit: Guidance for Researchers (Version %VERSION%). Zenodo. doi:[%GUIDANCE_DOI%](https://doi.org/%GUIDANCE_DOI%). Online: [%DISPLAY_URL%/SoftwareDepositGuidance.html](%LINK_URL%/SoftwareDepositGuidance.html). 
 
 ## What is copyright?
 
@@ -126,6 +124,12 @@ Software citation and CITATION.cff files:
 
 * Citation File Format (CFF), [https://citation-file-format.github.io/](https://citation-file-format.github.io/). A machine-readable approach to specifying the citation that others should use when citing your software.
 * Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:[https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles). Why software citation is important and how to cite research software.
+
+## Cite this guide
+
+Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: How to choose a software licence (Version %VERSION%). Zenodo. doi:%LICENCE_DOI%. Online: %DISPLAY_URL%/HowToChooseSoftwareLicence.html.
+
+![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
 [^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
 [^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
