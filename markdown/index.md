@@ -1,5 +1,7 @@
 ---
 title: "Software Deposit Guidance for Researchers"
+author: "The Software Sustainability Institute"
+date: "%DATE%"
 ---
 
 Research software is an integral part of the modern research ecosystem. Taken together, research software, alongside data, facilities, equipment and an overarching research question can be viewed as a research activity or experiment, worthy to be published. Conversely, a publication can be considered as a narrative that describes how the research objects are used together to reply to the research question.
@@ -8,7 +10,7 @@ Depositing research software into a digital repository can offer significant ben
 
 The [Software Sustainability Institute](https://www.software.ac.uk), funded by [Jisc](https://www.jisc.ac.uk), developed a set of complementary guides covering the main aspects of depositing software into digital repositories. These guides are intended for researchers, principal investigators and research leaders and research data and digital repository managers.
 
-## Version 1.0
+## Version %VERSION%
 
 * [Software Deposit: Guidance for Researchers](./SoftwareDepositGuidance.html). This guide provides an overview of all the guides in the series.
 * [Why deposit software](%LINK_URL%/WhyDepositSoftware.html)
