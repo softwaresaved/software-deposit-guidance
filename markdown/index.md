@@ -43,7 +43,7 @@ For minor rewordings or rephrasings:
     - Check out the [master](%GITHUB_URL%/tree/master) branch.
     - Read [README.md](%GITHUB_URL%/blob/master/README.md) in the `master` branch on how to edit and build the guidance locally.
     - Make your changes to your local fork.
-    - Regenerate the HTML, SVGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
+    - Regenerate the HTML, PNGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
     - When you are ready to contribute your changes, submit a pull request.
 
 ## About this guidance

@@ -14,5 +14,5 @@ For minor rewordings or rephrasings:
     - Check out the `master` branch.
     - Read [README.md](./README.md) on how to edit and build the guidance locally.
     - Make your changes to your local fork.
-    - Regenerate the HTML, SVGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
+    - Regenerate the HTML, PNGs (if applicable), and, optionally, PDFs, to ensure that your changes look OK.
     - When you are ready to contribute your changes, submit a pull request.
