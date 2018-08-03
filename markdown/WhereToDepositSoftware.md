@@ -33,7 +33,7 @@ You want to deposit your software in a place where other researchers can access 
 
 There are many choices as to a digital repository to use for depositing software.
 
-**Institutional** digital repositories are provided by institutions for the deposit of research objects, including software, that are created by their staff, typically to showcase their research. Even if you leave the institution, your research will remain in the repository. Examples which support software deposits include University of Edinburgh DataShare [^11], UCL Discovery [^12] and The University of Sheffield figshare [^13] (an example of an institution-specific deployment of the figshare digital repository platform).
+**Institutional** digital repositories are provided by institutions for the deposit of research objects, including software, that are created by their staff, typically to showcase their research. Even if you leave the institution, your research will remain in the repository. Examples which support software deposits include the University of Edinburgh DataShare [^11], UCL Discovery [^12] and the University of Sheffield figshare [^13] (an example of an institution-specific deployment of the figshare digital repository platform).
 
 **Funder- or publisher- mandated or recommended** digital repositories are those that funders or publishers recommend, or require you to use. For example, Wellcome Open Research require that software written by a paper's authors be deposited and recommend the use of Zenodo for archived software [^14], so its title, digital object identifier (DOI) [^15] and licence can be cited. Springer Nature's BioMed Central [^16] series of journals, requires both a link to a live version of the software (e.g. on GitHub) but also to an archived version with a DOI, for which Zenodo is recommended [^17].
 
@@ -53,7 +53,7 @@ Persistent digital identifiers [^23] are identifiers that are provided under the
 
 ### Can the digital repository accommodate the size of your deposit?
 
-Digital repositories may have constraints on the size of deposits they accept. For example, Zenodo has a limit of 50 GB [^25] and Edinburgh DataShare has a limit of 20 GB for deposits done via a browser and 100 GB otherwise [^26].
+Digital repositories may have constraints on the size of deposits they accept. For example, Zenodo has a limit of 50 GB [^25] and the University of Edinburgh DataShare has a limit of 20 GB for deposits done via a browser and 100 GB otherwise [^26].
 
 ### Has your funder or publisher recommended or mandated a digital repository to use?
 
@@ -61,7 +61,7 @@ If both a funder and publisher mandate two different digital repositories you co
 
 ### Are the policies of the digital repository acceptable to you?
 
-These can include [^27] [^28] [^29] terms and conditions of use; availability of the service (e.g. does the service regularly go down for updates or does it run 24/7); how resilient the service is to breakdowns; where deposits are stored; how they are stored; what are the plans for stored deposits if the repository goes out of business; how secure is the storage; how regularly is it backed up; how long backups are kept for; what disaster recovery plans are in place. Knowing the quality of service can help you judge whether your deposit will be available to others, and yourself, even in the face of disaster. It also allows you, and your institution, to develop contingency plans should such drastic circumstances arise.
+These can include [^27] [^28] [^29] terms and conditions of use; availability of the service (e.g. does the service regularly go down for updates or does it run 24/7); how resilient the service is to breakdowns; where deposits are stored; how they are stored; what are the plans for stored deposits if the repository goes out of business; how secure the storage is; how regularly it is backed up; how long backups are kept for; and what disaster recovery plans are in place. Knowing the quality of service can help you judge whether your deposit will be available to others, and yourself, even in the face of disaster. It also allows you, and your institution, to develop contingency plans should such drastic circumstances arise.
 
 ### Is the longevity of the digital repository acceptable to you?
 
@@ -75,7 +75,7 @@ If a digital repository expects a one-off payment, to subsidise its hosting, you
 
 ### Is the digital repository accredited or certified?
 
-The digital repository may be accredited or certified by an independent agency that reviews digital repositories according to various criteria related to its policies and processes. The presence of an accreditation of certification may provide you with an additional degree of confidence that the digital repository meets your requirements.For example, the Data Seal of Approval [^30] can be awarded to digital repositories who satisfy a set of quality guidelines [^31] relating to how they manage, preserve and make available the deposits they hold. The presence of a Data Seal of Approval could give you additional confidence that a digital repository is suitable for holding your deposit.
+The digital repository may be accredited or certified by an independent agency that reviews digital repositories according to various criteria related to its policies and processes. The presence of an accreditation or certification may provide you with an additional degree of confidence that the digital repository meets your requirements. For example, the Data Seal of Approval [^30] can be awarded to digital repositories who satisfy a set of quality guidelines [^31] relating to how they manage, preserve and make available the deposits they hold. The presence of a Data Seal of Approval could give you additional confidence that a digital repository is suitable for holding your deposit.
 
 ## Find out more
 
@@ -111,12 +111,12 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: Where to depos
 [^20]: Software Heritage, [https://www.softwareheritage.org/](https://www.softwareheritage.org/).
 [^21]: Software Heritage archive, [https://archive.softwareheritage.org/](https://archive.softwareheritage.org/).
 [^22]: HAL-Inria, [https://hal.inria.fr/](https://hal.inria.fr/).
-[^23]: Persistent digital identifiers, [https://en.wikipedia.org/wiki/Persistent\_identifier](https://en.wikipedia.org/wiki/Persistent_identifier)).
+[^23]: Persistent digital identifiers, [https://en.wikipedia.org/wiki/Persistent\_identifier](https://en.wikipedia.org/wiki/Persistent_identifier).
 [^24]: Archival Resource Key (ARK) J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc).
 [^25]: "What are the size limits in Zenodo?", Zenodo, [https://help.zenodo.org](https://help.zenodo.org).
 [^26]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist).
 [^27]: "General Policies", Zenodo, [http://about.zenodo.org/policies/](http://about.zenodo.org/policies/).
 [^28]: "Our Policies", figshare, [https://knowledge.figshare.com/articles/our-policies](https://knowledge.figshare.com/articles/our-policies).
-[^29]: See, for example, "Service level definition", The University of Edinburgh [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition).
+[^29]: See, for example, "Service level definition", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition).
 [^30]: Data Seal of Approval, [https://www.datasealofapproval.org/en/](https://www.datasealofapproval.org/en/).
 [^31]: "The Core Trustworthy Data Repository Requirements", Data Seal of Approval, [https://www.datasealofapproval.org/en/information/requirements/](https://www.datasealofapproval.org/en/information/requirements/).
