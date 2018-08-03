@@ -9,7 +9,7 @@ date: "%DATE%"
 
 ## Introduction
 
-There are myriad digital repositories where you can deposit your research software so that the exact versions of your software upon which you have published your research results are retained and remains available for future inspection and use, both by yourself and by other researchers. These digital repositories may be provided by your institution, recommended, or mandated, by funders or publishers, or provided as a service to research communities by third-party organisations. This guide provides advice on choosing where to deposit your software.
+There are myriad digital repositories where you can deposit your research software so that the exact versions of your software upon which you have published your research results are retained and remain available for future inspection and use, both by yourself and by other researchers. These digital repositories may be provided by your institution, recommended, or mandated, by funders or publishers, or provided as a service to research communities by third-party organisations. This guide provides advice on choosing where to deposit your software.
 
 ![Where to deposit software](./images/WhereToDepositSoftware.png){#where-image}
 
@@ -25,9 +25,7 @@ There are many locations where you can, but should not, deposit your software fo
 
 **A personal, departmental or project web site:** while these allow others to access your software without contacting you directly, they could be deleted if you leave your current employer or after your project comes to an end. Anyone following links to your software cited in your papers will then be met with the dreaded "404 Page Not Found" error.
 
-**Repository hosting services:** services such as GitHub [^3], BitBucket [^4], GitLab [^5], CCPForge [^6], or Microsoft Visual Studio Team Services [^7] that host source code repositories are not well suited for archiving software [^8].
-
-They don't create unique persistent digital identifiers for your deposits (only URLs), repositories could be deleted by yourself later (breaking links to URLs in papers by you or others) or the repository hosting service may go out of business. It is these limitations that motivated the development of tools such as the figshare-GitHub integration [^9] or Zenodo-GitHub integration [^10] that support the automated deposit of software within repository hosting services into digital repositories.
+**Repository hosting services:** services such as GitHub [^3], BitBucket [^4], GitLab [^5], CCPForge [^6], or Microsoft Visual Studio Team Services [^7] that host source code repositories are not well suited for archiving software [^8]. They don't create unique persistent digital identifiers for your repositories, instead you need to use URLs. Your repositories could later be deleted by yourself, breaking links to these URLs, or the repository hosting service may go out of business. It is these limitations that motivated the development of tools such as the figshare-GitHub integration [^9] or Zenodo-GitHub integration [^10] that support the automated deposit of software within repository hosting services into digital repositories.
 
 You want to deposit your software in a place where other researchers can access it for the long-term, in a place that will exist beyond the timescale of your current project or employment at a specific institution and, ideally, in a place that will give you a persistent digital identifier.
 
@@ -91,34 +89,34 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: Where to depos
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
-[^3]: GitHub, [https://github.com/](https://github.com/)
-[^4]: BitBucket, [https://bitbucket.com/](https://bitbucket.com/)
-[^5]: GitLab, [https://gitlab.com](https://gitlab.com/)
-[^6]: CCPForge, [https://ccpforge.cse.rl.ac.uk/gf/](https://ccpforge.cse.rl.ac.uk/gf/)
-[^7]: Microsoft Visual Studio Team Services, [https://www.visualstudio.com/team-services/](https://www.visualstudio.com/team-services/)
-[^8]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
+[^3]: GitHub, [https://github.com/](https://github.com/).
+[^4]: BitBucket, [https://bitbucket.com/](https://bitbucket.com/).
+[^5]: GitLab, [https://gitlab.com](https://gitlab.com/).
+[^6]: CCPForge, [https://ccpforge.cse.rl.ac.uk/gf/](https://ccpforge.cse.rl.ac.uk/gf/).
+[^7]: Microsoft Visual Studio Team Services, [https://www.visualstudio.com/team-services/](https://www.visualstudio.com/team-services/).
+[^8]: Brown, C.T. (2016) "You can make GitHub repositories archival by using Zenodo or figshare!", 16 November 2016, [http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html](http://ivory.idyll.org/blog/2016-using-zenodo-to-archive-github.html).
 [^9]: "How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-[^10]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-[^11]: University of Edinburgh DataShare, [https://datashare.is.ed.ac.uk](https://datashare.is.ed.ac.uk)
-[^12]: UCL Discovery, [http://discovery.ucl.ac.uk/](http://discovery.ucl.ac.uk/)
-[^13]: The University of Sheffield figshare, [https://sheffield.figshare.com/](https://sheffield.figshare.com/)
-[^14]: "Software & source code, Data Guidelines", Wellcome Open Research, [https://wellcomeopenresearch.org/for-authors/data-guidelines](https://wellcomeopenresearch.org/for-authors/data-guidelines)
-[^15]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/)
-[^16]: BioMed Central, [https://www.biomedcentral.com](https://www.biomedcentral.com)
-[^17]: "Software and code", BioMed Central, [https://www.biomedcentral.com/getpublished/editorial-policies](https://www.biomedcentral.com/getpublished/editorial-policies)
-[^18]: Zenodo, [https://zenodo.org](https://zenodo.org)
-[^19]: figshare, [https://figshare.com](https://figshare.com)
-[^20]: Software Heritage, [https://www.softwareheritage.org/](https://www.softwareheritage.org/)
-[^21]: Software Heritage archive, [https://archive.softwareheritage.org/](https://archive.softwareheritage.org/)
-[^22]: HAL-Inria, [https://hal.inria.fr/](https://hal.inria.fr/)
-[^23]: Persistent digital identifiers, [https://en.wikipedia.org/wiki/Persistent\_identifier](https://en.wikipedia.org/wiki/Persistent_identifier))
-[^24]: Archival Resource Key (ARK) J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc)
-[^25]: "What are the size limits in Zenodo?", Zenodo, [https://help.zenodo.org](https://help.zenodo.org)
-[^26]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist)
-[^27]: "General Policies", Zenodo, [http://about.zenodo.org/policies/](http://about.zenodo.org/policies/)
-[^28]: "Our Policies", figshare, [https://knowledge.figshare.com/articles/our-policies](https://knowledge.figshare.com/articles/our-policies)
-[^29]: See, for example, "Service level definition", The University of Edinburgh [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition)
-[^30]: Data Seal of Approval, [https://www.datasealofapproval.org/en/](https://www.datasealofapproval.org/en/)
-[^31]: "The Core Trustworthy Data Repository Requirements", Data Seal of Approval, [https://www.datasealofapproval.org/en/information/requirements/](https://www.datasealofapproval.org/en/information/requirements/)
+[^10]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/).
+[^11]: University of Edinburgh DataShare, [https://datashare.is.ed.ac.uk](https://datashare.is.ed.ac.uk).
+[^12]: UCL Discovery, [http://discovery.ucl.ac.uk/](http://discovery.ucl.ac.uk/).
+[^13]: The University of Sheffield figshare, [https://sheffield.figshare.com/](https://sheffield.figshare.com/).
+[^14]: "Software & source code, Data Guidelines", Wellcome Open Research, [https://wellcomeopenresearch.org/for-authors/data-guidelines](https://wellcomeopenresearch.org/for-authors/data-guidelines).
+[^15]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/).
+[^16]: BioMed Central, [https://www.biomedcentral.com](https://www.biomedcentral.com).
+[^17]: "Software and code", BioMed Central, [https://www.biomedcentral.com/getpublished/editorial-policies](https://www.biomedcentral.com/getpublished/editorial-policies).
+[^18]: Zenodo, [https://zenodo.org](https://zenodo.org).
+[^19]: figshare, [https://figshare.com](https://figshare.com).
+[^20]: Software Heritage, [https://www.softwareheritage.org/](https://www.softwareheritage.org/).
+[^21]: Software Heritage archive, [https://archive.softwareheritage.org/](https://archive.softwareheritage.org/).
+[^22]: HAL-Inria, [https://hal.inria.fr/](https://hal.inria.fr/).
+[^23]: Persistent digital identifiers, [https://en.wikipedia.org/wiki/Persistent\_identifier](https://en.wikipedia.org/wiki/Persistent_identifier)).
+[^24]: Archival Resource Key (ARK) J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc).
+[^25]: "What are the size limits in Zenodo?", Zenodo, [https://help.zenodo.org](https://help.zenodo.org).
+[^26]: "Checklist for deposit", The University of Edinburgh, [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/checklist).
+[^27]: "General Policies", Zenodo, [http://about.zenodo.org/policies/](http://about.zenodo.org/policies/).
+[^28]: "Our Policies", figshare, [https://knowledge.figshare.com/articles/our-policies](https://knowledge.figshare.com/articles/our-policies).
+[^29]: See, for example, "Service level definition", The University of Edinburgh [https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition](https://www.ed.ac.uk/information-services/research-support/research-data-service/sharing-preserving-data/data-repository/service-policies/service-level-definition).
+[^30]: Data Seal of Approval, [https://www.datasealofapproval.org/en/](https://www.datasealofapproval.org/en/).
+[^31]: "The Core Trustworthy Data Repository Requirements", Data Seal of Approval, [https://www.datasealofapproval.org/en/information/requirements/](https://www.datasealofapproval.org/en/information/requirements/).

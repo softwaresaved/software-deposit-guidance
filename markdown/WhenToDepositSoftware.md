@@ -33,9 +33,7 @@ Even if you're not publishing results derived from your software and are only sh
 
 If your project is coming to an end then researchers may be leaving, resources may be freed up, and you may no longer have a local resource upon which to host your software.
 
-While repository hosting services such as GitHub [^3], BitBucket [^4], GitLab [^5], CCPForge [^6] or Microsoft Visual Studio Team Services [^7] are great for hosting live software, they are not so good for archiving software that will no longer be under active development [^8].
-
-They don't create unique persistent digital identifiers for your repositories, instead you need to use URLs. Your repositories could later be deleted by yourself, breaking links to these URLs, or the repository hosting service may go out of business.
+While repository hosting services such as GitHub [^3], BitBucket [^4], GitLab [^5], CCPForge [^6] or Microsoft Visual Studio Team Services [^7] are great for hosting live software, they are not so good for archiving software that will no longer be under active development [^8]. They don't create unique persistent digital identifiers for your repositories, instead you need to use URLs. Your repositories could later be deleted by yourself, breaking links to these URLs, or the repository hosting service may go out of business.
 
 A digital repository allows you to archive your software in a place which will ensure it is available for yourself and others to inspect and reuse long after your project has ended and with a persistent digital identifier too.
 
