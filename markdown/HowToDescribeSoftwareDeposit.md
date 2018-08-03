@@ -9,7 +9,7 @@ date: "%DATE%"
 
 ## Introduction
 
-Papers can have titles, authors, abstracts, subject categories and keywords, all of which are metadata, data which describes the paper. These metadata help others to categorise and index papers and find papers of interest to them. Metadata can serve a similar purpose for software deposits, providing a description of your software deposit. This metadata can help you get credit for your software, help digital repository managers categorise and index your software deposit and help other researchers find your software according to criteria of relevance to them. You will need this metadata when depositing your software into a digital repository. This guide summarises the metadata you can, and should, capture.
+Papers have titles, authors, abstracts, subject categories and keywords, all of which are metadata, data which describes the paper. These metadata help others to categorise and index papers and find papers of interest to them. Metadata can serve a similar purpose for software deposits, providing a description of your software deposit. This metadata can help you get credit for your software, help digital repository managers categorise and index your software deposit and help other researchers find your software according to criteria of relevance to them. You will need this metadata when depositing your software into a digital repository. This guide summarises the metadata you can, and should, capture.
 
 ![How to describe a software deposit](./images/HowToDescribeSoftwareDeposit.png){#describe-image}
 
@@ -46,12 +46,11 @@ Provide the following metadata about each related research object:
 
 ## Record metadata to help others discover your software
 
-Both the minimal metadata and metadata about research outputs could help others discover your software if searching for software according to various criteria (e.g., if looking for software written by you or your co-authors, if looking for software with a specific licence, or if following links of related research outputs).
+Both the minimal metadata and metadata about research outputs could help others discover your software if searching for software according to various criteria (e.g., if looking for software written by you or your co-authors, if looking for software with a specific licence, or if following links to related research outputs).
 
 Recording the following metadata could help others discover your software according to richer criteria:
 
-* Keywords: both generic and subject/domain/community-specific.
-    - Recording as keywords the names of algorithms implemented within the software, to allow for the discovery of more generic functionality which could be used elsewhere. For example, another researcher may be interested in the implementation of a specific algorithm within the software, rather than the software itself.
+* Keywords: both generic and subject/domain/community-specific. This can include recording, as keywords, the names of algorithms implemented within your software, to allow for the discovery of more generic functionality which could be used elsewhere. For example, another researcher may be interested in the implementation of a specific algorithm within the software, rather than the software itself.
 * Any other metadata that describes your software, e.g., programming language(s), operating system(s), dependencies.
 
 ## Record metadata for credit
@@ -60,21 +59,21 @@ Recording yourself and your fellow authors as part of the minimal metadata can h
 
 Additional metadata to further facilitate credit for those who contributed to your software includes:
 
-* Contributors: Name, affiliation, current email address, ORCiD identifier and an indication of how they contributed. You should include people who may not have designed or developed the software but provided input or contribution in other ways (for example, designers, developers, testers, documentation authors etc). Make sure that any named people have given their consent for their names, emails, affiliations and ORCiD identifiers to be included.
+* Contributors: Name, affiliation, current email address, ORCiD identifier and an indication of how they contributed. You should include people who may not have designed or developed the software but provided input or contribution in other ways (for example, testers, documentation authors etc). Make sure that any named people have given their consent for their names, emails, affiliations and ORCiD identifiers to be included.
 * Funders: Name and ORCiD identifier (if available).
 * Organisations: Name and ORCiD identifier (if available).
 
 ## How to record your metadata
 
-When you submit a deposit to a digital repository you will be required to submit metadata via their submission forms or APIs. The metadata asked for will be specific to the digital repository. Digital repositories differ in both what metadata they can record and what they consider to be mandatory and optional metadata. At the least, the repository will collect a minimum set of metadata to allow it to generate a persistent digital identifier for a software deposit. Consult the documentation for your intended digital repository for information on its requirements.
+When you submit a deposit to a digital repository you will be required to submit metadata. The metadata asked for will be specific to the digital repository. Digital repositories differ in both what metadata they can record and what they consider to be mandatory and optional metadata. At the least, the repository will collect a minimum set of metadata to allow it to generate a persistent digital identifier for your software deposit. Consult the documentation for your intended digital repository for information on its requirements.
 
-Some digital repositories are limited in the metadata they record, via their submission forms or APIs. They may not be able to record much of the metadata that is recommended above. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the figshare-GitHub integration [^6] or Zenodo-GitHub integration [^7].
+Some digital repositories are limited in the metadata they record. They may not be able to record much of the metadata that is recommended above. Repository hosting services can also be limited in terms of the metadata they provide, which can limit the effectiveness of software deposit tools such as the figshare-GitHub integration [^6] or Zenodo-GitHub integration [^7].
 
 To ensure none of your metadata is lost, it is recommended that you record all your metadata within plain-text files in your deposit. While the format of these plain-text files are up to you, we have two specific recommendations.
 
 ## Add a codeMeta.json file to your deposit
 
-To ensure none of your metadata is lost, it is recommended that you record all your metadata within a codeMeta.json file, with your metadata expressed in the CodeMeta schema [^9]. CodeMeta is a structured format for software-related metadata and is both human- and machine-readable. In our guide on "Software Deposit: What to deposit", we recommend that you add this file to your software deposit. It then records all your metadata at the point of deposit and provides a means to retain metadata that would otherwise be lost.
+To ensure none of your metadata is lost, it is recommended that you record all your metadata within a codeMeta.json file, with your metadata expressed in the CodeMeta schema [^8]. CodeMeta is a structured format for software-related metadata and is both human- and machine-readable.
 
 ## Add a CONTRIBUTORS file to your deposit
 
@@ -104,11 +103,11 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: How to describ
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
-[^3]: ORCiD, [https://orcid.org/](https://orcid.org/)
-[^4]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/)
-[^5]: Archival Resource Key (ARK). J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc)
-[^6]: How to connect figshare with your GitHub account, figshare knowledge,   [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1)
-[^7]: Making your code citable, GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-[^8]: The CodeMeta Project, [https://codemeta.github.io/](https://codemeta.github.io/)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
+[^3]: ORCiD, [https://orcid.org/](https://orcid.org/).
+[^4]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/).
+[^5]: Archival Resource Key (ARK). J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc).
+[^6]: How to connect figshare with your GitHub account, figshare knowledge,   [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
+[^7]: Making your code citable, GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/).
+[^8]: The CodeMeta Project, [https://codemeta.github.io/](https://codemeta.github.io/).
