@@ -23,24 +23,24 @@ At the very least, a software deposit should have the following content which al
 
 ### Simple README
 
-People will expect to find a plain-text README [^3] file in any software bundle. Your deposit should conform to this expectation and provide a README file providing a summary of the key facts about your software. This should include, at the least:
+Others will expect to find a plain-text README [^3] file in any software bundle. Your deposit should conform to this expectation and provide a README file providing a summary of the key facts about your software. This should include, at the least:
 
 * Name of your software.
 * Brief overview of your software, what it does (for example, what research problem it was written to solve) and what makes it novel (or different or distinct from similar software already available).
-* Contact: Your name, affiliation, current email address and your ORCiD identifier. This provides a point of contact for others to get in touch if they have questions about your deposit and your research more generally.
+* Contact: Your name, affiliation, current email address and your ORCiD identifier [^4]. This provides a point of contact for others to get in touch if they have questions about your deposit and your research more generally.
 * Link to live software: for ongoing projects links to your project web site and/or repository hosting service. This allows others to easily find your current software from your deposit and to engage with you and your project.
 
 ### Copyright and licence(s)
 
 A statement of copyright for your software makes it clear who created, and owns the rights to, your software. A licence makes it clear to others what they can, and cannot, do with your software and any obligations upon them.
 
-Provide your copyright and licence in a plain-text file called LICENCE [^4].
+Provide your copyright and licence in a plain-text file called LICENCE [^5].
 
 If you include third-party components, then include their licences in your LICENCE file, or as separate files in a licences/ directory.
 
 ### Authors and other contributors
 
-It is important that everyone who authored or otherwise contributed to your software is recognised for doing so and can get credit for their contribution. Provide a plain-text CONTRIBUTORS file which lists people who you deem to have made a significant contribution to your software (including yourself). This can include, for example, columns with each contributor's name, ORCiD [^5] identifier and affiliation and brief summary of what their contribution was (for example designer, developer, tester, documentation author etc).
+It is important that everyone who authored or otherwise contributed to your software is recognised for doing so and can get credit for their contribution. Provide a plain-text CONTRIBUTORS file which lists people who you deem to have made a significant contribution to your software (including yourself). This can include, for example, columns with each contributor's name, ORCiD identifier and affiliation and brief summary of what their contribution was (for example designer, developer, tester, documentation author etc).
 
 You should also state your funders, providing information on any grants that supported the software's development.
 
@@ -60,7 +60,7 @@ Ideally, your source code should be well-commented, formatted and indented, to e
 
 ## Runnable deposit
 
-A runnable deposit includes everything in a minimal deposit but also includes user documentation, some sample data, includes files to provide a recommended citation and metadata about the deposit. A usable deposit should allow another researcher to build, install, configure and run your software on the sample data.
+A runnable deposit includes everything in a minimal deposit but also includes user documentation, some sample data, includes files to provide a recommended citation and metadata about the deposit. A runnable deposit should allow another researcher to build, install, configure and run your software on the sample data.
 
 Please note that the suggested content for both runnable and comprehensive deposits are just that, suggestions. There is no reason why you can't prepare a deposit that includes some recommended content from a runnable deposit and some from a comprehensive deposit. In our view, the more content, the richer, and more useful, the deposit.
 
@@ -100,7 +100,7 @@ Including sample data can be valuable for those who use your software deposit. T
 
 If you have published, or intend to publish, results based on your data files then consider following the FAIR [^17] principles for research data management and deposit them into a digital repository as a citable research object too. You can then use the metadata that describes your software and data deposits to link them together [^18].
 
-Changes in dependencies can cause both subtle and not so subtle, changes in outputs for sample input data [^19]. Document what you consider to be acceptable output for your sample inputs, what you would consider to be "close enough" (for example, whether you consider equality to within 3 decimal places to be "close enough", error margins or tolerances) for cases where someone else does not get identical outputs when using your sample data.
+Changes in dependencies can cause both subtle and not so subtle, changes in outputs for sample input data [^19]. Document what you consider to be acceptable output for your sample inputs, what you would consider to be "close enough" (for example, whether you consider equality to within 3 decimal places to be "close enough"), error margins or tolerances, or other ways of evaluating the outputs, for cases where someone else does not get identical outputs when using your sample data.
 
 ### Recommended citation
 
@@ -114,15 +114,13 @@ Metadata is information about your software. This can include programming langua
 
 Provide a codeMeta.json file with your metadata expressed in the CodeMeta schema [^24]. CodeMeta is a structured format for software-related metadata and is both human- and machine-readable.
 
-For more information, see our guide on "Software Deposit: How to describe a software deposit".
-
 ## Comprehensive deposit
 
 A comprehensive deposit includes everything in a minimal and runnable deposit but provides a richer set of documentation and includes test code and additional test and other sample data. A comprehensive deposit allows other researchers to reuse, customise and modify your software and provides documentation allowing them to understand, in detail, both how your software implements your research and where it sits in its wider software ecosystem.
 
 ### Developer documentation
 
-If you want others to customise your software, you need to document how they can do this. You need to provide developer documentation. Documentation for developers can include: how to set up a development environment to build, test, modify and extend the software; how to run any tests; step-by-step lists of how to run any manual tests and interpret the outputs; information on any application programming interfaces (API) [^25] supported by your software; descriptions and diagrams of the design of your software; and the rationale as to why it is as it is.
+If you want others to customise your software, you need to document how they can do this. You need to provide developer documentation. Documentation for developers can include: how to set up a development environment to build, test, modify and extend the software; how to run any tests; step-by-step lists of how to run any manual tests and how to interpret the outputs; information on any application programming interfaces (API) [^25] supported by your software; descriptions and diagrams of the design of your software; and the rationale as to why it is as it is.
 
 ### Narratives of what the code does and how it does it
 
@@ -183,7 +181,7 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposi
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-## Deposit contents checklist
+## Deposit contents checklist {.pagebreak-before}
 
 | **Deposit content** | **Done** |
 | --- | --- |
@@ -206,34 +204,34 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: What to deposi
 | Test code |  |
 | Additional sample or test data |  |
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
-[^3]: "README", Wikipedia, [https://en.wikipedia.org/wiki/README](https://en.wikipedia.org/wiki/README)
-[^4]: Or LICENCE, LICENCE.txt, LICENSE.txt, LICENCE.md or LICENSE.md.
-[^5]: ORCiD, [https://orcid.org/](https://orcid.org/)
-[^6]: Docker, [https://www.docker.com/](https://www.docker.com/)
-[^7]: Singularity, [http://singularity.lbl.gov/](http://singularity.lbl.gov/)
-[^8]: "Virtual machine", Wikipedia, [https://en.wikipedia.org/wiki/Virtual\_machine](https://en.wikipedia.org/wiki/Virtual_machine)
-[^9]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/)
-[^10]: Archival Resource Key (ARK), J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc)
-[^11]: PyPA pip, [https://pip.pypa.io/en/stable/](https://pip.pypa.io/en/stable/)
-[^12]: Apache Maven, [https://maven.apache.org](https://maven.apache.org)
-[^13]: RubyGems, [https://rubygems.org/](https://rubygems.org/)
-[^14]: "1.1.1 The DESCRIPTION file", Writing R Extensions, version 3.5.0 (2018-04-23), [https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file)
-[^15]: Ansible, [https://www.ansible.com/](https://www.ansible.com/)
-[^16]: Vagrant, [https://www.vagrantup.com/](https://www.vagrantup.com/)
-[^17]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
+[^3]: "README", Wikipedia, [https://en.wikipedia.org/wiki/README](https://en.wikipedia.org/wiki/README).
+[^4]: ORCiD, [https://orcid.org/](https://orcid.org/).
+[^5]: Or LICENCE, LICENCE.txt, LICENSE.txt, LICENCE.md or LICENSE.md.
+[^6]: Docker, [https://www.docker.com/](https://www.docker.com/).
+[^7]: Singularity, [http://singularity.lbl.gov/](http://singularity.lbl.gov/).
+[^8]: "Virtual machine", Wikipedia, [https://en.wikipedia.org/wiki/Virtual\_machine](https://en.wikipedia.org/wiki/Virtual_machine).
+[^9]: Digital Object Identifier (DOI), [https://www.doi.org/](https://www.doi.org/).
+[^10]: Archival Resource Key (ARK), J. Kunze and R. Rogers (2008) The ARK Identifier Scheme, California Digital Library and US National Library of Medicine, May 2008. [https://escholarship.org/uc/item/9p9863nc](https://escholarship.org/uc/item/9p9863nc).
+[^11]: PyPA pip, [https://pip.pypa.io/en/stable/](https://pip.pypa.io/en/stable/).
+[^12]: Apache Maven, [https://maven.apache.org](https://maven.apache.org).
+[^13]: RubyGems, [https://rubygems.org/](https://rubygems.org/).
+[^14]: "1.1.1 The DESCRIPTION file", Writing R Extensions, version 3.5.0 (2018-04-23), [https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file](https://cran.r-project.org/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file).
+[^15]: Ansible, [https://www.ansible.com/](https://www.ansible.com/).
+[^16]: Vagrant, [https://www.vagrantup.com/](https://www.vagrantup.com/).
+[^17]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples).
 [^18]: For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.
 [^19]: For example, in a number of versions of Python, 0.1 + 0.2 gives the result 0.30000000000000004!
 [^20]: Citation File Format (CFF), [https://citation-file-format.github.io/](https://citation-file-format.github.io/). A machine-readable approach to specifying the citation that others should use when citing your software.
 [^21]: Smith A.M., Katz D.S., Niemeyer K.E., FORCE11 Software Citation Working Group. (2016) "Software Citation Principles". PeerJ Computer Science 2:e86. doi:[https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86). [https://www.force11.org/software-citation-principles](https://www.force11.org/software-citation-principles).
 [^22]: "How to connect figshare with your GitHub account", figshare knowledge,  [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-[^23]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
+[^23]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/).
 [^24]: The CodeMeta Project, [https://codemeta.github.io/](https://codemeta.github.io/). A machine-readable approach to documenting software metadata. Specific CodeMeta terms are listed at [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/).
-[^25]: "Application programming interface", Wikipedia, [https://en.wikipedia.org/wiki/Application\_programming\_interface](https://en.wikipedia.org/wiki/Application_programming_interface)
-[^26]: "Pseudo-code", Wikipedia, [https://en.wikipedia.org/wiki/Pseudocode](https://en.wikipedia.org/wiki/Pseudocode)
-[^27]: Soiland-Reyes, S. and Bechhofer, S. (eds.) (2016) "Research Object ontology", 1.0.0-SNAPSHOT, 28 January 2016, [http://wf4ever.github.io/ro/2016-01-28/](http://wf4ever.github.io/ro/2016-01-28/)
-[^28]: Common Workflow Language (CWL), [http://www.commonwl.org](http://www.commonwl.org)
-[^29]: GA4GH Task Execution Schema (TES), [https://github.com/ga4gh/task-execution-schemas](https://github.com/ga4gh/task-execution-schemas)
-[^30]: Workflow Description Language (WDL), [https://software.broadinstitute.org/wdl/](https://software.broadinstitute.org/wdl/)
-[^31]: YAWL: Tet Another Workflow Language, [http://yawlfoundation.org/](http://yawlfoundation.org/)
+[^25]: "Application programming interface", Wikipedia, [https://en.wikipedia.org/wiki/Application\_programming\_interface](https://en.wikipedia.org/wiki/Application_programming_interface).
+[^26]: "Pseudo-code", Wikipedia, [https://en.wikipedia.org/wiki/Pseudocode](https://en.wikipedia.org/wiki/Pseudocode).
+[^27]: Soiland-Reyes, S. and Bechhofer, S. (eds.) (2016) "Research Object ontology", 1.0.0-SNAPSHOT, 28 January 2016, [http://wf4ever.github.io/ro/2016-01-28/](http://wf4ever.github.io/ro/2016-01-28/).
+[^28]: Common Workflow Language (CWL), [http://www.commonwl.org](http://www.commonwl.org).
+[^29]: GA4GH Task Execution Schema (TES), [https://github.com/ga4gh/task-execution-schemas](https://github.com/ga4gh/task-execution-schemas).
+[^30]: Workflow Description Language (WDL), [https://software.broadinstitute.org/wdl/](https://software.broadinstitute.org/wdl/).
+[^31]: YAWL: Tet Another Workflow Language, [http://yawlfoundation.org/](http://yawlfoundation.org/).
