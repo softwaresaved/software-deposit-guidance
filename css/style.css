@@ -18,6 +18,12 @@ h3.date
     font-weight: normal;
     font-size: 100%;
 }
+p.caution
+{
+    background-color: #ffffb3;
+    font-weight: bold;
+    border: 1px;
+}
 p.version, p.doi
 {
     text-align: center;
