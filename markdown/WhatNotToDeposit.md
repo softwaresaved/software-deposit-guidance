@@ -9,7 +9,7 @@ date: "%DATE%"
 
 ## Introduction
 
-A software deposit lodged within a digital repository can contain myriad content. But there is certain content that should not be included within a software deposit into a digital repository. Some of this content may be innocuous and only result in your deposit being more bloated than it otherwise needs to be. Some of this content may compromise your security. And, in the worst case, some of this content may result in you inadvertently breaking local laws relating to data protection. This guide summarises the content should not be deposited with your software.
+A software deposit lodged within a digital repository can contain myriad content. But there is certain content that should not be included within a software deposit. Some of this content may be innocuous and only result in your deposit being more bloated than it otherwise needs to be. Some of this content may compromise your security. And, in the worst case, some of this content may result in you inadvertently breaking local laws relating to data protection. This guide summarises the content that should not be deposited with your software.
 
 ![What not to deposit](./images/WhatNotToDeposit.png){#what-not-image}
 
@@ -23,13 +23,13 @@ Check that your content does not contain any personal or identifiable informatio
 
 For names, email addresses and organisational information relating to those who have written or contributed to your software, make sure you have received their permission to include this information.
 
-Sensitive personal information can be in documentation, source files, data files and image files (especially medical image files).
+Look for sensitive personal information in documentation, source files, data files and image files (especially medical image files).
 
 ## Internal information
 
 Check that your content does not include any information relating to your local infrastructure and servers and which might compromise their security if this information were exposed publicly. This information can include: URLs or IP addresses of servers or service endpoints, usernames, passwords, private SSH keys, security tokens and credentials.
 
-Internal information can be in documentation, configuration files, data files and source code.
+Look for internal information in documentation, configuration files, data files and source code.
 
 ## Software and data not licensed for sharing or redistribution
 
@@ -41,7 +41,7 @@ Check that the licences of any third-party software or data files allow you to r
 
 Remember that witty and profane comment you buried in your source code after battling a day to fix a bug? Or that amusingly tasteless cartoon image you downloaded, but can't remember where? Take care that your deposit does not include such content as it will be associated with your name in a digital repository for quite some time and may cause, at best, amusement to your colleagues and, at worst, damage to your reputation.
 
-Tasteless or inappropriate content can be in documentation, data files, source code (especially comments), images and movies.
+Look for inappropriate content in documentation, data files, source code (especially comments), images and movies.
 
 ## Temporary directories and files
 
@@ -55,7 +55,7 @@ If you are using a source code repository and are creating a software deposit fr
 
 These files and directories can include ".git/" directories, ".hg/" directories, ".svn/" directories and "CVS/" directories. Git, Mercurial, Subversion and CVS all provide commands to get a copy of the source code repository without these repository configuration files and directories [^3].
 
-Tools that help deposit software from source code repositories into digital repositories, e.g., figshare-GitHub integration [^4] and Zenodo-GitHub integration [^5], ignore these repository configuration files automatically.
+Tools that help deposit software from source code repositories into digital repositories, such as the figshare-GitHub integration [^4] and Zenodo-GitHub integration [^5], ignore these repository configuration files automatically.
 
 ## Unused source code
 
@@ -97,10 +97,10 @@ Please cite as: Michael Jackson (ed.) (%DATE%). Software Deposit: What not to de
 
 ![CC-BY 4.0 logo](./images/cc-by.png){#ccby-logo} This work is published under a Creative Commons Attribution 4.0 International License (CC BY 4.0), [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/).
 
-[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk)
-[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk)
-[^3]: For example, "git archive", [https://git-scm.com/docs/git-archive](https://git-scm.com/docs/git-archive); "hg archive", [https://www.mercurial-scm.org/repo/hg/help/archive](https://www.mercurial-scm.org/repo/hg/help/archive); "svn export", [http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html); "cvs export", [https://www.gnu.org/software/trans-coord/manual/cvs/html\_node/export.html](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html)
+[^1]: The Software Sustainability Institute, [https://www.software.ac.uk](https://www.software.ac.uk).
+[^2]: Jisc, [https://www.jisc.ac.uk](https://www.jisc.ac.uk).
+[^3]: For example, "git archive", [https://git-scm.com/docs/git-archive](https://git-scm.com/docs/git-archive); "hg archive", [https://www.mercurial-scm.org/repo/hg/help/archive](https://www.mercurial-scm.org/repo/hg/help/archive); "svn export", [http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html](http://svnbook.red-bean.com/en/1.7/svn.ref.svn.c.export.html); "cvs export", [https://www.gnu.org/software/trans-coord/manual/cvs/html\_node/export.html](https://www.gnu.org/software/trans-coord/manual/cvs/html_node/export.html).
 [^4]: How to connect figshare with your GitHub account", figshare knowledge, [https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1](https://knowledge.figshare.com/articles/item/how-to-connect-figshare-with-your-github-account-1).
-[^5]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/)
-[^6]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples)
+[^5]: "Making your code citable", GitHub Guides, [https://guides.github.com/activities/citable-code/](https://guides.github.com/activities/citable-code/).
+[^6]: "The FAIR Data Principles", FORCE 11, [https://www.force11.org/group/fairgroup/fairprinciples](https://www.force11.org/group/fairgroup/fairprinciples).
 [^7]: For example, CodeMeta, [https://codemeta.github.io/terms/](https://codemeta.github.io/terms/), provides a "supportingData" term; figshare, [https://figshare.com/](https://figshare.com/), provides a "references" field; and, Zenodo, [https://zenodo.org](https://zenodo.org), provides a "relatedIdentifiers" property.
