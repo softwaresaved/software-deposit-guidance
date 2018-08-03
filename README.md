@@ -192,6 +192,18 @@ git commit -m "Updated guidance ..."
 
 ---
 
+## Editing images
+
+Image sources are in [images-src/](./images-src) as SVG files.
+
+[Inkscape](https://inkscape.org/en/) is a free SVG editor which can be used to edit these files and export the images as PNG files.
+
+Once you have edited an SVG, export the SVG as a PNG file and save it in [images/](./images). This can be done in Inkscape using the command File => Export PNG Image...
+
+To avoid memory issues when creating PDFs, set the longest dimension of the PNG file to be 1000 pixels at 96 dpi. For example, if the image is 1234x567 set the width to 1000, if the image is 123x4567 set the height to 1000. Remember to lock the aspect ratio.
+
+---
+
 ## Convert Word to Markdown (for information only)
 
 The guidance was originally written in Microsoft Word then uploaded to Google Drive for community feedback. The Google Docs were then downloaded as Microsoft Word `.docx` files. These were then converted into Markdown using [word-to-markdown](https://github.com/benbalter/word-to-markdown) as follows.
