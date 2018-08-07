@@ -1,6 +1,8 @@
-# Software Deposit Guidance for Researchers
+# Software Deposit: Guidance for Researchers (source code)
 
 [The Software Sustainability Institute](http://www.software.ac.uk).
+
+Sources for [softwaresaved.github.io/software-deposit-guidance/](https://softwaresaved.github.io/software-deposit-guidance)
 
 ---
 
