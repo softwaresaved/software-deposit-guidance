@@ -256,9 +256,9 @@ Zenodo metadata:
 * Additional notes: This work was funded by Jisc. The Software Sustainability Institute is supported by EPSRC grant EP/H043160/1 and EPSRC/BBSRC and ESRC grant EP/N006410/1.
 * Funding: delete default entry.
 * Related/alternate identifiers:
-  - For each guide, add: "<SOURCE-DOI>" "complied/created this upload"
-  - For source code deposit, add, for each guide, "<GUIDE-DOI>" "is compiled/create by this upload"
-  - For "Software Deposit: Guidance for Researchers" deposit, add, for each other guide, "<GUIDE-DOI>" "is a supplement to this upload"
+  - For each guide, add: "SOURCE-CODE-DOI" "complied/created this upload"
+  - For source code deposit, add, for each guide, "GUIDE-DOI" "is compiled/create by this upload"
+  - For "Software Deposit: Guidance for Researchers" deposit, add, for each other guide, "GUIDE-DOI" "is a supplement to this upload"
 
 ---
 
