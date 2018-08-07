@@ -4,9 +4,7 @@
 
 ---
 
-## Create HTML and PDF guidance
-
-About these instructions:
+## About these instructions
 
 * These instructions were tested on Ubuntu 16.04.3 LTS xenial.
 * Other versions of the tools may also be usable.
@@ -16,7 +14,9 @@ About these instructions:
 sudo su -
 ```
 
-### Install dependencies
+---
+
+## Install dependencies
 
 Install [Pandoc](http://pandoc.org/) document converter:
 
@@ -89,7 +89,53 @@ LinkChecker 9.4.0 released xx.xx.xxxx
 Copyright (C) 2000-2014 Bastian Kleineidam
 ```
 
-### Create HTML and PDF guidance
+---
+
+## Edit guides
+
+Guides are written in [Pandoc's Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown).
+
+The guides are in `markdown/`
+
+For a check/tick mark in HTML, use the HTML entity, `&#x2714;`, in Markdown.
+
+---
+
+## Edit HTML temmplate
+
+The HTML template is in `templates/doc.html`. This was edited from a template created by `pandoc -D html`.
+
+---
+
+## Edit images
+
+Image sources are in [images-src/](./images-src) as SVG files.
+
+[Inkscape](https://inkscape.org/en/) is a free SVG editor which can be used to edit these files and export the images as PNG files.
+
+Once you have edited an SVG, export the SVG as a PNG file and save it in [images/](./images). This can be done in Inkscape using the command File => Export PNG Image...
+
+To avoid memory issues when creating PDFs, set the longest dimension of the PNG file to be 1000 pixels at 96 dpi. For example, if the image is 1234x567 set the width to 1000, if the image is 123x4567 set the height to 1000. Remember to lock the aspect ratio.
+
+---
+
+## Create PDF guides
+
+Edit `config.yml`:
+
+* Ensure this line is commented-out. If not then do so.
+
+```
+# LINK_URL: . 
+```
+
+* Ensure this line is uncommented. If not then do so.
+
+```
+LINK_URL: http://softwaresaved.github.io/software-deposit-guidance 
+```
+
+This ensures any hyperlinks between guides are absolute.
 
 Run:
 
@@ -97,11 +143,7 @@ Run:
 make pdf
 ```
 
-This will process all the files in `markdown/` and create PDFs in `build/pdf/`. 
-
-As an intermediate stage, it will create HTML documents in `build/html/`. These will have absolute URLs for inter-guide links.
-
-To create HTML documents with relative inter-guide links (e.g. for hosting on a web site) see the next section.
+This will process all the files in `markdown/` and create PDFs in `build/pdf/`. As an intermediate stage, it will create HTML documents in `build/html/`. These will have absolute URLs for inter-guide links. To create HTML documents with relative inter-guide links (e.g. for hosting on a web site) see the next section.
 
 **Troubleshooting**
 
@@ -117,7 +159,9 @@ make: *** Deleting file 'build/pdf/<FILENAME>.pdf'
 
 then it may be that one or more image files used in the guide are too big and causing `wkhtmltopdf`, which creates PDFs, to run out of memory. Try resizing the images and try again.
 
-### Create HTML guidance with relative inter-guide links
+---
+
+## Create HTML guides 
 
 Edit `config.yml`:
 
@@ -128,11 +172,12 @@ Edit `config.yml`:
 ```
 
 * Ensure this line is uncommented. If not then do so.
-* Ensure this line is 
 
 ```
 LINK_URL: . 
 ```
+
+This ensures any hyperlinks between guides are relative and suitable for online publication.
 
 Run:
 
@@ -142,7 +187,9 @@ make html
 
 This will process all the files in `markdown/` and create HTML documents in `build/html/.
 
-### Check links
+---
+
+## Check links
 
 Run:
 
@@ -150,24 +197,9 @@ Run:
 make check-links
 ```
 
-This will display the broken links, if any:
+This will display broken links, if any.
 
-```
-Extracting broken links from link report build/link-check.txt
-Broken links:
-Real URL   https://doi.org/10.5281/zenodo.DescribeDoi
-Real URL   https://doi.org/10.5281/zenodo.GuidanceDoi
-Real URL   https://doi.org/10.5281/zenodo.HowDoi
-Real URL   https://doi.org/10.5281/zenodo.LicenceDoi
-Real URL   https://doi.org/10.5281/zenodo.ReviewDoi
-Real URL   https://doi.org/10.5281/zenodo.WhatDoi
-Real URL   https://doi.org/10.5281/zenodo.WhatNotDoi
-Real URL   https://doi.org/10.5281/zenodo.WhenDoi
-Real URL   https://doi.org/10.5281/zenodo.WhereDoi
-Real URL   https://doi.org/10.5281/zenodo.WhyDoi
-```
-
-If you see an error before this e.g.
+If you see an error e.g.
 
 ```
 Makefile:66: recipe for target 'check-links' failed
@@ -180,11 +212,13 @@ A full report is created in `build/link-check.txt`.
 
 **Beware:** Certain links may be identified as broken when they in fact exist. See the Linkchecker FAQ, [Q:I still get an error, but the page is definitely ok](https://wummel.github.io/linkchecker/faq.html).
 
-### Publishing 
+---
+
+## Publish online
 
 The online version of the guidance is published in the `gh-pages` branch of this repository. This can be updated as follows.
 
-Create HTML guidance with relative inter-guide links, as described above.
+Create HTML guides, with relative inter-guide links, as described above.
 
 Copy HTML into `gh-pages` branch and commit:
 
@@ -197,15 +231,31 @@ git commit -m "Updated guidance ..."
 
 ---
 
-## Editing images
+## Deposit in Zenodo (for information only)
 
-Image sources are in [images-src/](./images-src) as SVG files.
+Zenodo metadata:
 
-[Inkscape](https://inkscape.org/en/) is a free SVG editor which can be used to edit these files and export the images as PNG files.
-
-Once you have edited an SVG, export the SVG as a PNG file and save it in [images/](./images). This can be done in Inkscape using the command File => Export PNG Image...
-
-To avoid memory issues when creating PDFs, set the longest dimension of the PNG file to be 1000 pixels at 96 dpi. For example, if the image is 1234x567 set the width to 1000, if the image is 123x4567 set the height to 1000. Remember to lock the aspect ratio.
+* Communities: Research Data Network
+* Upload type: Publication (for guides), Software (for source)
+* Publication type: Working paper
+* Click Digital Object Identifier => Reserve DOI
+* Publication date: 2018-08-07
+* Title:
+* Authors: 
+* Description:
+* Version: 1.0
+* Keywords:
+  - research software
+  - research outputs
+  - repositories
+  - digital preservation
+  - software sustainability
+  - software sustainability institute
+* Additional notes: This work was funded by Jisc. The Software Sustainability Institute is supported by EPSRC grant EP/H043160/1 and EPSRC/BBSRC and ESRC grant EP/N006410/1.
+* Funding: delete default entry.
+* Related/alternate identifiers:
+  - For each guide, add: "<SOURCE-DOI>" "complied/created this upload"
+  - For source code, add, for each guide, "<GUIDE-DOI>" "is compiled/create by this upload"
 
 ---
 
@@ -250,14 +300,6 @@ HowToDescribeDeposit.md        WhenToDeposit.md
 ```
 
 The Markdown was then manually edited to clean it up and improve its formatting, and is currently in the `markdown` directory.
-
----
-
-## Notes
-
-* Markdown documents are written in [Pandoc's Markdown](http://pandoc.org/MANUAL.html#pandocs-markdown).
-* `templates/doc.html` was edited from a template created by `pandoc -D html`.
-* For a check/tick mark in HTML, use the HTML entity, `&#x2714;`, in Markdown.
 
 ---
 
