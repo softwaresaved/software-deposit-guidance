@@ -3,8 +3,8 @@ BASE_URL: https://softwaresaved.github.io/software-deposit-guidance
 DISPLAY_URL: https://softwaresaved.github.io/software-deposit-guidance
 # Uncomment this if creating PDFs:
 LINK_URL: https://softwaresaved.github.io/software-deposit-guidance
-# # Uncomment this if creating HTML for web site publication:
-LINK_URL: .
+# Uncomment this if creating HTML for web site publication:
+# LINK_URL: .
 VERSION: 1.0
 GUIDANCE_DOI: 10.5281/zenodo.1327310
 WHY_DOI: 10.5281/zenodo.1327333
