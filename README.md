@@ -255,7 +255,8 @@ Zenodo metadata:
 * Funding: delete default entry.
 * Related/alternate identifiers:
   - For each guide, add: "<SOURCE-DOI>" "complied/created this upload"
-  - For source code, add, for each guide, "<GUIDE-DOI>" "is compiled/create by this upload"
+  - For source code deposit, add, for each guide, "<GUIDE-DOI>" "is compiled/create by this upload"
+  - For "Software Deposit: Guidance for Researchers" deposit, add, for each other guide, "<GUIDE-DOI>" "is a supplement to this upload"
 
 ---
 
