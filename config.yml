@@ -6,14 +6,13 @@ DISPLAY_URL: https://softwaresaved.github.io/software-deposit-guidance
 # Uncomment this if creating HTML for web site publication:
 LINK_URL: .
 VERSION: 1.0
-GUIDANCE_DOI: 10.5281/zenodo.GuidanceDoi
-GUIDANCE_PATH: SoftwareDepositGuidance.html
-WHY_DOI: 10.5281/zenodo.WhyDoi
-WHEN_DOI: 10.5281/zenodo.WhenDoi
-WHERE_DOI: 10.5281/zenodo.WhereDoi
-HOW_DOI: 10.5281/zenodo.HowDoi
-WHAT_DOI: 10.5281/zenodo.WhatDoi
-WHAT_NOT_DOI: 10.5281/zenodo.WhatNotDoi
-DESCRIBE_DOI: 10.5281/zenodo.DescribeDoi
-REVIEW_DOI: 10.5281/zenodo.ReviewDoi
-LICENCE_DOI: 10.5281/zenodo.LicenceDoi
+GUIDANCE_DOI: 10.5281/zenodo.1327310
+WHY_DOI: 10.5281/zenodo.1327333
+WHEN_DOI: 10.5281/zenodo.1327331
+WHERE_DOI: 10.5281/zenodo.1327329
+HOW_DOI: 10.5281/zenodo.1327327
+WHAT_DOI: 10.5281/zenodo.1327325
+WHAT_NOT_DOI: 10.5281/zenodo.1327323
+DESCRIBE_DOI: 10.5281/zenodo.1327321
+REVIEW_DOI: 10.5281/zenodo.1327314
+LICENCE_DOI: 10.5281/zenodo.1327316
