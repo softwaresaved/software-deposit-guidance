@@ -12,7 +12,7 @@ The [Software Sustainability Institute](https://www.software.ac.uk), funded by [
 
 ## Version %VERSION%
 
-* [Software Deposit: Guidance for Researchers](./SoftwareDepositGuidance.html). This guide provides an overview of all the guides in the series.
+* [Software Deposit: Guidance for Researchers](%LINK_URL%/SoftwareDepositGuidance.html). This guide provides an overview of all the guides in the series.
 * [Why deposit software](%LINK_URL%/WhyDepositSoftware.html)
 * [When to deposit software](%LINK_URL%/WhenToDepositSoftware.html)
 * [Where to deposit software](%LINK_URL%/WhereToDepositSoftware.html)
