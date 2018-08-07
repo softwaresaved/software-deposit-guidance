@@ -101,7 +101,7 @@ For a check/tick mark in HTML, use the HTML entity, `&#x2714;`, in Markdown.
 
 ---
 
-## Edit HTML temmplate
+## Edit HTML template
 
 The HTML template is in `templates/doc.html`. This was edited from a template created by `pandoc -D html`.
 
