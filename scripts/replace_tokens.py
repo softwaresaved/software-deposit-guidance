@@ -18,7 +18,9 @@ For every key, TOKEN, in <CONFIG_FILE>, if %TOKEN% is found in
 the key.
 
 Any occurrences of a special token "%DATE%" are replaced with
-the current date in form, for example, "23 July 2018".
+the current date in form, for example, "23 July 2018". Howver,
+if a DATE is already defined in the configuration file then that
+is used instead.
 """
 
 # Copyright (c) 2018 The University of Edinburgh
@@ -55,6 +57,8 @@ def load_tokens(token_file):
 
     A special key-value pair, %DATE%,<CURRENT-DATE> is also added,
     where the current date is of form, for example, "23 July 2018".
+    However, if a DATE is already defined in the configuration file
+    then that is used instead.
 
     :param token_file: file name
     :type token_file: str or unicode
@@ -66,7 +70,8 @@ def load_tokens(token_file):
     tokens = {}
     for (key, value) in list(user_tokens.items()):
         tokens["%%%s%%" % key] = value
-    tokens["%DATE%"] = datetime.datetime.now().strftime("%d %B %Y")
+    if "%DATE%" not in list(tokens.keys()):
+        tokens["%DATE%"] = datetime.datetime.now().strftime("%d %B %Y")
     return tokens
 
 
