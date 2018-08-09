@@ -48,7 +48,17 @@ For minor rewordings or rephrasings:
 
 ## About this guidance
 
-This guidance was an output of the JISC-RDSS Software Deposit and Preservation project which ran from October 2017 to August 2018. For more information about this project, please see the following blog posts and reports:
+This guidance was an output of the JISC-RDSS Software Deposit and Preservation project which ran from October 2017 to August 2018. 
+
+Mike Jackson, The Software Sustainability Institute, edited the guides.
+
+Christopher Brown, Jisc and Neil Chue Hong, The Software Sustainability Institute managed this project and offered valuable advice and guidance throughout.
+
+The following people also offered valuable advice and guidance which contributed to both the content and form of these guides: Steffan Adams, Cardiff University; Matthew Addis, Arkivum; Mario Antonioletti, EPCC; Alessia Bardi, ISTI-CNR; David Clipsham, National Archives; Jonathan Cooper, UCL; Antonin Delpeuch, University of Oxford; Roberto Di Cosmo, Software Heritage; Federica Fina, University of St Andrews; Alistair Grant, EPCC; Morane Gruenpeter, Software Heritage; Maria Guerreiro, eLife Sciences Publications Ltd; Matthew Herring, University of York; Catherine Jones, STFC; Steve D. Jones, University of Bergen; Daniel S. Katz, University of Illinois Urbana-Champaign; Somaya Langley, University of Cambridge; Antonis Lempesis, Athena Research Center; Joanna Leng, University of Leeds; James Long, University of Plymouth; Mary McDerby, University of Manchester; Rachel MacGregor, University of Lancaster; Hrafn Malmquist, University of Edinburgh; Brian Matthews, STFC; Rowland Mosbergen, QUT (Queensland University of Technology); Martin O'Reilly, Turing Institute; Naomi Penfold, eLife; Edward Ransley, University of Plymouth; Fernando Rios, University of Arizona; Ben Samuels, University of Lincoln; Joshua Sendall, Lancaster University; Matthew Siekier, University of Huddersfield; Justin Simpson, Artefactual Systems; Mark Woodbridge, Imperial College; Wei Xing, Crick Institute.
+
+Selina Aragon, The Software Sustainability Institute, formatted the images.
+
+For more information about the JISC-RDSS Software Deposit and Preservation project, please see the following blog posts and reports:
 
 * Jackson, M. [Software Deposit and Preservation Workshop](https://www.software.ac.uk/blog/2018-07-24-software-deposit-and-preservation-workshop), The Software Sustainability Institute blog, July 2018.
 * Brown, C., Chue Hong, N., Jackson, M. (eds) (2018) Software Deposit and Preservation Policy and Planning Workshop Report 1.1, The Software Sustainability Institute and Jisc, 4 July 2018. doi: [10.5281/zenodo.1304912](https://dx.doi.org/10.5281/zenodo.1304912)
